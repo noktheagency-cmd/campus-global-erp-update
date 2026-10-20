@@ -1,0 +1,45 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - complementary [ref=f1e4]:
+      - generic [ref=f1e5]: C
+      - navigation [ref=f1e7]:
+        - link "İdarə paneli" [ref=f1e8] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Tələbələr" [ref=f1e9] [cursor=pointer]:
+          - /url: /students
+        - link "Universitetlər" [ref=f1e10] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=f1e11] [cursor=pointer]:
+          - /url: /applications
+        - link "Xidmətlər" [ref=f1e12] [cursor=pointer]:
+          - /url: /services
+    - main [ref=f1e13]:
+      - generic [ref=f1e15]:
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]:
+            - generic [ref=f1e23]:
+              - heading "Xidmətlər" [level=1] [ref=f1e24]
+              - paragraph [ref=f1e25]: Agent portalı · sizə uyğun aktual qiymətlər
+            - paragraph [ref=f1e26]: Ehtiyacınız olan xidməti seçin. Sifariş göndərildikdən sonra komandamız sorğunu qəbul edib statusu burada yeniləyəcək.
+          - generic [ref=f1e27]:
+            - generic [ref=f1e28]: Sifarişlərim
+            - generic [ref=f1e29]: "0"
+        - article [ref=f1e31]:
+          - generic [ref=f1e32]: Sizə özəl qiymət
+          - heading "[QA] Viza dəstəyi" [level=2] [ref=f1e40]
+          - paragraph [ref=f1e41]: Viza sənədlərinin yoxlanması və müraciət dəstəyi.
+          - generic [ref=f1e42]:
+            - generic [ref=f1e43]:
+              - generic [ref=f1e44]: Sizin qiymətiniz
+              - generic [ref=f1e45]: 145 ₼
+            - button "Sifariş et" [ref=f1e46] [cursor=pointer]
+        - generic [ref=f1e47]:
+          - generic [ref=f1e48]:
+            - heading "Sifarişlərim" [level=2] [ref=f1e49]
+            - paragraph [ref=f1e50]: Göndərdiyiniz xidmət sifarişlərinin cari icra statusu.
+          - generic [ref=f1e51]:
+            - generic [ref=f1e55]: Sifariş yoxdur
+            - paragraph [ref=f1e56]: Yeni sifarişlər burada görünəcək.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f1e62] [cursor=pointer]
+  - alert [ref=f1e66]

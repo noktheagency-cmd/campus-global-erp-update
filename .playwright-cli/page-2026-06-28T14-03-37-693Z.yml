@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: C
+        - generic [ref=e7]:
+          - generic [ref=e8]: Campus
+          - generic [ref=e9]: Global
+      - button "Sidebar küçült" [ref=e10] [cursor=pointer]:
+        - img
+      - navigation [ref=e11]:
+        - link "İdarə paneli" [ref=e12] [cursor=pointer]:
+          - /url: /dashboard
+          - img
+          - generic [ref=e13]: İdarə paneli
+        - link "Tələbələr" [ref=e14] [cursor=pointer]:
+          - /url: /students
+          - img
+          - generic [ref=e15]: Tələbələr
+        - link "Universitetlər" [ref=e16] [cursor=pointer]:
+          - /url: /universities
+          - img
+          - generic [ref=e17]: Universitetlər
+        - link "Müraciətlər" [ref=e18] [cursor=pointer]:
+          - /url: /applications
+          - img
+          - generic [ref=e19]: Müraciətlər
+      - generic [ref=e20]:
+        - button "nokthe@gmail.com hesabı" [ref=e21] [cursor=pointer]:
+          - generic [ref=e23]: "NO"
+          - generic [ref=e24]:
+            - generic [ref=e25]: nokthe@gmail.com
+            - generic [ref=e26]: Agent portalı
+          - img [ref=e27]
+        - button "Dəstəyə yazın" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Kömək lazımdır?
+            - generic [ref=e40]: Dəstəyə yazın
+          - img [ref=e41]
+    - main [ref=e43]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e138] [cursor=pointer]:
+    - img [ref=e139]

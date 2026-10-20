@@ -1,0 +1,250 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: C
+        - generic [ref=e7]:
+          - generic [ref=e8]: Campus
+          - generic [ref=e9]: Global
+      - button "Sidebar küçült" [ref=e10] [cursor=pointer]:
+        - img
+      - navigation [ref=e11]:
+        - link "İdarə paneli" [ref=e12] [cursor=pointer]:
+          - /url: /dashboard
+          - img
+          - generic [ref=e13]: İdarə paneli
+        - link "Tələbələr" [ref=e14] [cursor=pointer]:
+          - /url: /students
+          - img
+          - generic [ref=e15]: Tələbələr
+        - link "Universitetlər" [ref=e16] [cursor=pointer]:
+          - /url: /universities
+          - img
+          - generic [ref=e17]: Universitetlər
+        - link "Müraciətlər" [ref=e18] [cursor=pointer]:
+          - /url: /applications
+          - img
+          - generic [ref=e19]: Müraciətlər
+      - generic [ref=e20]:
+        - button "nokthe@gmail.com hesabı" [ref=e21] [cursor=pointer]:
+          - generic [ref=e23]: "NO"
+          - generic [ref=e24]:
+            - generic [ref=e25]: nokthe@gmail.com
+            - generic [ref=e26]: Agent portalı
+          - img [ref=e27]
+        - button "Dəstəyə yazın" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Kömək lazımdır?
+            - generic [ref=e40]: Dəstəyə yazın
+          - img [ref=e41]
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e48]:
+          - link "Universitetlərə qayıt" [ref=e49] [cursor=pointer]:
+            - /url: /universities
+            - img
+          - generic [ref=e50]: A
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: Universitet profili
+              - generic [ref=e54]: Agent iş sahəsi
+            - generic [ref=e55]:
+              - heading "Aliakbar Huseynov" [level=1] [ref=e56]
+              - generic [ref=e57]: Aktiv
+              - generic [ref=e58]: Yalnız oxunan agent görünüşü
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - img [ref=e61]
+                - text: Azerbaijan, Baku
+              - generic [ref=e64]: Dövlət
+              - generic [ref=e65]: Aktiv tərəfdaş
+            - generic [ref=e66]:
+              - link "gsynvali@gmail.com" [ref=e67] [cursor=pointer]:
+                - /url: mailto:gsynvali@gmail.com
+                - img [ref=e68]
+                - generic [ref=e71]: gsynvali@gmail.com
+              - button "+994998999144" [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+                - generic [ref=e75]: "+994998999144"
+              - link "Vebsayt" [ref=e76] [cursor=pointer]:
+                - /url: https://www.itu.edu.tr
+                - img [ref=e77]
+                - generic [ref=e80]: Vebsayt
+        - generic [ref=e81]:
+          - generic [ref=e85]:
+            - img [ref=e87]
+            - generic [ref=e90]:
+              - generic [ref=e91]: Proqramlar
+              - generic [ref=e92]: "1"
+              - generic [ref=e93]: 1 aktiv
+          - generic [ref=e97]:
+            - img [ref=e99]
+            - generic [ref=e101]:
+              - generic [ref=e102]: Açıq dönəmlər
+              - generic [ref=e103]: "1"
+              - generic [ref=e104]: 1 bağlı
+          - generic [ref=e108]:
+            - img [ref=e110]
+            - generic [ref=e114]:
+              - generic [ref=e115]: Kampuslar
+              - generic [ref=e116]: "1"
+              - generic [ref=e117]: 1 aktiv
+          - generic [ref=e121]:
+            - img [ref=e123]
+            - generic [ref=e125]:
+              - generic [ref=e126]: Təhsil haqqı
+              - generic [ref=e127]: "1"
+              - generic [ref=e128]: 1 endirimli
+        - generic [ref=e129]:
+          - tablist [ref=e131]:
+            - tab "Overview" [selected] [ref=e132] [cursor=pointer]
+            - tab "Profil & Kontakt" [ref=e133] [cursor=pointer]
+            - tab "Proqramlar və təhsil haqqı" [ref=e134] [cursor=pointer]
+            - tab "Periods" [ref=e135] [cursor=pointer]
+          - tabpanel "Overview" [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e141]: Son xəbərlər
+                - generic [ref=e145]:
+                  - article [ref=e146]:
+                    - generic [ref=e149]: 28 iyn 2026
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: haberler.itu.edu.tr
+                      - heading "İTÜ ve Gelir İdaresi Başkanlığından Öğrencilerin Mesleki Gelişimini Destekleyecek İş Birliği" [level=3] [ref=e152]
+                      - paragraph [ref=e153]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e154] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjp6000bqgeqscp3glcl
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e155]:
+                    - generic [ref=e158]: 28 iyn 2026
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: haberler.itu.edu.tr
+                      - heading "İTÜ ve Sefine Arasında İş Birliği Protokolü" [level=3] [ref=e161]
+                      - paragraph [ref=e162]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e163] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjn1000aqgeq08bgg5tx
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e164]:
+                    - generic [ref=e167]: 28 iyn 2026
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: haberler.itu.edu.tr
+                      - heading "TechWell Projesi, Gençlerin Dijital Alışkanlıklarını Masaya Yatırdı" [level=3] [ref=e170]
+                      - paragraph [ref=e171]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e172] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjkv0009qgeqich1y5my
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e173]:
+                    - generic [ref=e176]: 28 iyn 2026
+                    - generic [ref=e177]:
+                      - generic [ref=e178]: haberler.itu.edu.tr
+                      - heading "Yenilikçi Girişimcilik Modeli ITUTECH Programı’ndan Demo Day Etkinliği" [level=3] [ref=e179]
+                      - paragraph [ref=e180]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e181] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjim0008qgeqt65bn7m3
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e182]:
+                    - generic [ref=e185]: 28 iyn 2026
+                    - generic [ref=e186]:
+                      - generic [ref=e187]: haberler.itu.edu.tr
+                      - heading "İTÜ, Sürdürülebilir Kalkınma İçin “Nitelikli Eğitim” Amacında Dünyada İlk 5’te" [level=3] [ref=e188]
+                      - paragraph [ref=e189]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e190] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjgi0007qgeqzdqz2h48
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e191]:
+                    - generic [ref=e194]: 28 iyn 2026
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: haberler.itu.edu.tr
+                      - heading "Yüksel Yıldırım’ın İTÜ’ye Kazandıracağı Yeni Kütüphane Binası İçin İmzalar Atıldı" [level=3] [ref=e197]
+                      - paragraph [ref=e198]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e199] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjdx0006qgeqzilk6l8y
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e200]:
+                    - generic [ref=e203]: 28 iyn 2026
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: haberler.itu.edu.tr
+                      - heading "2025 Ekim (30)" [level=3] [ref=e206]
+                      - paragraph [ref=e207]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e208] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/news_1782594238776_11
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e209]:
+                    - generic [ref=e212]: 28 iyn 2026
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: haberler.itu.edu.tr
+                      - heading "2025 Kasım (22)" [level=3] [ref=e215]
+                      - paragraph [ref=e216]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e217] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/news_1782594238704_10
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e218]:
+                    - generic [ref=e221]: 28 iyn 2026
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: haberler.itu.edu.tr
+                      - heading "İTÜ, “THE World 100 Reputation Academy 2026” Programında Yer Aldı 22 Haz 2026" [level=3] [ref=e224]
+                      - paragraph [ref=e225]: Məqaləni oxumaq üçün detallara baxın.
+                      - link "Detallara bax" [ref=e226] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjxr000fqgeqz6def27g
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e227]:
+                    - generic [ref=e230]: 28 iyn 2026
+                    - generic [ref=e231]:
+                      - generic [ref=e232]: haberler.itu.edu.tr
+                      - heading "last minute spotlight featured Başarı Akademik ödül “Akıllı ve Sürdürülebilir Tarım Tekstilleri”ne YÖK-ADEP Desteği Sürdürülebilir tarım uygulamalarına yönelik yenilikçi çözümler geliştirmeyi hedefleyen yeni bir araştırma projesi, İTÜ’de hayata geçiriliyor. Tarımsal atıkların yüksek katma değerli ürünlere dönüştürülmesini amaçlayan çalışma; sürdürülebilirlik, döngüsel ekonomi ve ileri tekstil teknolojilerini bir araya getirerek tarım sektörünün geleceğine katkı sunmayı hedefliyor. 23 Haz 2026" [level=3] [ref=e233]
+                      - paragraph [ref=e234]: İTÜ Erdal Aksoy Endüstriyel Robotik ve Yapay Zekâ Laboratuvarı, Elektrik-Elektronik Fakültemizde düzenlenen törenle kapılarını açtı.
+                      - link "Detallara bax" [ref=e235] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjvm000eqgeqrkkzjz19
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e236]:
+                    - generic [ref=e239]: 28 iyn 2026
+                    - generic [ref=e240]:
+                      - generic [ref=e241]: haberler.itu.edu.tr
+                      - heading "last minute spotlight featured Araştırma Akademik İTÜ Erdal Aksoy Endüstriyel Robotik ve Yapay Zekâ Laboratuvarı Açıldı İTÜ Erdal Aksoy Endüstriyel Robotik ve Yapay Zekâ Laboratuvarı, Elektrik-Elektronik Fakültemizde düzenlenen törenle kapılarını açtı. 23 Haz 2026" [level=3] [ref=e242]
+                      - paragraph [ref=e243]: İstanbul Teknik Üniversitesi (İTÜ) Akademik Performans ve Yayın Ödülleri ödül töreni, Ayazağa Yerleşkemizde 22 Haziran 2026 tarihinde düzenlendi.
+                      - link "Detallara bax" [ref=e244] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjth000dqgeqk4pxlqi6
+                        - img
+                        - text: Detallara bax
+                  - article [ref=e245]:
+                    - generic [ref=e248]: 28 iyn 2026
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: haberler.itu.edu.tr
+                      - heading "last minute spotlight featured Araştırma Akademik Başarı İTÜ Akademik Performans ve Yayın Ödülleri Sahiplerini Buldu İstanbul Teknik Üniversitesi (İTÜ) Akademik Performans ve Yayın Ödülleri ödül töreni, Ayazağa Yerleşkemizde 22 Haziran 2026 tarihinde düzenlendi. 23 Haz 2026" [level=3] [ref=e251]
+                      - paragraph [ref=e252]: Öğrencilerimizin mesleki gelişimini destekleyecek önemli bir iş birliği için Gelir İdaresi Başkanlığı ile üniversitemiz arasında protokol imzalandı.
+                      - link "Detallara bax" [ref=e253] [cursor=pointer]:
+                        - /url: /universities/cmqwr08y20000qgeqaxs560db/news/cmqwtjjrc000cqgeqnb5132vo
+                        - img
+                        - text: Detallara bax
+              - generic [ref=e254]:
+                - generic [ref=e257]: Kampuslar
+                - article [ref=e260]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: Əsas kampus
+                    - generic [ref=e265]: Aktiv
+                  - generic [ref=e266]:
+                    - generic [ref=e268]:
+                      - heading "Istanbul campusu" [level=3] [ref=e269]
+                      - generic [ref=e270]:
+                        - img [ref=e271]
+                        - generic [ref=e274]: İstanbul, Türkiye
+                    - paragraph [ref=e275]: Hotel Arcadia Blue, 1, İmran Öktem Caddesi, Binbirdirek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34400, Türkiye
+                    - link "Xəritə" [ref=e277] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=41.006807,28.9735677
+                      - img
+                      - text: Xəritə
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e283] [cursor=pointer]:
+    - img [ref=e284]
+  - alert [ref=e287]

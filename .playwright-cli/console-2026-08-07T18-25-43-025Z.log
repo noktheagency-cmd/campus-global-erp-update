@@ -1,0 +1,18 @@
+[    1334ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    1505ms] [LOG] [HMR] connected @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    1559ms] [ERROR] %c%s%c HR workspace data unavailable background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {code: P2010, name: PrismaClientKnownRequestError, tab: overview} @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[    1561ms] [ERROR] %c%s%c 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42P01`. Message: `relation "public.hr_employees" does not exist` background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[    2041ms] [ERROR] %o
+
+%s Error: HR_DATA_UNAVAILABLE
+    at getHrWorkspaceData (about://React/Server/C:%5CUsers%5Cqalib%5COneDrive%5CDesktop%5CCampus%20global%5Ccampus-global-erp%5C.next%5Cdev%5Cserver%5Cchunks%5Cssr%5C%5Broot-of-the-server%5D__1t2--tx._.js?3:914:15)
+    at  HrPage (about://React/Server/C:%5CUsers%5Cqalib%5COneDrive%5CDesktop%5CCampus%20global%5Ccampus-global-erp%5C.next%5Cdev%5Cserver%5Cchunks%5Cssr%5C%5Broot-of-the-server%5D__1t2--tx._.js?4:1977:18)
+    at resolveErrorDev (http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1919:105)
+    at processFullStringRow (http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2434:29)
+    at processFullBinaryRow (http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2393:9)
+    at processBinaryChunk (http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2502:221)
+    at progress (http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2689:13) The above error occurred in the <HrPage> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_client_0r5nbpw._.js:1998

@@ -1,0 +1,1237 @@
+[     372ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    7905ms] [LOG] [Fast Refresh] done in 7637ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    8214ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    8234ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   11804ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   11933ms] [LOG] [HMR] connected @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   12034ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   12759ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   13423ms] [LOG] [Fast Refresh] done in 769ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19149ms] [LOG] [Fast Refresh] done in 234ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19394ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19625ms] [LOG] [Fast Refresh] done in 342ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19824ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   19897ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20056ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20118ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20320ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20345ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20610ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20666ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20840ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   20975ms] [LOG] [Fast Refresh] done in 249ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21088ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21108ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21222ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21346ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21566ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   21969ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22051ms] [LOG] [Fast Refresh] done in 190ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22223ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22338ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22447ms] [LOG] [Fast Refresh] done in 224ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   22691ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   26454ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27023ms] [LOG] [Fast Refresh] done in 674ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27188ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27289ms] [LOG] [Fast Refresh] done in 204ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27397ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27494ms] [LOG] [Fast Refresh] done in 203ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27882ms] [LOG] [Fast Refresh] done in 252ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   27989ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   29967ms] [LOG] [Fast Refresh] done in 2084ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   48459ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   50915ms] [LOG] [Fast Refresh] done in 2565ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51335ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51443ms] [LOG] [Fast Refresh] done in 210ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51716ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51812ms] [LOG] [Fast Refresh] done in 210ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51916ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51946ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   52055ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   52707ms] [LOG] [Fast Refresh] done in 756ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   67688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   70536ms] [LOG] [Fast Refresh] done in 2959ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71031ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71146ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71431ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71440ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71572ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   71907ms] [LOG] [Fast Refresh] done in 436ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72166ms] [LOG] [Fast Refresh] done in 257ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72281ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72466ms] [LOG] [Fast Refresh] done in 293ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72569ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72695ms] [LOG] [Fast Refresh] done in 227ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72800ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72820ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   72932ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   73046ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   73870ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   73965ms] [LOG] [Fast Refresh] done in 200ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76070ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76098ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76440ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76515ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   83068ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   83077ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  103495ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  103496ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  103676ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  103687ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  103815ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  104011ms] [LOG] [Fast Refresh] done in 306ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  104167ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  104178ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  109633ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  117345ms] [LOG] [Fast Refresh] done in 7816ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  117451ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  154119ms] [LOG] [Fast Refresh] done in 36549ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  155467ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  164148ms] [LOG] [Fast Refresh] done in 8783ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  183448ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  189534ms] [LOG] [Fast Refresh] done in 6189ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  197002ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201078ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201136ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201321ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201385ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201385ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201535ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  201593ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  202224ms] [LOG] [Fast Refresh] done in 740ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  202716ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  203778ms] [LOG] [Fast Refresh] done in 1163ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  203892ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  204578ms] [LOG] [Fast Refresh] done in 793ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  204970ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  206979ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  207197ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  207219ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  207273ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  207421ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  207666ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  208302ms] [LOG] [Fast Refresh] done in 737ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  208432ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  208730ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  209673ms] [LOG] [Fast Refresh] done in 1046ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  210115ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  210786ms] [LOG] [Fast Refresh] done in 776ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  210990ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  211667ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  212304ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  212878ms] [LOG] [Fast Refresh] done in 676ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213095ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213173ms] [LOG] [Fast Refresh] done in 182ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213199ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213423ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213504ms] [LOG] [Fast Refresh] done in 183ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213572ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213695ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213725ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  213761ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  214027ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  214738ms] [LOG] [Fast Refresh] done in 822ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  215123ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  215286ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  216070ms] [LOG] [Fast Refresh] done in 886ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  216363ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  216999ms] [LOG] [Fast Refresh] done in 751ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  217414ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  217449ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  217606ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  217704ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  218391ms] [LOG] [Fast Refresh] done in 790ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  218675ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  218849ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  219540ms] [LOG] [Fast Refresh] done in 792ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  219830ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  219844ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  219971ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  220157ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  221139ms] [LOG] [Fast Refresh] done in 1085ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  221843ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  222089ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  222164ms] [LOG] [Fast Refresh] done in 178ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  222272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  222626ms] [LOG] [Fast Refresh] done in 458ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  223003ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  223601ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  223897ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  223943ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224072ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224260ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224283ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224287ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224507ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  224755ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  226547ms] [LOG] [Fast Refresh] done in 1903ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  262812ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  267553ms] [LOG] [Fast Refresh] done in 4848ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  267925ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  268191ms] [LOG] [Fast Refresh] done in 366ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  268930ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  269117ms] [LOG] [Fast Refresh] done in 303ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  269373ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  269393ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  269520ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  271048ms] [LOG] [Fast Refresh] done in 1630ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  271543ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  276447ms] [LOG] [Fast Refresh] done in 5013ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  276693ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  276707ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  276946ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  276995ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  300093ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  300548ms] [LOG] [Fast Refresh] done in 568ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  300659ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  301096ms] [LOG] [Fast Refresh] done in 542ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  301957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  302190ms] [LOG] [Fast Refresh] done in 338ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  302833ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  305658ms] [LOG] [Fast Refresh] done in 2930ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  359991ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360043ms] [LOG] [Fast Refresh] done in 158ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360180ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360197ms] [LOG] [Fast Refresh] done in 129ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360344ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360386ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360499ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360607ms] [LOG] [Fast Refresh] done in 220ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360720ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  360726ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  362266ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  364110ms] [LOG] [Fast Refresh] done in 1946ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  364454ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  364491ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  383842ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  383877ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  390486ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  390741ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391020ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391168ms] [LOG] [Fast Refresh] done in 260ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391311ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391562ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391798ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  391845ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  421555ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  430190ms] [LOG] [Fast Refresh] done in 8738ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  474969ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  474993ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  476136ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  476148ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  491754ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  492690ms] [LOG] [Fast Refresh] done in 370ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  493104ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  493130ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  493244ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  493496ms] [LOG] [Fast Refresh] done in 364ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  493823ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  494218ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  494629ms] [LOG] [Fast Refresh] done in 513ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  494781ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  495506ms] [LOG] [Fast Refresh] done in 834ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  495671ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  495917ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  496233ms] [LOG] [Fast Refresh] done in 433ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  496831ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  497376ms] [LOG] [Fast Refresh] done in 650ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  497482ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  497602ms] [LOG] [Fast Refresh] done in 222ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  497885ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  497929ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  498177ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  498264ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  498325ms] [LOG] [Fast Refresh] done in 252ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  498439ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  498597ms] [LOG] [Fast Refresh] done in 267ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  499219ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  499381ms] [LOG] [Fast Refresh] done in 263ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  499491ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  499619ms] [LOG] [Fast Refresh] done in 231ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  499626ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  500584ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  500629ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  500756ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  500913ms] [LOG] [Fast Refresh] done in 257ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  501034ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  501161ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  501334ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  501519ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  503785ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  507861ms] [LOG] [Fast Refresh] done in 6440ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  508043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  508147ms] [LOG] [Fast Refresh] done in 216ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  508314ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509062ms] [LOG] [Fast Refresh] done in 853ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509126ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509235ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509606ms] [LOG] [Fast Refresh] done in 473ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509714ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509787ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  509898ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  511136ms] [LOG] [Fast Refresh] done in 1346ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  511267ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  511539ms] [LOG] [Fast Refresh] done in 385ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  513173ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  513527ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  513676ms] [LOG] [Fast Refresh] done in 254ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  514196ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  514378ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  514965ms] [LOG] [Fast Refresh] done in 694ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  515317ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  515767ms] [LOG] [Fast Refresh] done in 557ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  515972ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  516029ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  516182ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  516490ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  516816ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  517158ms] [LOG] [Fast Refresh] done in 445ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  517658ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  517810ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  517851ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  518047ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  518208ms] [LOG] [Fast Refresh] done in 267ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  518350ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  518556ms] [LOG] [Fast Refresh] done in 306ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  519005ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  519170ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  519628ms] [LOG] [Fast Refresh] done in 565ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520293ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520323ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520473ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520727ms] [LOG] [Fast Refresh] done in 355ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  521137ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  521514ms] [LOG] [Fast Refresh] done in 478ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  521716ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  522087ms] [LOG] [Fast Refresh] done in 477ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  522393ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  522531ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  522632ms] [LOG] [Fast Refresh] done in 207ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  523450ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  523477ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  523786ms] [LOG] [Fast Refresh] done in 409ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  523949ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  524049ms] [LOG] [Fast Refresh] done in 208ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  524160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  525888ms] [LOG] [Fast Refresh] done in 1835ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526204ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526226ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526349ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526517ms] [LOG] [Fast Refresh] done in 275ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526658ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  526783ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527115ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527339ms] [LOG] [Fast Refresh] done in 327ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527444ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527595ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527721ms] [LOG] [Fast Refresh] done in 231ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  527978ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  528110ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  528272ms] [LOG] [Fast Refresh] done in 261ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  528708ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  528870ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529074ms] [LOG] [Fast Refresh] done in 315ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529400ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529536ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529635ms] [LOG] [Fast Refresh] done in 201ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529789ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529830ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529977ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530092ms] [LOG] [Fast Refresh] done in 228ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530229ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530343ms] [LOG] [Fast Refresh] done in 214ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530696ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530828ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  530940ms] [LOG] [Fast Refresh] done in 213ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  531163ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  531293ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  531379ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  531925ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532081ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532218ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532420ms] [LOG] [Fast Refresh] done in 444ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532568ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532627ms] [LOG] [Fast Refresh] done in 163ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  532906ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533037ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533210ms] [LOG] [Fast Refresh] done in 273ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533233ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533363ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533457ms] [LOG] [Fast Refresh] done in 204ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533560ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533692ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533725ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  534739ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  534856ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  534857ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535267ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535385ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535394ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535477ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535639ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  535961ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  536089ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  536265ms] [LOG] [Fast Refresh] done in 278ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  536398ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  536585ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  536912ms] [LOG] [Fast Refresh] done in 428ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  537539ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  537549ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  537714ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  537942ms] [LOG] [Fast Refresh] done in 340ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  538114ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  538371ms] [LOG] [Fast Refresh] done in 364ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  538592ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  538707ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  538848ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  539090ms] [LOG] [Fast Refresh] done in 349ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  539300ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  539621ms] [LOG] [Fast Refresh] done in 431ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  539845ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  540014ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  540247ms] [LOG] [Fast Refresh] done in 340ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  540369ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  540528ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  540777ms] [LOG] [Fast Refresh] done in 359ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  541430ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  541585ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  541810ms] [LOG] [Fast Refresh] done in 328ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  542374ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  542535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  542721ms] [LOG] [Fast Refresh] done in 298ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  542994ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  543122ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  543177ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  543536ms] [LOG] [Fast Refresh] done in 469ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  543707ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  543961ms] [LOG] [Fast Refresh] done in 357ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  544350ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  544533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  544810ms] [LOG] [Fast Refresh] done in 385ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  545110ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  545272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  545592ms] [LOG] [Fast Refresh] done in 424ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  546494ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  546661ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547024ms] [LOG] [Fast Refresh] done in 468ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547323ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547430ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547578ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547814ms] [LOG] [Fast Refresh] done in 342ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  547981ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  548205ms] [LOG] [Fast Refresh] done in 325ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  548422ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  548575ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  548825ms] [LOG] [Fast Refresh] done in 351ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  549037ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  549225ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  549650ms] [LOG] [Fast Refresh] done in 527ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  549844ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  549990ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  550287ms] [LOG] [Fast Refresh] done in 402ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  550450ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  550589ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  550702ms] [LOG] [Fast Refresh] done in 215ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  550906ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  551061ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  551288ms] [LOG] [Fast Refresh] done in 331ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  551594ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  552478ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  552647ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  552900ms] [LOG] [Fast Refresh] done in 363ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  553268ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  553509ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  553916ms] [LOG] [Fast Refresh] done in 542ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  554002ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  554134ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  554686ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  555124ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  555271ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  569821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  570217ms] [LOG] [Fast Refresh] done in 673ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  579103ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  579503ms] [LOG] [Fast Refresh] done in 511ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  590432ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  591846ms] [LOG] [Fast Refresh] done in 1492ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  592153ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  593116ms] [LOG] [Fast Refresh] done in 1064ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  593760ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  594031ms] [LOG] [Fast Refresh] done in 382ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  595487ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  596259ms] [WARNING] %c%s%c Falling back to local student data: 
+Invalid `prisma.student.findMany()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__0__od11._.js:253:57
+
+  250 const scopeWhere = buildStudentScopeWhere(scopedAgentId);
+  251 const orderBy = getStudentOrder(filters.sort);
+  252 const requestedStartIndex = (filters.page - 1) * filters.pageSize;
+→ 253 const requestedStudentsPromise = prisma.student.findMany(
+The table `public.student_documents` does not exist in the current database. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  605448ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  605460ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  607873ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  609016ms] [LOG] [Fast Refresh] done in 1252ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  609307ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  610561ms] [LOG] [Fast Refresh] done in 1363ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  611020ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  611058ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  611168ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  611364ms] [LOG] [Fast Refresh] done in 302ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  615768ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  616121ms] [LOG] [Fast Refresh] done in 468ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  671279ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  671349ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  697072ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  697470ms] [LOG] [Fast Refresh] done in 373ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  697748ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  698363ms] [LOG] [Fast Refresh] done in 726ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  701219ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  701256ms] [LOG] [Fast Refresh] done in 987ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  701363ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  701841ms] [LOG] [Fast Refresh] done in 583ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  703034ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  703216ms] [LOG] [Fast Refresh] done in 294ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  704002ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  704324ms] [LOG] [Fast Refresh] done in 426ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  704640ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  704878ms] [LOG] [Fast Refresh] done in 349ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  706619ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  718088ms] [LOG] [Fast Refresh] done in 12157ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  729903ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  732600ms] [LOG] [Fast Refresh] done in 2925ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  732765ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  741521ms] [LOG] [Fast Refresh] done in 8878ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  741857ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  742577ms] [LOG] [Fast Refresh] done in 989ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  833379ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  833772ms] [LOG] [Fast Refresh] done in 508ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  840027ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  840108ms] [LOG] [Fast Refresh] done in 185ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  844714ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  844943ms] [LOG] [Fast Refresh] done in 344ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  845047ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  845145ms] [LOG] [Fast Refresh] done in 200ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  846115ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  846273ms] [LOG] [Fast Refresh] done in 270ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  847309ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  848385ms] [LOG] [Fast Refresh] done in 1251ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  852091ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  852537ms] [LOG] [Fast Refresh] done in 566ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  859651ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  859975ms] [LOG] [Fast Refresh] done in 473ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  864074ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  864121ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  882071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  882471ms] [LOG] [Fast Refresh] done in 508ms @ http://localhost:3004/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

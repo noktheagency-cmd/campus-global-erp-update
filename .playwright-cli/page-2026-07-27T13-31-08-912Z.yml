@@ -1,0 +1,135 @@
+- generic:
+  - generic:
+    - generic:
+      - complementary:
+        - generic:
+          - generic: C
+          - generic:
+            - generic: Campus
+            - generic: Global
+        - button
+        - navigation:
+          - button [disabled]:
+            - generic: İdarə paneli
+          - link:
+            - /url: /universities
+            - generic: Universitetlər
+          - link:
+            - /url: /applications
+            - generic: Müraciətlər
+          - link:
+            - /url: /students
+            - generic: Tələbələr
+          - link:
+            - /url: /agents
+            - generic: Agentlər
+          - link:
+            - /url: /services
+            - generic: Xidmətlər
+          - button [disabled]:
+            - generic: Maliyyə
+          - button [disabled]:
+            - generic: CRM
+          - button [disabled]:
+            - generic: Hesabatlar
+          - button [disabled]:
+            - generic: Arxiv
+          - button [disabled]:
+            - generic: HR
+          - button [disabled]:
+            - generic: Ayarlar
+        - generic:
+          - button:
+            - generic: QS
+            - generic:
+              - generic: qa-services-1785158332656@local.test
+              - generic: Təsisçi və CEO
+          - button:
+            - generic:
+              - generic: Kömək lazımdır?
+              - generic: Dəstəyə yazın
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Xidmətlər
+                - paragraph: Xidmət kataloqunu, tələbə qiymətlərini, agentə özəl tarifləri və portallardan daxil olan sifarişləri bir mərkəzdən idarə edin.
+              - button [expanded]: Yeni xidmət
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv xidmət
+                    - generic: "0"
+                    - generic: Portallarda satışa açıq xidmətlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Xüsusi qiymət
+                    - generic: "0"
+                    - generic: Agentlər üçün fərdiləşdirilmiş tariflər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv sifariş
+                    - generic: "0"
+                    - generic: Təsdiq və icra gözləyən sifarişlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Tamamlanan sifariş
+                    - generic: "0"
+                    - generic: Komanda tərəfindən tamamlanan sifarişlər
+            - generic:
+              - button: Xidmət kataloqu
+              - button:
+                - text: Sifarişlər
+                - generic: "0"
+            - generic:
+              - generic:
+                - generic: Xidmət kataloqu boşdur
+                - paragraph: İlk xidməti yaradın, tələbə və agent qiymətlərini təyin edin.
+                - generic:
+                  - button: İlk xidməti yarat
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f7e96] [cursor=pointer]
+  - alert
+  - dialog [ref=f7e133]:
+    - generic [ref=f7e134]:
+      - heading "Yeni xidmət yarat" [level=2] [ref=f7e135]
+      - paragraph [ref=f7e136]: Xidmətin görünüşünü və hər alıcı tipi üçün baza qiymətini təyin edin.
+    - generic [ref=f7e137]:
+      - generic [ref=f7e138]:
+        - generic [ref=f7e139]: Xidmətin adı
+        - textbox "Xidmətin adı" [active] [ref=f7e140]:
+          - /placeholder: Məsələn, viza dəstəyi
+      - generic [ref=f7e141]:
+        - generic [ref=f7e142]: Açıqlama
+        - textbox "Açıqlama" [ref=f7e143]:
+          - /placeholder: Xidmətin nələri əhatə etdiyini qısa izah edin
+      - generic [ref=f7e144]:
+        - generic [ref=f7e145]:
+          - generic [ref=f7e146] [cursor=pointer]:
+            - checkbox "Agentlər üçün" [checked] [ref=f7e147]
+            - generic [ref=f7e148]: Agentlər üçün
+          - spinbutton "0.00" [ref=f7e149]
+        - generic [ref=f7e150]:
+          - generic [ref=f7e151] [cursor=pointer]:
+            - checkbox "Tələbələr üçün" [checked] [ref=f7e152]
+            - generic [ref=f7e153]: Tələbələr üçün
+          - spinbutton "0.00" [ref=f7e154]
+      - generic [ref=f7e155]:
+        - generic [ref=f7e156]:
+          - generic [ref=f7e157]: Valyuta
+          - textbox "Valyuta" [ref=f7e158]: AZN
+        - generic [ref=f7e159]:
+          - generic [ref=f7e160]: Sıralama
+          - spinbutton "Sıralama" [ref=f7e161]: "0"
+        - generic [ref=f7e162]:
+          - generic [ref=f7e163]: Status
+          - combobox "Status" [ref=f7e164]:
+            - option "Aktiv" [selected]
+            - option "Deaktiv"
+      - button "Xidməti yarat" [ref=f7e166] [cursor=pointer]
+    - button "Bağla" [ref=f7e167] [cursor=pointer]

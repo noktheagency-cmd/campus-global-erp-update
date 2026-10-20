@@ -1,0 +1,112 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e3]:
+    - complementary [ref=f16e4]:
+      - generic [ref=f16e5]:
+        - generic [ref=f16e6]: C
+        - generic [ref=f16e7]:
+          - generic [ref=f16e8]: Campus
+          - generic [ref=f16e9]: Global
+      - button "Sidebar küçült" [ref=f16e10] [cursor=pointer]
+      - navigation [ref=f16e11]:
+        - link "İdarə paneli" [ref=f16e12] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Müraciətlər" [ref=f16e14] [cursor=pointer]:
+          - /url: /applications
+        - link "Bildirişlər" [ref=f16e16] [cursor=pointer]:
+          - /url: /updates
+        - link "Profil" [ref=f16e18] [cursor=pointer]:
+          - /url: /profile
+        - link "Universitetlər" [ref=f16e20] [cursor=pointer]:
+          - /url: /universities
+        - link "Sənədlər" [ref=f16e22] [cursor=pointer]:
+          - /url: /documents
+        - link "Xidmətlər" [ref=f16e24] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f16e26]:
+        - button "ali@gmail.com hesabı" [ref=f16e27] [cursor=pointer]:
+          - generic [ref=f16e28]: AL
+          - generic [ref=f16e30]:
+            - generic [ref=f16e31]: ali@gmail.com
+            - generic [ref=f16e32]: Tələbə portalı
+        - button "Dəstəyə yazın" [ref=f16e35] [cursor=pointer]:
+          - generic [ref=f16e44]:
+            - generic [ref=f16e45]: Kömək lazımdır?
+            - generic [ref=f16e46]: Dəstəyə yazın
+    - main [ref=f16e49]:
+      - generic [ref=f16e51]:
+        - generic [ref=f16e52]:
+          - generic [ref=f16e59]:
+            - heading "Sənədlər" [level=1] [ref=f16e60]
+            - paragraph [ref=f16e61]: Profilinizə və müraciətinizə aid bütün sənədləri bir yerdən görün, açın və idarə edin.
+          - link "İdarə paneli" [ref=f16e62] [cursor=pointer]:
+            - /url: /dashboard
+        - generic [ref=f16e63]:
+          - generic [ref=f16e64]:
+            - heading "Ümumi sənədlər" [level=2] [ref=f16e65]
+            - paragraph [ref=f16e66]: Qeydiyyat zamanı profilinizə əlavə olunmuş və müraciətdən asılı olmayan sənədlər.
+          - generic [ref=f16e67]:
+            - generic [ref=f16e71]: Ümumi sənəd yoxdur
+            - paragraph [ref=f16e72]: Profilinizə ümumi sənəd əlavə edildikdə burada görünəcək.
+        - generic [ref=f16e73]:
+          - generic [ref=f16e74]:
+            - heading "Müraciət sənədləri" [level=2] [ref=f16e75]
+            - paragraph [ref=f16e76]: Aktiv müraciətiniz üçün tələb olunan sənədlər burada görünür.
+          - generic [ref=f16e77]:
+            - generic [ref=f16e78]:
+              - generic [ref=f16e85]:
+                - generic [ref=f16e86]:
+                  - generic [ref=f16e87]: Pasport*
+                  - generic [ref=f16e88]: Çatışmır
+                - generic [ref=f16e89]: Yüklənməyib
+              - generic [ref=f16e90]:
+                - button "Choose File" [ref=f16e91]
+                - button "Yüklə" [ref=f16e92] [cursor=pointer]
+            - generic [ref=f16e93]:
+              - generic [ref=f16e100]:
+                - generic [ref=f16e101]:
+                  - generic [ref=f16e102]: Diplom*
+                  - generic [ref=f16e103]: Çatışmır
+                - generic [ref=f16e104]: Yüklənməyib
+              - generic [ref=f16e105]:
+                - button "Choose File" [ref=f16e106]
+                - button "Yüklə" [ref=f16e107] [cursor=pointer]
+            - generic [ref=f16e108]:
+              - generic [ref=f16e115]:
+                - generic [ref=f16e116]:
+                  - generic [ref=f16e117]: Transkript (Qiymət Cədvəli)*
+                  - generic [ref=f16e118]: Çatışmır
+                - generic [ref=f16e119]: Yüklənməyib
+              - generic [ref=f16e120]:
+                - button "Choose File" [ref=f16e121]
+                - button "Yüklə" [ref=f16e122] [cursor=pointer]
+            - generic [ref=f16e123]:
+              - generic [ref=f16e130]:
+                - generic [ref=f16e131]:
+                  - generic [ref=f16e132]: Foto (5x6 / 3x4)*
+                  - generic [ref=f16e133]: Çatışmır
+                - generic [ref=f16e134]: Yüklənməyib
+              - generic [ref=f16e135]:
+                - button "Choose File" [ref=f16e136]
+                - button "Yüklə" [ref=f16e137] [cursor=pointer]
+            - generic [ref=f16e138]:
+              - generic [ref=f16e145]:
+                - generic [ref=f16e146]:
+                  - generic [ref=f16e147]: Dil Sertifikatı
+                  - generic [ref=f16e148]: Çatışmır
+                - generic [ref=f16e149]: Yüklənməyib
+              - generic [ref=f16e150]:
+                - button "Choose File" [ref=f16e151]
+                - button "Yüklə" [ref=f16e152] [cursor=pointer]
+            - generic [ref=f16e153]:
+              - generic [ref=f16e160]:
+                - generic [ref=f16e161]:
+                  - generic [ref=f16e162]: Digər
+                  - generic [ref=f16e163]: Çatışmır
+                - generic [ref=f16e164]: Yüklənməyib
+              - generic [ref=f16e165]:
+                - button "Choose File" [ref=f16e166]
+                - button "Yüklə" [ref=f16e167] [cursor=pointer]
+        - button "Mesajlaşmanı aç" [ref=f16e169] [cursor=pointer]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f16e177] [cursor=pointer]
+  - alert [ref=f16e181]

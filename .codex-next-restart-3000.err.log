@@ -1,0 +1,2139 @@
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ ReferenceError: getWorkflowTone is not defined
+    at WorkflowStatusStrip (src\features\applications\components\application-detail.tsx:466:16)
+  464 |   const needsDocuments = missingRequiredDocuments > 0;
+  465 |   const isDraft = status === "DRAFT";
+> 466 |   const tone = getWorkflowTone(status, needsDocuments);
+      |                ^
+  467 |   const message = getWorkflowMessage({
+  468 |     isDraft,
+  469 |     missingRequiredDocuments, {
+  digest: '655276201'
+}
+⨯ Error: Module [project]/node_modules/next-intl/dist/esm/development/shared/NextIntlClientProvider.js [app-ssr] (ecmascript) was instantiated because it was required from module [project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/[locale]/(workspace)/applications/new/page { METADATA_0 => "[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", MODULE_1 => "[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/src/app/[locale]/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_7 => "[project]/src/app/[locale]/(workspace)/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_8 => "[project]/src/app/[locale]/(workspace)/loading.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_9 => "[project]/src/app/[locale]/(workspace)/applications/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_10 => "[project]/src/app/[locale]/(workspace)/applications/new/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at ignore-listed frames {
+  digest: '545761303'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: DatabaseIcon is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:109:21)
+  107 |           <div className="mt-3 flex flex-wrap gap-2">
+  108 |             <ScopeBadge
+> 109 |               icon={DatabaseIcon}
+      |                     ^
+  110 |               label={
+  111 |                 data.dataSource === "database"
+  112 |                   ? "Verilənlər bazası mənbəyi" {
+  digest: '2945947819'
+}
+[browser] Uncaught ReferenceError: DatabaseIcon is not defined
+    at ApplicationsWorkspace (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js?id=%255Bproject%255D%252Fsrc%252Ffeatures%252Fapplications%252Fcomponents%252Fapplications-workspace.tsx+%255Bapp-client%255D+%2528ecmascript%2529:101:47)
+    at Object.react_stack_bottom_frame (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6665:639)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64)
+    at ApplicationsPage (src\app\[locale]\(workspace)\applications\page.tsx:21:5)
+  19 |
+  20 |   return (
+> 21 |     <ApplicationsWorkspace
+     |     ^
+  22 |       data={dashboardData}
+  23 |       success={success}
+  24 |       viewer={session.portalType === "student" ? "student" : "workspace"}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="az/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/applications" tree={[...]} params={{locale:"az"}} cacheNode={{rsc:{...}, ...}} ...>
+                <LoadingBoundaryProvider loading={[...]}>
+                  <SegmentViewNode type="layout" pagePath="[locale]/(...">
+                    <SegmentTrieNode>
+                    <script>
+                    <script>
+                    <WorkspaceLayout>
+                      <AppShell locale="az" session={{email:"sam...", ...}}>
+                        <div className="min-h-svh ...">
+                          <div className="flex min-h...">
+                            <aside
++                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+-                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+                            >
+                              <div
++                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0"
+-                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0 xl:justify-star..."
+                              >
+                                <div>
+                                <div
++                                 className="leading-tight lg:hidden"
+-                                 className="leading-tight lg:hidden xl:block"
+                                >
+                              ...
+                                <Primitive.button aria-describedby={undefined} data-state="closed" ...>
+                                  <Primitive.button.Slot aria-describedby={undefined} data-state="closed" ...>
+                                    <Button type="button" variant="ghost" size="icon" aria-label="Sidebar ge..." ...>
+                                      <button
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="icon"
++                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+-                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+                                        type="button"
++                                       aria-label="Sidebar genişlet"
+-                                       aria-label="Sidebar küçült"
++                                       aria-pressed={true}
+-                                       aria-pressed="false"
+                                        onClick={function}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onFocus={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                      >
+                                        <PanelLeftOpen className="size-4">
+                                          <svg
+                                            ref={null}
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width={24}
+                                            height={24}
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
++                                           className="lucide lucide-panel-left-open size-4"
+-                                           className="lucide lucide-panel-left-close size-4"
+                                            aria-hidden="true"
+                                          >
+                                            <rect>
+                                            <path>
+                                            <path
++                                             d="m14 9 3 3-3 3"
+-                                             d="m16 15-3-3 3-3"
+                                            >
+                              <nav className="mt-4 grid ...">
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/dashboard" aria-label="İdarə paneli" onFocus={function} ...>
+                                      <a
+                                        aria-label="İdarə paneli"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/dashboard"
+                                      >
+                                        <House>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         İdarə paneli
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/applications" aria-label="Müraciətlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Müraciətlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/applications"
+                                      >
+                                        <FileText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Müraciətlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/universities" aria-label="Universite..." onFocus={function} ...>
+                                      <a
+                                        aria-label="Universitetlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/universities"
+                                      >
+                                        <Building2>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Universitetlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/documents" aria-label="Sənədlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Sənədlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/documents"
+                                      >
+                                        <CloudUpload>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Sənədlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/profile" aria-label="Profil" onFocus={function} ...>
+                                      <a
+                                        aria-label="Profil"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/profile"
+                                      >
+                                        <UserRound>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Profil
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/updates" aria-label="Bildirişlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Bildirişlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/updates"
+                                      >
+                                        <MessageSquareText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Bildirişlər
+                              <div
++                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex items-center"
+-                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex"
+                              >
+                                <button
++                                 className="flex items-center gap-3 border border-[#e5edf8] bg-white text-left shadow..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl border border-[#e5edf8] bg-whi..."
+                                  aria-label="samir@gmail.com hesabı"
+                                >
+                                  <Avatar>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <ChevronDown className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-chevron-down hidden"
+-                                     className="lucide lucide-chevron-down"
+                                      aria-hidden="true"
+                                    >
+                                <button
++                                 className="flex items-center gap-3 bg-[#f5f8fd] text-left transition hover:bg-[#eef5..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl bg-[#f5f8fd] p-3 text-left tra..."
+                                  aria-label="Dəstəyə yazın"
+                                >
+                                  <span>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <MessageSquareText className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-message-square-text hidden"
+-                                     className="lucide lucide-message-square-text"
+                                      aria-hidden="true"
+                                    >
+                            ...
+              ...
+ 
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+⨯ Error: No intl context found. Have you configured the provider? See https://next-intl.dev/docs/usage/configuration#server-client-components
+    at ignore-listed frames {
+  digest: '4162694779'
+}
+[browser] Uncaught Error: Switched to client rendering because the server rendering errored:
+
+No intl context found. Have you configured the provider? See https://next-intl.dev/docs/usage/configuration#server-client-components
+    at useIntlContext (C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\node_modules_0fj0-q4._.js:4135:15)
+    at useLocale (C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\node_modules_0fj0-q4._.js:4195:12)
+    at Link (C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\node_modules_0ttd-wb._.js:1106:38)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js?id=%255Bproject%255D%252Fsrc%252Ffeatures%252Fapplications%252Fcomponents%252Fapplications-workspace.tsx+%255Bapp-client%255D+%2528ecmascript%2529:141:224)
+    at Object.react_stack_bottom_frame (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10200:106)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10274:158)
+    at ApplicationsPage (src\app\[locale]\(workspace)\applications\page.tsx:21:5)
+  19 |
+  20 |   return (
+> 21 |     <ApplicationsWorkspace
+     |     ^
+  22 |       data={dashboardData}
+  23 |       success={success}
+  24 |       viewer={session.portalType === "student" ? "student" : "workspace"}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js?id=%255Bproject%255D%252Fsrc%252Ffeatures%252Fapplications%252Fcomponents%252Fapplications-workspace.tsx+%255Bapp-client%255D+%2528ecmascript%2529:141:224)
+    at Object.react_stack_bottom_frame (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6665:639)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9098:47)
+    at performSyncWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at flushSyncWork$1 (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9230:86)
+    at Object.scheduleRefresh (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:299:13)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:391:33)
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:384:38)
+    at applyUpdate (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:878:31)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:886:13)
+    at ApplicationsPage (src\app\[locale]\(workspace)\applications\page.tsx:21:5)
+  19 |
+  20 |   return (
+> 21 |     <ApplicationsWorkspace
+     |     ^
+  22 |       data={dashboardData}
+  23 |       success={success}
+  24 |       viewer={session.portalType === "student" ? "student" : "workspace"}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '869441150'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '869441150'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '869441150'
+}
+⨯ ReferenceError: HeaderDateFilters is not defined
+    at ApplicationsWorkspace (src\features\applications\components\applications-workspace.tsx:130:10)
+  128 |           </div>
+  129 |         </div>
+> 130 |         <HeaderDateFilters data={data} />
+      |          ^
+  131 |         <Button
+  132 |           asChild
+  133 |           className="h-11 w-full rounded-2xl bg-[#0b66ff] px-5 font-bold shadow-[0_12px_2... {
+  digest: '815643400'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="az/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url={"/applica..."} tree={[...]} params={{locale:"az"}} cacheNode={{rsc:{...}, ...}} ...>
+                <LoadingBoundaryProvider loading={[...]}>
+                  <SegmentViewNode type="layout" pagePath="[locale]/(...">
+                    <SegmentTrieNode>
+                    <script>
+                    <script>
+                    <WorkspaceLayout>
+                      <AppShell locale="az" session={{email:"sam...", ...}}>
+                        <div className="min-h-svh ...">
+                          <div className="flex min-h...">
+                            <aside
++                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+-                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+                            >
+                              <div
++                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0"
+-                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0 xl:justify-star..."
+                              >
+                                <div>
+                                <div
++                                 className="leading-tight lg:hidden"
+-                                 className="leading-tight lg:hidden xl:block"
+                                >
+                              ...
+                                <Primitive.button aria-describedby={undefined} data-state="closed" ...>
+                                  <Primitive.button.Slot aria-describedby={undefined} data-state="closed" ...>
+                                    <Button type="button" variant="ghost" size="icon" aria-label="Sidebar ge..." ...>
+                                      <button
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="icon"
++                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+-                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+                                        type="button"
++                                       aria-label="Sidebar genişlet"
+-                                       aria-label="Sidebar küçült"
++                                       aria-pressed={true}
+-                                       aria-pressed="false"
+                                        onClick={function}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onFocus={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                      >
+                                        <PanelLeftOpen className="size-4">
+                                          <svg
+                                            ref={null}
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width={24}
+                                            height={24}
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
++                                           className="lucide lucide-panel-left-open size-4"
+-                                           className="lucide lucide-panel-left-close size-4"
+                                            aria-hidden="true"
+                                          >
+                                            <rect>
+                                            <path>
+                                            <path
++                                             d="m14 9 3 3-3 3"
+-                                             d="m16 15-3-3 3-3"
+                                            >
+                              <nav className="mt-4 grid ...">
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/dashboard" aria-label="İdarə paneli" onFocus={function} ...>
+                                      <a
+                                        aria-label="İdarə paneli"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/dashboard"
+                                      >
+                                        <House>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         İdarə paneli
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/applications" aria-label="Müraciətlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Müraciətlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/applications"
+                                      >
+                                        <FileText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Müraciətlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/universities" aria-label="Universite..." onFocus={function} ...>
+                                      <a
+                                        aria-label="Universitetlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/universities"
+                                      >
+                                        <Building2>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Universitetlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/documents" aria-label="Sənədlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Sənədlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/documents"
+                                      >
+                                        <CloudUpload>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Sənədlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/profile" aria-label="Profil" onFocus={function} ...>
+                                      <a
+                                        aria-label="Profil"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/profile"
+                                      >
+                                        <UserRound>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Profil
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/updates" aria-label="Bildirişlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Bildirişlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/updates"
+                                      >
+                                        <MessageSquareText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Bildirişlər
+                              <div
++                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex items-center"
+-                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex"
+                              >
+                                <button
++                                 className="flex items-center gap-3 border border-[#e5edf8] bg-white text-left shadow..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl border border-[#e5edf8] bg-whi..."
+                                  aria-label="samir@gmail.com hesabı"
+                                >
+                                  <Avatar>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <ChevronDown className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-chevron-down hidden"
+-                                     className="lucide lucide-chevron-down"
+                                      aria-hidden="true"
+                                    >
+                                <button
++                                 className="flex items-center gap-3 bg-[#f5f8fd] text-left transition hover:bg-[#eef5..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl bg-[#f5f8fd] p-3 text-left tra..."
+                                  aria-label="Dəstəyə yazın"
+                                >
+                                  <span>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <MessageSquareText className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-message-square-text hidden"
+-                                     className="lucide lucide-message-square-text"
+                                      aria-hidden="true"
+                                    >
+                            ...
+              ...
+ 
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+[browser] Uncaught ReferenceError: parseIsoDate is not defined
+    at CompactDateInput (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js?id=%255Bproject%255D%252Fsrc%252Ffeatures%252Fapplications%252Fcomponents%252Fapplications-workspace.tsx+%255Bapp-client%255D+%2528ecmascript%2529:1192:25)
+    at Object.react_stack_bottom_frame (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10200:106)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10274:158)
+    at HeaderDateFilters (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js:1615:215)
+    at ApplicationsWorkspace (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js:631:223)
+    at ApplicationsPage (src\app\[locale]\(workspace)\applications\page.tsx:21:5)
+  19 |
+  20 |   return (
+> 21 |     <ApplicationsWorkspace
+     |     ^
+  22 |       data={dashboardData}
+  23 |       success={success}
+  24 |       viewer={session.portalType === "student" ? "student" : "workspace"}
+[browser] Uncaught ReferenceError: parseIsoDate is not defined
+    at CompactDateInput (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js?id=%255Bproject%255D%252Fsrc%252Ffeatures%252Fapplications%252Fcomponents%252Fapplications-workspace.tsx+%255Bapp-client%255D+%2528ecmascript%2529:1192:25)
+    at Object.react_stack_bottom_frame (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10200:106)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10274:158)
+    at HeaderDateFilters (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js:1615:215)
+    at ApplicationsWorkspace (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/src_0898ny3._.js:631:223)
+    at ApplicationsPage (src\app\[locale]\(workspace)\applications\page.tsx:21:5)
+  19 |
+  20 |   return (
+> 21 |     <ApplicationsWorkspace
+     |     ^
+  22 |       data={dashboardData}
+  23 |       success={success}
+  24 |       viewer={session.portalType === "student" ? "student" : "workspace"}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="az/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/applications" tree={[...]} params={{locale:"az"}} cacheNode={{rsc:{...}, ...}} ...>
+                <LoadingBoundaryProvider loading={[...]}>
+                  <SegmentViewNode type="layout" pagePath="[locale]/(...">
+                    <SegmentTrieNode>
+                    <script>
+                    <script>
+                    <WorkspaceLayout>
+                      <AppShell locale="az" session={{email:"eln...", ...}}>
+                        <div className="min-h-svh ...">
+                          <div className="flex min-h...">
+                            <aside
++                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+-                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+                            >
+                              <div
++                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0"
+-                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0 xl:justify-star..."
+                              >
+                                <div>
+                                <div
++                                 className="leading-tight lg:hidden"
+-                                 className="leading-tight lg:hidden xl:block"
+                                >
+                              ...
+                                <Primitive.button aria-describedby={undefined} data-state="closed" ...>
+                                  <Primitive.button.Slot aria-describedby={undefined} data-state="closed" ...>
+                                    <Button type="button" variant="ghost" size="icon" aria-label="Sidebar ge..." ...>
+                                      <button
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="icon"
++                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+-                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+                                        type="button"
++                                       aria-label="Sidebar genişlet"
+-                                       aria-label="Sidebar küçült"
++                                       aria-pressed={true}
+-                                       aria-pressed="false"
+                                        onClick={function}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onFocus={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                      >
+                                        <PanelLeftOpen className="size-4">
+                                          <svg
+                                            ref={null}
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width={24}
+                                            height={24}
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
++                                           className="lucide lucide-panel-left-open size-4"
+-                                           className="lucide lucide-panel-left-close size-4"
+                                            aria-hidden="true"
+                                          >
+                                            <rect>
+                                            <path>
+                                            <path
++                                             d="m14 9 3 3-3 3"
+-                                             d="m16 15-3-3 3-3"
+                                            >
+                              <nav className="mt-4 grid ...">
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <LayoutDashboard>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     İdarə paneli
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/universities" aria-label="Universite..." onFocus={function} ...>
+                                      <a
+                                        aria-label="Universitetlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/universities"
+                                      >
+                                        <Building2>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Universitetlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/applications" aria-label="Müraciətlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Müraciətlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/applications"
+                                      >
+                                        <FileText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Müraciətlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/students" aria-label="Tələbələr" onFocus={function} ...>
+                                      <a
+                                        aria-label="Tələbələr"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/students"
+                                      >
+                                        <GraduationCap>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Tələbələr
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/agents" aria-label="Agentlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Agentlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/agents"
+                                      >
+                                        <UsersRound>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Agentlər
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <WalletCards>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     Maliyyə
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <BriefcaseBusiness>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     CRM
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <ChartColumn>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     Hesabatlar
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <Archive>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     Arxiv
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <UserRoundCog>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     HR
+                                <Button type="button" variant="ghost" disabled={true} className="flex h-11 ...">
+                                  <button
+                                    data-slot="button"
+                                    data-variant="ghost"
+                                    data-size="default"
++                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+-                                   className={"group/button shrink-0 border border-transparent bg-clip-padding white..."}
+                                    type="button"
+                                    disabled={true}
+                                  >
+                                    <Settings>
+                                    <span
++                                     className="min-w-0 truncate lg:hidden"
+-                                     className="min-w-0 truncate lg:hidden xl:inline"
+                                    >
++                                     Ayarlar
+                              <div
++                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex items-center"
+-                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex"
+                              >
+                                <button
++                                 className="flex items-center gap-3 border border-[#e5edf8] bg-white text-left shadow..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl border border-[#e5edf8] bg-whi..."
+                                  aria-label="elnur.jamalov@campusglobal.az hesabı"
+                                >
+                                  <Avatar>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <ChevronDown className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-chevron-down hidden"
+-                                     className="lucide lucide-chevron-down"
+                                      aria-hidden="true"
+                                    >
+                                <button
++                                 className="flex items-center gap-3 bg-[#f5f8fd] text-left transition hover:bg-[#eef5..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl bg-[#f5f8fd] p-3 text-left tra..."
+                                  aria-label="Dəstəyə yazın"
+                                >
+                                  <span>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <MessageSquareText className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-message-square-text hidden"
+-                                     className="lucide lucide-message-square-text"
+                                      aria-hidden="true"
+                                    >
+                            ...
+              ...
+ 
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: CompactDateRangeInput is not defined
+    at HeaderDateFilters (src\features\applications\components\applications-workspace.tsx:507:8)
+  505 |       <input name="level" type="hidden" value={data.filters.levelId} />
+  506 |       <input name="agent" type="hidden" value={data.filters.agentId} />
+> 507 |       <CompactDateRangeInput
+      |        ^
+  508 |         fromValue={data.filters.dateFrom}
+  509 |         toValue={data.filters.dateTo}
+  510 |       /> {
+  digest: '2596260484'
+}
+⨯ ReferenceError: CompactDateRangeInput is not defined
+    at HeaderDateFilters (src\features\applications\components\applications-workspace.tsx:507:8)
+  505 |       <input name="level" type="hidden" value={data.filters.levelId} />
+  506 |       <input name="agent" type="hidden" value={data.filters.agentId} />
+> 507 |       <CompactDateRangeInput
+      |        ^
+  508 |         fromValue={data.filters.dateFrom}
+  509 |         toValue={data.filters.dateTo}
+  510 |       /> {
+  digest: '2596260484'
+}
+⨯ ReferenceError: CompactDateRangeInput is not defined
+    at HeaderDateFilters (src\features\applications\components\applications-workspace.tsx:507:8)
+  505 |       <input name="level" type="hidden" value={data.filters.levelId} />
+  506 |       <input name="agent" type="hidden" value={data.filters.agentId} />
+> 507 |       <CompactDateRangeInput
+      |        ^
+  508 |         fromValue={data.filters.dateFrom}
+  509 |         toValue={data.filters.dateTo}
+  510 |       /> {
+  digest: '1159319794'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="az/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url={"/applica..."} tree={[...]} params={{locale:"az"}} cacheNode={{rsc:{...}, ...}} ...>
+                <LoadingBoundaryProvider loading={[...]}>
+                  <SegmentViewNode type="layout" pagePath="[locale]/(...">
+                    <SegmentTrieNode>
+                    <script>
+                    <script>
+                    <WorkspaceLayout>
+                      <AppShell locale="az" session={{email:"sam...", ...}}>
+                        <div className="min-h-svh ...">
+                          <div className="flex min-h...">
+                            <aside
++                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+-                             className="flex shrink-0 flex-col rounded-[1.75rem] border border-white/70 bg-white/94 p..."
+                            >
+                              <div
++                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0"
+-                               className="flex items-center gap-3 px-2 py-3 lg:justify-center lg:px-0 xl:justify-star..."
+                              >
+                                <div>
+                                <div
++                                 className="leading-tight lg:hidden"
+-                                 className="leading-tight lg:hidden xl:block"
+                                >
+                              ...
+                                <Primitive.button aria-describedby={undefined} data-state="closed" ...>
+                                  <Primitive.button.Slot aria-describedby={undefined} data-state="closed" ...>
+                                    <Button type="button" variant="ghost" size="icon" aria-label="Sidebar ge..." ...>
+                                      <button
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="icon"
++                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+-                                       className={"group/button shrink-0 items-center justify-center bg-clip-padding..."}
+                                        type="button"
++                                       aria-label="Sidebar genişlet"
+-                                       aria-label="Sidebar küçült"
++                                       aria-pressed={true}
+-                                       aria-pressed="false"
+                                        onClick={function}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onFocus={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                      >
+                                        <PanelLeftOpen className="size-4">
+                                          <svg
+                                            ref={null}
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width={24}
+                                            height={24}
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
++                                           className="lucide lucide-panel-left-open size-4"
+-                                           className="lucide lucide-panel-left-close size-4"
+                                            aria-hidden="true"
+                                          >
+                                            <rect>
+                                            <path>
+                                            <path
++                                             d="m14 9 3 3-3 3"
+-                                             d="m16 15-3-3 3-3"
+                                            >
+                              <nav className="mt-4 grid ...">
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/dashboard" aria-label="İdarə paneli" onFocus={function} ...>
+                                      <a
+                                        aria-label="İdarə paneli"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/dashboard"
+                                      >
+                                        <House>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         İdarə paneli
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/applications" aria-label="Müraciətlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Müraciətlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/applications"
+                                      >
+                                        <FileText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Müraciətlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/universities" aria-label="Universite..." onFocus={function} ...>
+                                      <a
+                                        aria-label="Universitetlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/universities"
+                                      >
+                                        <Building2>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Universitetlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/documents" aria-label="Sənədlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Sənədlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/documents"
+                                      >
+                                        <CloudUpload>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Sənədlər
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/profile" aria-label="Profil" onFocus={function} ...>
+                                      <a
+                                        aria-label="Profil"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/profile"
+                                      >
+                                        <UserRound>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Profil
+                                ...
+                                  <Slot.Slot data-slot="tooltip-tr..." data-variant="ghost" data-size="default" ...>
+                                    <LinkComponent href="/updates" aria-label="Bildirişlər" onFocus={function} ...>
+                                      <a
+                                        aria-label="Bildirişlər"
+                                        onFocus={function}
+                                        data-slot="tooltip-trigger"
+                                        data-variant="ghost"
+                                        data-size="default"
++                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+-                                       className={"group/button shrink-0 border border-transparent bg-clip-padding w..."}
+                                        aria-describedby={undefined}
+                                        data-state="closed"
+                                        onPointerMove={function handleEvent}
+                                        onPointerLeave={function handleEvent}
+                                        onPointerDown={function handleEvent}
+                                        onBlur={function handleEvent}
+                                        data-radix-popper-side={undefined}
+                                        data-radix-popper-align={undefined}
+                                        ref={function}
+                                        onClick={function onClick}
+                                        onMouseEnter={function onMouseEnter}
+                                        onTouchStart={function onTouchStart}
+                                        href="/updates"
+                                      >
+                                        <MessageSquareText>
+                                        <span
++                                         className="min-w-0 truncate lg:hidden"
+-                                         className="min-w-0 truncate lg:hidden xl:inline"
+                                        >
++                                         Bildirişlər
+                              <div
++                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex items-center"
+-                               className="mt-auto hidden flex-col gap-3 pt-6 xl:flex"
+                              >
+                                <button
++                                 className="flex items-center gap-3 border border-[#e5edf8] bg-white text-left shadow..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl border border-[#e5edf8] bg-whi..."
+                                  aria-label="samir@gmail.com hesabı"
+                                >
+                                  <Avatar>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <ChevronDown className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-chevron-down hidden"
+-                                     className="lucide lucide-chevron-down"
+                                      aria-hidden="true"
+                                    >
+                                <button
++                                 className="flex items-center gap-3 bg-[#f5f8fd] text-left transition hover:bg-[#eef5..."
+-                                 className="flex w-full items-center gap-3 rounded-3xl bg-[#f5f8fd] p-3 text-left tra..."
+                                  aria-label="Dəstəyə yazın"
+                                >
+                                  <span>
+                                  <span
++                                   className="min-w-0 flex-1 hidden"
+-                                   className="min-w-0 flex-1"
+                                  >
+                                  <MessageSquareText className="hidden">
+                                    <svg
+                                      ref={null}
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width={24}
+                                      height={24}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth={2}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
++                                     className="lucide lucide-message-square-text hidden"
+-                                     className="lucide lucide-message-square-text"
+                                      aria-hidden="true"
+                                    >
+                            ...
+              ...
+ 
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Cannot specify a encType or method for a form that specifies a function as the action. React provides those automatically. They will get overridden. 
+    at setProp (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10760:334)
+    at setInitialProperties (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:11144:122)
+    at completeWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6979:35)
+    at runWithFiberInDEV (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at completeUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10200:106)
+    at <unknown> (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10274:158) (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10760:334)
+⨯ Error [PrismaClientValidationError]: 
+Invalid `{imported module ./src/lib/db.ts}["prisma"].universityDocument.create()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__1wqkcvh._.js:2277:170
+
+  2274 if (!fileUrl) {
+  2275     (0, {imported module ./nodemodules/next/dist/client/components/navigation.react-server.js}["redirect"])(`/universities/${universityId}?tab=documents&error=file-required`);
+  2276 }
+→ 2277 const document = await {imported module ./src/lib/db.ts}["prisma"].universityDocument.create({
+         data: {
+           universityId: "cmqwr08y20000qgeqaxs560db",
+           relatedEntityType: "UNIVERSITY",
+           relatedEntityId: "cmqwr08y20000qgeqaxs560db",
+           title: "Muqavile 2026",
+           documentType: "Universitet razılaşması",
+           fileUrl: "storage://university-documents/universities/cmqwr08y20000qgeqaxs560db/20260628152232879-n2zutr-campuse-modern.jpg",
+           validFrom: new Date("2026-06-28T00:00:00.000Z"),
+           ~~~~~~~~~
+           expiryDate: new Date("2028-11-28T00:00:00.000Z"),
+           notes: null,
+           fileName: "campuse modern.jpg",
+           fileSize: 33837,
+           mimeType: "image/jpeg",
+           uploadedById: "usr_elnur_camalov",
+       ?   id?: String,
+       ?   uploadedAt?: DateTime,
+       ?   status?: DocumentStatus,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime,
+       ?   tuitions?: ProgramTuitionUncheckedCreateNestedManyWithoutSourceDocumentInput
+         },
+         select: {
+           id: true,
+           universityId: true
+         }
+       })
+
+Unknown argument `validFrom`. Available options are marked with ?.
+    at <unknown> (src\features\universities\actions.ts:918:52)
+    at async createDocumentAction (src\features\universities\actions.ts:918:20)
+  916 |   }
+  917 |
+> 918 |   const document = await prisma.universityDocument.create({
+      |                                                    ^
+  919 |     data: {
+  920 |       ...normalizeNullable(parsed.data),
+  921 |       fileName: uploadedFile?.fileName ?? null, {
+  clientVersion: '7.8.0',
+  digest: '1384159550'
+}
+[browser] Uncaught PrismaClientValidationError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["prisma"].universityDocument.create()` invocation in
+C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp\.next\dev\server\chunks\ssr\[root-of-the-server]__1wqkcvh._.js:2277:170
+
+  2274 if (!fileUrl) {
+  2275     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])(`/universities/${universityId}?tab=documents&error=file-required`);
+  2276 }
+→ 2277 const document = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["prisma"].universityDocument.create({
+         data: {
+           universityId: "cmqwr08y20000qgeqaxs560db",
+           relatedEntityType: "UNIVERSITY",
+           relatedEntityId: "cmqwr08y20000qgeqaxs560db",
+           title: "Muqavile 2026",
+           documentType: "Universitet razılaşması",
+           fileUrl: "storage://university-documents/universities/cmqwr08y20000qgeqaxs560db/20260628152232879-n2zutr-campuse-modern.jpg",
+           validFrom: new Date("2026-06-28T00:00:00.000Z"),
+           ~~~~~~~~~
+           expiryDate: new Date("2028-11-28T00:00:00.000Z"),
+           notes: null,
+           fileName: "campuse modern.jpg",
+           fileSize: 33837,
+           mimeType: "image/jpeg",
+           uploadedById: "usr_elnur_camalov",
+       ?   id?: String,
+       ?   uploadedAt?: DateTime,
+       ?   status?: DocumentStatus,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime,
+       ?   tuitions?: ProgramTuitionUncheckedCreateNestedManyWithoutSourceDocumentInput
+         },
+         select: {
+           id: true,
+           universityId: true
+         }
+       })
+
+Unknown argument `validFrom`. Available options are marked with ?.
+    at <unknown> (src\features\universities\actions.ts:918:52)
+    at  createDocumentAction (src\features\universities\actions.ts:918:20)
+    at resolveErrorDev (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1919:105)
+    at processFullStringRow (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2434:29)
+    at processFullBinaryRow (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2393:9)
+    at processBinaryChunk (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2502:221)
+    at progress (file://C:/Users/qalib/OneDrive/Desktop/Campus global/campus-global-erp/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2689:13)
+    at form (<anonymous>)
+    at DocumentForm (src\app\[locale]\(workspace)\universities\[universityId]\page.tsx:2102:5)
+    at UniversityDetailPage (src\app\[locale]\(workspace)\universities\[universityId]\page.tsx:745:17)
+  916 |   }
+  917 |
+> 918 |   const document = await prisma.universityDocument.create({
+      |                                                    ^
+  919 |     data: {
+  920 |       ...normalizeNullable(parsed.data),
+  921 |       fileName: uploadedFile?.fileName ?? null,

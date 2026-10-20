@@ -1,0 +1,63 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - complementary [ref=f1e4]:
+      - generic [ref=f1e5]: C
+      - navigation [ref=f1e7]:
+        - link "İdarə paneli" [ref=f1e8] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Müraciətlər" [ref=f1e9] [cursor=pointer]:
+          - /url: /applications
+        - link "Bildirişlər" [ref=f1e10] [cursor=pointer]:
+          - /url: /updates
+        - link "Profil" [ref=f1e11] [cursor=pointer]:
+          - /url: /profile
+        - link "Universitetlər" [ref=f1e12] [cursor=pointer]:
+          - /url: /universities
+        - link "Sənədlər" [ref=f1e13] [cursor=pointer]:
+          - /url: /documents
+        - link "Profil" [ref=f1e14] [cursor=pointer]:
+          - /url: /profile
+        - link "Bildirişlər" [ref=f1e15] [cursor=pointer]:
+          - /url: /updates
+        - link "Xidmətlər" [ref=f1e16] [cursor=pointer]:
+          - /url: /services
+    - main [ref=f1e17]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]:
+            - generic [ref=f1e27]:
+              - heading "Xidmətlər" [level=1] [ref=f1e28]
+              - paragraph [ref=f1e29]: Tələbə portalı · sizə uyğun aktual qiymətlər
+            - paragraph [ref=f1e30]: Ehtiyacınız olan xidməti seçin. Sifariş göndərildikdən sonra komandamız sorğunu qəbul edib statusu burada yeniləyəcək.
+          - generic [ref=f1e31]:
+            - generic [ref=f1e32]: Sifarişlərim
+            - generic [ref=f1e33]: "0"
+        - article [ref=f1e35]:
+          - generic [ref=f1e36]: Tələbə qiyməti
+          - heading "[QA] Viza dəstəyi" [level=2] [ref=f1e44]
+          - paragraph [ref=f1e45]: Viza sənədlərinin yoxlanması və müraciət dəstəyi.
+          - generic [ref=f1e46]:
+            - generic [ref=f1e47]:
+              - generic [ref=f1e48]: Sizin qiymətiniz
+              - generic [ref=f1e49]: 250 ₼
+            - button "Sifariş et" [ref=f1e50] [cursor=pointer]
+        - generic [ref=f1e51]:
+          - generic [ref=f1e52]:
+            - heading "Sifarişlərim" [level=2] [ref=f1e53]
+            - paragraph [ref=f1e54]: Göndərdiyiniz xidmət sifarişlərinin cari icra statusu.
+          - generic [ref=f1e55]:
+            - generic [ref=f1e59]: Sifariş yoxdur
+            - paragraph [ref=f1e60]: Yeni sifarişlər burada görünəcək.
+  - region "Notifications alt+T"
+  - generic [ref=f1e65] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e66]
+    - generic [ref=f1e70]:
+      - button "Open issues overlay" [ref=f1e71]:
+        - generic [ref=f1e72]:
+          - generic [ref=f1e73]: "1"
+          - generic [ref=f1e74]: "2"
+        - generic [ref=f1e75]:
+          - text: Issue
+          - generic [ref=f1e76]: s
+      - button "Collapse issues badge" [ref=f1e77]
+  - alert [ref=f1e80]

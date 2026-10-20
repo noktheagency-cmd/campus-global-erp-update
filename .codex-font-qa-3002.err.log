@@ -1,0 +1,8 @@
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3001
+- PID:          21688
+- Dir:          C:\Users\qalib\OneDrive\Desktop\Campus global\campus-global-erp
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 21688 /F to stop it.

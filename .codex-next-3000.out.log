@@ -1,0 +1,16 @@
+
+> campus-global-erp@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.101:3000
+- Environments: .env.local, .env
+✓ Ready in 789ms
+- Experiments (use with caution):
+  · serverActions
+
+ GET /icon.png 404 in 1732ms (next.js: 1246ms, generate-params: 690ms, application-code: 486ms)
+ GET /icon.png 404 in 126ms (next.js: 22ms, generate-params: 11ms, application-code: 104ms)
+ GET /icon.png 404 in 146ms (next.js: 30ms, generate-params: 14ms, application-code: 116ms)
+ GET /login?next=%2Fapplications 200 in 1122ms (next.js: 787ms, proxy.ts: 26ms, generate-params: 676ms, application-code: 309ms)

@@ -1,0 +1,74 @@
+- generic:
+  - generic:
+    - generic:
+      - complementary:
+        - generic: C
+        - navigation:
+          - link:
+            - /url: /dashboard
+          - link:
+            - /url: /students
+          - link:
+            - /url: /universities
+          - link:
+            - /url: /applications
+          - link:
+            - /url: /services
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Xidmətlər
+                    - paragraph: Agent portalı · sizə uyğun aktual qiymətlər
+                - paragraph: Ehtiyacınız olan xidməti seçin. Sifariş göndərildikdən sonra komandamız sorğunu qəbul edib statusu burada yeniləyəcək.
+              - generic:
+                - generic: Sifarişlərim
+                - generic: "0"
+            - generic:
+              - article:
+                - generic: Sizə özəl qiymət
+                - heading [level=2]: "[QA] Viza dəstəyi"
+                - paragraph: Viza sənədlərinin yoxlanması və müraciət dəstəyi.
+                - generic:
+                  - generic:
+                    - generic: Sizin qiymətiniz
+                    - generic: AZN 145
+                  - button [expanded]: Sifariş et
+            - generic:
+              - generic:
+                - heading [level=2]: Sifarişlərim
+                - paragraph: Göndərdiyiniz xidmət sifarişlərinin cari icra statusu.
+              - generic:
+                - generic: Sifariş yoxdur
+                - paragraph: Yeni sifarişlər burada görünəcək.
+  - region "Notifications alt+T"
+  - generic [ref=f1e61] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e62]
+    - generic [ref=f1e109]:
+      - button "Open issues overlay" [ref=f1e110]:
+        - generic [ref=f1e111]:
+          - generic [ref=f1e112]: "0"
+          - generic [ref=f1e113]: "1"
+        - generic [ref=f1e114]: Issue
+      - button "Collapse issues badge" [ref=f1e115]
+  - alert
+  - dialog [ref=f1e119]:
+    - generic [ref=f1e120]:
+      - heading "[QA] Viza dəstəyi" [level=2] [ref=f1e121]
+      - paragraph [ref=f1e122]: Sifariş qiyməti təsdiqdən əvvəl yenidən serverdə yoxlanılacaq.
+    - generic [ref=f1e123]:
+      - generic [ref=f1e124]:
+        - generic [ref=f1e125]: Cari vahid qiymət
+        - generic [ref=f1e126]: AZN 145
+      - generic [ref=f1e127]:
+        - generic [ref=f1e128]: Say
+        - spinbutton "Say" [active] [ref=f1e129]: "1"
+      - generic [ref=f1e130]:
+        - generic [ref=f1e131]: Qeyd (istəyə bağlı)
+        - textbox "Qeyd (istəyə bağlı)" [ref=f1e132]:
+          - /placeholder: Xüsusi istəyiniz və ya əlavə məlumat
+      - button "Sifarişi göndər" [ref=f1e133] [cursor=pointer]
+    - button "Bağla" [ref=f1e134] [cursor=pointer]

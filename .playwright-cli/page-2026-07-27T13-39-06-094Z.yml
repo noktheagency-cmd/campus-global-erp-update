@@ -1,0 +1,31 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - generic [ref=f7e5]: Campus Global ERP
+        - generic [ref=f7e13]: AZ
+      - generic [ref=f7e19]:
+        - generic [ref=f7e20]:
+          - heading "Portala daxil olun" [level=1] [ref=f7e27]
+          - paragraph [ref=f7e28]: Hesab məlumatlarınızla daxil olun. Portal icazələriniz avtomatik tanınacaq.
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30]:
+            - text: E-poçt
+            - textbox "E-poçt" [ref=f7e32]:
+              - /placeholder: email@campus.global
+          - generic [ref=f7e33]:
+            - text: Şifrə
+            - generic [ref=f7e34]:
+              - textbox "Şifrə Şifrəni göstər" [ref=f7e35]:
+                - /placeholder: Şifrənizi daxil edin
+              - button "Şifrəni göstər" [ref=f7e36] [cursor=pointer]
+        - generic [ref=f7e40]:
+          - generic [ref=f7e41]:
+            - checkbox "Məni yadda saxla" [checked] [ref=f7e42] [cursor=pointer]
+            - checkbox [checked]
+            - text: Məni yadda saxla
+          - link "Şifrəni unutdunuz?" [ref=f7e43] [cursor=pointer]:
+            - /url: "#reset-password"
+        - button "Daxil ol" [ref=f7e44] [cursor=pointer]
+        - generic [ref=f7e46]: Məlumatlarınız şifrələnir və təhlükəsiz qorunur.
+  - region "Notifications alt+T"

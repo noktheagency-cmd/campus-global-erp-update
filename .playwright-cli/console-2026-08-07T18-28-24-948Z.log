@@ -1,0 +1,16 @@
+[    1771ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    1960ms] [LOG] [HMR] connected @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    2329ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    3040ms] [LOG] [Fast Refresh] done in 844ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    7806ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[    8652ms] [LOG] [Fast Refresh] done in 962ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   24278ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   24306ms] [LOG] [Fast Refresh] done in 130ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   24507ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   24510ms] [LOG] [Fast Refresh] done in 108ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  141076ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  141168ms] [LOG] [Fast Refresh] done in 199ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  141526ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  142687ms] [LOG] [Fast Refresh] done in 1276ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  143890ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  144663ms] [LOG] [Fast Refresh] done in 880ms @ http://127.0.0.1:3011/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

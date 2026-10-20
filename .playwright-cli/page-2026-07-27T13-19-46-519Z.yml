@@ -1,0 +1,238 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - complementary [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - generic [ref=f4e6]: C
+        - generic [ref=f4e7]:
+          - generic [ref=f4e8]: Campus
+          - generic [ref=f4e9]: Global
+      - button "Sidebar küçült" [ref=f4e10] [cursor=pointer]
+      - navigation [ref=f4e11]:
+        - button "İdarə paneli" [disabled]
+        - link "Universitetlər" [ref=f4e12] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=f4e14] [cursor=pointer]:
+          - /url: /applications
+        - link "Tələbələr" [ref=f4e16] [cursor=pointer]:
+          - /url: /students
+        - link "Agentlər" [ref=f4e18] [cursor=pointer]:
+          - /url: /agents
+        - link "Xidmətlər" [ref=f4e20] [cursor=pointer]:
+          - /url: /services
+        - button "Maliyyə" [disabled]
+        - button "CRM" [disabled]
+        - button "Hesabatlar" [disabled]
+        - button "Arxiv" [disabled]
+        - button "HR" [disabled]
+        - button "Ayarlar" [disabled]
+      - generic [ref=f4e22]:
+        - button "elnur.jamalov@campusglobal.az hesabı" [ref=f4e23] [cursor=pointer]:
+          - generic [ref=f4e24]: EJ
+          - generic [ref=f4e26]:
+            - generic [ref=f4e27]: elnur.jamalov@campusglobal.az
+            - generic [ref=f4e28]: Təsisçi və CEO
+        - button "Dəstəyə yazın" [ref=f4e31] [cursor=pointer]:
+          - generic [ref=f4e40]:
+            - generic [ref=f4e41]: Kömək lazımdır?
+            - generic [ref=f4e42]: Dəstəyə yazın
+    - main [ref=f4e45]:
+      - main [ref=f4e47]:
+        - generic [ref=f4e48]:
+          - generic [ref=f4e49]:
+            - generic [ref=f4e50]:
+              - navigation [ref=f4e51]:
+                - link "Tələbələr" [ref=f4e52] [cursor=pointer]:
+                  - /url: /students
+                - generic [ref=f4e53]: /
+                - generic [ref=f4e54]: Yeni tələbə əlavə et
+              - generic [ref=f4e55]:
+                - link "Tələbələrə qayıt" [ref=f4e56] [cursor=pointer]:
+                  - /url: /students
+                - generic [ref=f4e57]:
+                  - generic [ref=f4e58]:
+                    - heading "Yeni tələbə əlavə et" [level=1] [ref=f4e59]
+                    - generic [ref=f4e60]: Qaralama profil
+                  - paragraph [ref=f4e61]: Create the student record first; portal access will be built in the next stage.
+            - generic [ref=f4e62]:
+              - generic [ref=f4e68]:
+                - generic [ref=f4e69]: Addım 1
+                - generic [ref=f4e70]: Profil
+              - generic [ref=f4e77]:
+                - generic [ref=f4e78]: Addım 2
+                - generic [ref=f4e79]: Giriş
+              - generic [ref=f4e86]:
+                - generic [ref=f4e87]: Addım 3
+                - generic [ref=f4e88]: Portal
+          - generic [ref=f4e89]:
+            - generic [ref=f4e90]:
+              - generic [ref=f4e91]:
+                - heading "Tələbə reyestri" [level=2] [ref=f4e92]
+                - paragraph [ref=f4e93]: Keep personal, contact, identity and login details in one clean record.
+              - generic [ref=f4e94]: Profil qurulumu üçün hazırdır
+            - generic [ref=f4e95]:
+              - generic [ref=f4e96]:
+                - complementary [ref=f4e97]:
+                  - group [ref=f4e98]:
+                    - generic [ref=f4e105]:
+                      - generic [ref=f4e106]: Şəkil yükləyin
+                      - paragraph [ref=f4e107]: Tələbə qeydi üçün istəyə bağlı profil şəkli.
+                    - generic [ref=f4e108]:
+                      - generic [ref=f4e113]:
+                        - generic [ref=f4e114]: Şəkil yükləyin (istəyə bağlı)
+                        - paragraph [ref=f4e115]: PNG, JPG və ya WebP
+                      - generic [ref=f4e117]:
+                        - text: Yüklə
+                        - button "Yüklə" [ref=f4e121]
+                  - generic [ref=f4e128]:
+                    - heading "Portal sonra" [level=2] [ref=f4e129]
+                    - paragraph [ref=f4e130]: Giriş sahələri indi toplanır; tələbə portalı ekranı bu bölmə hazır olandan sonra açılacaq.
+                - generic [ref=f4e131]:
+                  - group [ref=f4e132]:
+                    - generic [ref=f4e133]:
+                      - generic [ref=f4e139]:
+                        - generic [ref=f4e140]: Şəxsi məlumatlar
+                        - paragraph [ref=f4e141]: Admissions və agentlər üçün istifadə olunan əsas şəxsiyyət və əlaqə məlumatları.
+                      - generic [ref=f4e142]: "01"
+                    - generic [ref=f4e143]:
+                      - generic [ref=f4e144]:
+                        - group [ref=f4e145]:
+                          - generic [ref=f4e146]:
+                            - text: Ad
+                            - generic [ref=f4e147]: "*"
+                          - group [ref=f4e148]:
+                            - group [ref=f4e149]
+                            - textbox "Ad" [ref=f4e153]
+                        - group [ref=f4e154]:
+                          - generic [ref=f4e155]:
+                            - text: Soyad
+                            - generic [ref=f4e156]: "*"
+                          - group [ref=f4e157]:
+                            - group [ref=f4e158]
+                            - textbox "Soyad" [ref=f4e162]
+                        - group [ref=f4e163]:
+                          - generic [ref=f4e164]: Ata adı
+                          - group [ref=f4e165]:
+                            - group [ref=f4e166]
+                            - textbox "Ata adı" [ref=f4e171]
+                        - group [ref=f4e172]:
+                          - generic [ref=f4e173]: Ana adı
+                          - group [ref=f4e174]:
+                            - group [ref=f4e175]
+                            - textbox "Ana adı" [ref=f4e180]
+                      - generic [ref=f4e181]:
+                        - group [ref=f4e182]:
+                          - generic [ref=f4e183]: Doğum tarixi
+                          - group [ref=f4e184]:
+                            - group [ref=f4e185]
+                            - textbox [ref=f4e188]
+                            - group [ref=f4e189]:
+                              - button "Təqvimi aç" [ref=f4e190] [cursor=pointer]
+                        - group [ref=f4e193]:
+                          - generic [ref=f4e194]: E-poçt (əlaqə üçün)
+                          - group [ref=f4e195]:
+                            - group [ref=f4e196]
+                            - textbox "email@example.com" [ref=f4e200]
+                        - group [ref=f4e201]:
+                          - generic [ref=f4e202]: Mobil telefon
+                          - group [ref=f4e203]:
+                            - group [ref=f4e204]
+                            - textbox "+994 50 000 00 00" [ref=f4e207]
+                        - group [ref=f4e208]:
+                          - generic [ref=f4e209]: Vətəndaşlıq
+                          - combobox [ref=f4e210] [cursor=pointer]
+                          - combobox [ref=f4e211]
+                      - generic [ref=f4e212]:
+                        - group [ref=f4e213]:
+                          - generic [ref=f4e214]: Ünvan
+                          - textbox "Ünvan" [ref=f4e215]
+                        - group [ref=f4e216]:
+                          - generic [ref=f4e217]: Pasport no
+                          - group [ref=f4e218]:
+                            - group [ref=f4e219]
+                            - textbox "Pasport no" [ref=f4e224]
+                        - group [ref=f4e225]:
+                          - generic [ref=f4e226]: Şəxsiyyət no
+                          - group [ref=f4e227]:
+                            - group [ref=f4e228]
+                            - textbox "Şəxsiyyət no" [ref=f4e232]
+                      - generic [ref=f4e233]:
+                        - group [ref=f4e234]:
+                          - generic [ref=f4e235]: Agent seçin
+                          - combobox [ref=f4e236] [cursor=pointer]
+                          - combobox [ref=f4e237]
+                        - group [ref=f4e238]:
+                          - generic [ref=f4e239]: Cins
+                          - generic [ref=f4e240]:
+                            - generic [ref=f4e241]:
+                              - radio "Kişi" [checked] [ref=f4e242]
+                              - generic [ref=f4e243]: Kişi
+                            - generic [ref=f4e244]:
+                              - radio "Qadın" [ref=f4e245]
+                              - generic [ref=f4e246]: Qadın
+                        - group [ref=f4e247]:
+                          - generic [ref=f4e248]: Ailə vəziyyəti
+                          - generic [ref=f4e249]:
+                            - generic [ref=f4e250]:
+                              - radio "Subay" [checked] [ref=f4e251]
+                              - generic [ref=f4e252]: Subay
+                            - generic [ref=f4e253]:
+                              - radio "Evli" [ref=f4e254]
+                              - generic [ref=f4e255]: Evli
+                  - group [ref=f4e256]:
+                    - generic [ref=f4e257]:
+                      - generic [ref=f4e264]:
+                        - generic [ref=f4e265]: Giriş məlumatları
+                        - paragraph [ref=f4e266]: Burada daxil edilən giriş məlumatları tələbə portalı aktivləşəndə istifadə olunacaq.
+                      - generic [ref=f4e267]: "02"
+                    - generic [ref=f4e268]:
+                      - generic [ref=f4e269]:
+                        - generic [ref=f4e270]: Portal e-poçtu və şifrə
+                        - paragraph [ref=f4e271]: Ad və soyada uyğun, bazada olmayan e-poçt avtomatik seçilir.
+                      - button "Avtomatik yarat" [ref=f4e272] [cursor=pointer]
+                    - generic [ref=f4e273]:
+                      - group [ref=f4e274]:
+                        - generic [ref=f4e275]:
+                          - text: E-poçt
+                          - generic [ref=f4e276]: "*"
+                        - group [ref=f4e277]:
+                          - group [ref=f4e278]
+                          - textbox "E-poçt" [ref=f4e282]
+                      - group [ref=f4e283]:
+                        - generic [ref=f4e284]:
+                          - text: Şifrə
+                          - generic [ref=f4e285]: "*"
+                        - group [ref=f4e286]:
+                          - group [ref=f4e287]
+                          - textbox "Şifrə" [ref=f4e292]
+                          - group [ref=f4e293]:
+                            - button "Şifrəni göstər" [ref=f4e294] [cursor=pointer]
+                  - group [ref=f4e298]:
+                    - generic [ref=f4e299]:
+                      - generic [ref=f4e305]:
+                        - generic [ref=f4e306]: Ümumi sənədlər
+                        - paragraph [ref=f4e307]: Tələbənin profilinə aid ümumi sənədləri əlavə edin. Bu fayllar müraciətdən asılı olmadan tələbə portalında və tələbə detallarında görünəcək.
+                      - generic [ref=f4e308]: "03"
+                    - generic [ref=f4e310]:
+                      - group [ref=f4e311]:
+                        - generic [ref=f4e312]: Sənədin adı
+                        - group [ref=f4e313]:
+                          - group [ref=f4e314]
+                          - textbox "Sənəd 1" [ref=f4e318]
+                      - group [ref=f4e319]:
+                        - generic [ref=f4e320]: Sənəd növü
+                        - combobox [ref=f4e321] [cursor=pointer]
+                        - combobox [ref=f4e322]
+                      - group [ref=f4e323]:
+                        - generic [ref=f4e324]: Fayl
+                        - generic [ref=f4e325] [cursor=pointer]:
+                          - generic [ref=f4e329]: Fayl seçin
+                          - button "Fayl seçin" [ref=f4e330]
+                      - button "1-ci sənəd sətrini sil" [ref=f4e331] [cursor=pointer]
+                    - button "Yeni sənəd sətri" [ref=f4e332] [cursor=pointer]
+              - generic [ref=f4e333]:
+                - generic [ref=f4e334]: Zəruri profil və giriş sahələri * ilə işarələnib.
+                - generic [ref=f4e338]:
+                  - button "Qaralama saxla" [ref=f4e339] [cursor=pointer]
+                  - button "Tələbə əlavə et" [ref=f4e340] [cursor=pointer]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f4e346] [cursor=pointer]

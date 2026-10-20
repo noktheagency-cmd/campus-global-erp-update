@@ -1,0 +1,193 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - complementary [ref=f2e4]:
+      - generic [ref=f2e5]: C
+      - navigation [ref=f2e7]:
+        - button [disabled]
+        - link "Universitetlər" [ref=f2e8] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=f2e9] [cursor=pointer]:
+          - /url: /applications
+        - link "Tələbələr" [ref=f2e10] [cursor=pointer]:
+          - /url: /students
+        - link "Agentlər" [ref=f2e11] [cursor=pointer]:
+          - /url: /agents
+        - link "Xidmətlər" [ref=f2e12] [cursor=pointer]:
+          - /url: /services
+        - button [disabled]
+        - button [disabled]
+        - button [disabled]
+        - button [disabled]
+        - button [disabled]
+        - button [disabled]
+    - main [ref=f2e13]:
+      - generic [ref=f2e15]:
+        - generic [ref=f2e16]:
+          - generic [ref=f2e17]:
+            - heading "Tələbələr" [level=1] [ref=f2e18]
+            - paragraph [ref=f2e19]: Profil, portal və sənəd vəziyyətini yığcam reyestrdən idarə edin.
+          - generic [ref=f2e20]:
+            - button "İxrac" [ref=f2e21] [cursor=pointer]
+            - link "Tələbə əlavə et" [ref=f2e22] [cursor=pointer]:
+              - /url: /students/new
+        - generic [ref=f2e23]:
+          - generic [ref=f2e29]:
+            - generic [ref=f2e30]: Cəmi tələbə
+            - generic [ref=f2e31]: "7"
+          - generic [ref=f2e38]:
+            - generic [ref=f2e39]: Aktiv müraciət
+            - generic [ref=f2e40]: "5"
+          - generic [ref=f2e46]:
+            - generic [ref=f2e47]: Portal növbəsi
+            - generic [ref=f2e48]: "4"
+          - generic [ref=f2e53]:
+            - generic [ref=f2e54]: Çatışmayan sənəd
+            - generic [ref=f2e55]: "7"
+        - generic [ref=f2e56]:
+          - generic [ref=f2e58]:
+            - generic [ref=f2e59]:
+              - generic [ref=f2e60]: Tələbə axtarışı
+              - textbox "Tələbə axtarışı" [ref=f2e61]:
+                - /placeholder: Ad, ID, e-poçt, pasport...
+            - combobox "Vətəndaşlıq" [ref=f2e62] [cursor=pointer]
+            - combobox [ref=f2e63]
+            - combobox "Agent" [ref=f2e64] [cursor=pointer]
+            - combobox [ref=f2e65]
+            - combobox "Portal" [ref=f2e66] [cursor=pointer]
+            - combobox [ref=f2e67]
+            - combobox "Sıralama" [ref=f2e68] [cursor=pointer]
+            - combobox [ref=f2e69]
+            - generic [ref=f2e70]:
+              - button "Tətbiq et" [ref=f2e71] [cursor=pointer]
+              - link "Filtrləri təmizlə" [ref=f2e72] [cursor=pointer]:
+                - /url: /students
+          - generic [ref=f2e73]:
+            - generic [ref=f2e74]: Tələbə reyestri
+            - generic [ref=f2e75]: 7 nəticə · 1–7
+          - generic [ref=f2e76]:
+            - article [ref=f2e77]:
+              - generic [ref=f2e78]:
+                - generic [ref=f2e79]: "1"
+                - generic [ref=f2e80]: AM
+                - generic [ref=f2e81]:
+                  - link "Aylin Mammadova" [ref=f2e82] [cursor=pointer]:
+                    - /url: /applications/students/stu-1007
+                  - paragraph [ref=f2e83]: Azerbaijan · Elnur Camalov
+                - link "Aylin Mammadova tələbə detalını aç" [ref=f2e84] [cursor=pointer]:
+                  - /url: /applications/students/stu-1007
+              - generic [ref=f2e87]:
+                - generic [ref=f2e88]: Müraciət
+                - generic [ref=f2e89]: Aktiv
+                - generic [ref=f2e90]: 3 ümumi sənəd
+              - generic [ref=f2e94]:
+                - generic [ref=f2e95]: aylin.mammadova@example.com
+                - generic [ref=f2e96]: +994 50 214 77 20
+            - article [ref=f2e97]:
+              - generic [ref=f2e98]:
+                - generic [ref=f2e99]: "2"
+                - generic [ref=f2e100]: MA
+                - generic [ref=f2e101]:
+                  - link "Murad Aliyev" [ref=f2e102] [cursor=pointer]:
+                    - /url: /applications/students/stu-1006
+                  - paragraph [ref=f2e103]: Azerbaijan · Leyla Karimova
+                - link "Murad Aliyev tələbə detalını aç" [ref=f2e104] [cursor=pointer]:
+                  - /url: /applications/students/stu-1006
+              - generic [ref=f2e107]:
+                - generic [ref=f2e108]: Təklif
+                - generic [ref=f2e109]: Gözləyir
+                - generic [ref=f2e110]: 2 ümumi sənəd
+                - generic [ref=f2e114]: 1 çatışmır
+              - generic [ref=f2e115]:
+                - generic [ref=f2e116]: murad.aliyev@example.com
+                - generic [ref=f2e117]: +994 55 810 12 44
+            - article [ref=f2e118]:
+              - generic [ref=f2e119]:
+                - generic [ref=f2e120]: "3"
+                - generic [ref=f2e121]: ZD
+                - generic [ref=f2e122]:
+                  - link "Zehra Demir" [ref=f2e123] [cursor=pointer]:
+                    - /url: /applications/students/stu-1005
+                  - paragraph [ref=f2e124]: Turkey · Orhan Yilmaz
+                - link "Zehra Demir tələbə detalını aç" [ref=f2e125] [cursor=pointer]:
+                  - /url: /applications/students/stu-1005
+              - generic [ref=f2e128]:
+                - generic [ref=f2e129]: Qeydiyyat
+                - generic [ref=f2e130]: Aktiv
+                - generic [ref=f2e131]: 4 ümumi sənəd
+              - generic [ref=f2e135]:
+                - generic [ref=f2e136]: zehra.demir@example.com
+                - generic [ref=f2e137]: +90 532 600 41 18
+            - article [ref=f2e138]:
+              - generic [ref=f2e139]:
+                - generic [ref=f2e140]: "4"
+                - generic [ref=f2e141]: NH
+                - generic [ref=f2e142]:
+                  - link "Nihad Huseynli" [ref=f2e143] [cursor=pointer]:
+                    - /url: /applications/students/stu-1004
+                  - paragraph [ref=f2e144]: Azerbaijan · Elnur Camalov
+                - link "Nihad Huseynli tələbə detalını aç" [ref=f2e145] [cursor=pointer]:
+                  - /url: /applications/students/stu-1004
+              - generic [ref=f2e148]:
+                - generic [ref=f2e149]: Profil
+                - generic [ref=f2e150]: E-poçt lazımdır
+                - generic [ref=f2e151]: 1 ümumi sənəd
+                - generic [ref=f2e155]: 2 çatışmır
+              - generic [ref=f2e156]:
+                - generic [ref=f2e157]: nihad.huseynli@example.com
+                - generic [ref=f2e158]: +994 70 310 90 01
+            - article [ref=f2e159]:
+              - generic [ref=f2e160]:
+                - generic [ref=f2e161]: "5"
+                - generic [ref=f2e162]: SI
+                - generic [ref=f2e163]:
+                  - link "Sofia Ivanova" [ref=f2e164] [cursor=pointer]:
+                    - /url: /applications/students/stu-1003
+                  - paragraph [ref=f2e165]: Russia · Leyla Karimova
+                - link "Sofia Ivanova tələbə detalını aç" [ref=f2e166] [cursor=pointer]:
+                  - /url: /applications/students/stu-1003
+              - generic [ref=f2e169]:
+                - generic [ref=f2e170]: Viza
+                - generic [ref=f2e171]: Gözləyir
+                - generic [ref=f2e172]: 2 ümumi sənəd
+                - generic [ref=f2e176]: 1 çatışmır
+              - generic [ref=f2e177]:
+                - generic [ref=f2e178]: sofia.ivanova@example.com
+                - generic [ref=f2e179]: +7 916 204 44 32
+            - article [ref=f2e180]:
+              - generic [ref=f2e181]:
+                - generic [ref=f2e182]: "6"
+                - generic [ref=f2e183]: TQ
+                - generic [ref=f2e184]:
+                  - link "Tural Qasimov" [ref=f2e185] [cursor=pointer]:
+                    - /url: /applications/students/stu-1002
+                  - paragraph [ref=f2e186]: Azerbaijan · Mina Abbasova
+                - link "Tural Qasimov tələbə detalını aç" [ref=f2e187] [cursor=pointer]:
+                  - /url: /applications/students/stu-1002
+              - generic [ref=f2e190]:
+                - generic [ref=f2e191]: Müraciət
+                - generic [ref=f2e192]: Aktiv
+                - generic [ref=f2e193]: 3 ümumi sənəd
+              - generic [ref=f2e197]:
+                - generic [ref=f2e198]: tural.qasimov@example.com
+                - generic [ref=f2e199]: +994 51 447 80 12
+            - article [ref=f2e200]:
+              - generic [ref=f2e201]:
+                - generic [ref=f2e202]: "7"
+                - generic [ref=f2e203]: LK
+                - generic [ref=f2e204]:
+                  - link "Luka Kapanadze" [ref=f2e205] [cursor=pointer]:
+                    - /url: /applications/students/stu-1001
+                  - paragraph [ref=f2e206]: Georgia · Mina Abbasova
+                - link "Luka Kapanadze tələbə detalını aç" [ref=f2e207] [cursor=pointer]:
+                  - /url: /applications/students/stu-1001
+              - generic [ref=f2e210]:
+                - generic [ref=f2e211]: Profil
+                - generic [ref=f2e212]: E-poçt lazımdır
+                - generic [ref=f2e213]: 0 ümumi sənəd
+                - generic [ref=f2e217]: 3 çatışmır
+              - generic [ref=f2e218]:
+                - generic [ref=f2e219]: luka.kapanadze@example.com
+                - generic [ref=f2e220]: +995 555 49 18 21
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f2e226] [cursor=pointer]
+  - alert [ref=f2e230]

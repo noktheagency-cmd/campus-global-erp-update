@@ -1,0 +1,151 @@
+- generic:
+  - generic:
+    - generic:
+      - complementary:
+        - generic:
+          - generic: C
+          - generic:
+            - generic: Campus
+            - generic: Global
+        - button
+        - navigation:
+          - button [disabled]:
+            - generic: İdarə paneli
+          - link:
+            - /url: /universities
+            - generic: Universitetlər
+          - link:
+            - /url: /applications
+            - generic: Müraciətlər
+          - link:
+            - /url: /students
+            - generic: Tələbələr
+          - link:
+            - /url: /agents
+            - generic: Agentlər
+          - link:
+            - /url: /services
+            - generic: Xidmətlər
+          - button [disabled]:
+            - generic: Maliyyə
+          - button [disabled]:
+            - generic: CRM
+          - button [disabled]:
+            - generic: Hesabatlar
+          - button [disabled]:
+            - generic: Arxiv
+          - button [disabled]:
+            - generic: HR
+          - button [disabled]:
+            - generic: Ayarlar
+        - generic:
+          - button:
+            - generic: QS
+            - generic:
+              - generic: qa-services-1785158332656@local.test
+              - generic: Təsisçi və CEO
+          - button:
+            - generic:
+              - generic: Kömək lazımdır?
+              - generic: Dəstəyə yazın
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Xidmətlər
+                - paragraph: Xidmət kataloqunu, tələbə qiymətlərini, agentə özəl tarifləri və portallardan daxil olan sifarişləri bir mərkəzdən idarə edin.
+              - button: Yeni xidmət
+            - generic: Yeni xidmət yaradıldı.
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv xidmət
+                    - generic: "1"
+                    - generic: Portallarda satışa açıq xidmətlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Xüsusi qiymət
+                    - generic: "0"
+                    - generic: Agentlər üçün fərdiləşdirilmiş tariflər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv sifariş
+                    - generic: "0"
+                    - generic: Təsdiq və icra gözləyən sifarişlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Tamamlanan sifariş
+                    - generic: "0"
+                    - generic: Komanda tərəfindən tamamlanan sifarişlər
+            - generic:
+              - button: Xidmət kataloqu
+              - button:
+                - text: Sifarişlər
+                - generic: "0"
+            - generic:
+              - article:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading [level=2]: "[QA] Viza dəstəyi"
+                        - generic: Aktiv
+                      - paragraph: Viza sənədlərinin yoxlanması və müraciət dəstəyi.
+                  - generic:
+                    - button [expanded]
+                    - button
+                - generic:
+                  - generic:
+                    - generic: Agent baza qiyməti
+                    - generic: AZN 180
+                  - generic:
+                    - generic: Tələbə qiyməti
+                    - generic: AZN 250
+                - generic:
+                  - generic: 0 sifariş
+                  - generic: ·
+                  - generic: 0 xüsusi agent qiyməti
+                  - generic: ·
+                  - generic: "Sıra: 0"
+  - region "Notifications alt+T"
+  - generic [ref=f9e148] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f9e149]
+    - generic [ref=f9e251]:
+      - button "Open issues overlay" [ref=f9e252]:
+        - generic [ref=f9e253]:
+          - generic [ref=f9e254]: "0"
+          - generic [ref=f9e255]: "1"
+        - generic [ref=f9e256]: Issue
+      - button "Collapse issues badge" [ref=f9e257]
+  - alert
+  - dialog [ref=f9e261]:
+    - generic [ref=f9e262]:
+      - heading "Agent qiymətləri" [level=2] [ref=f9e263]
+      - paragraph [ref=f9e264]: "[QA] Viza dəstəyi üçün agentə özəl qiymət baza qiymətini əvəz edir."
+    - generic [ref=f9e265]:
+      - generic [ref=f9e266]:
+        - generic [ref=f9e267]: Standart agent qiyməti
+        - generic [ref=f9e268]: AZN 180
+      - generic [ref=f9e269]:
+        - generic [ref=f9e270]:
+          - generic [ref=f9e271]: Agent
+          - combobox "Agent" [active] [ref=f9e272]:
+            - option "Agent seçin" [selected]
+            - option "Becker and Stone Plc"
+            - option "NoktheAgency"
+        - generic [ref=f9e273]:
+          - generic [ref=f9e274]: Qiymət
+          - spinbutton "Qiymət" [ref=f9e275]
+        - generic [ref=f9e276]:
+          - generic [ref=f9e277]: Valyuta
+          - textbox "Valyuta" [ref=f9e278]: AZN
+        - button "Təyin et" [ref=f9e279] [cursor=pointer]
+      - generic [ref=f9e280]:
+        - heading "Aktiv xüsusi qiymətlər" [level=3] [ref=f9e281]
+        - paragraph [ref=f9e283]: Agentə özəl qiymət hələ yoxdur.
+    - button "Bağla" [ref=f9e284] [cursor=pointer]

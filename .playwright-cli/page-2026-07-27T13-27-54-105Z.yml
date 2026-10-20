@@ -1,0 +1,35 @@
+- generic [active] [ref=f6e1]:
+  - main [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - generic [ref=f6e5]: Campus Global ERP
+        - generic [ref=f6e13]:
+          - generic [ref=f6e17]: Təhlükəsiz giriş
+          - generic [ref=f6e18]: AZ
+      - generic [ref=f6e20]:
+        - generic [ref=f6e21]:
+          - heading "Portala daxil olun" [level=1] [ref=f6e28]
+          - paragraph [ref=f6e29]: Hesab məlumatlarınızla daxil olun. Portal icazələriniz avtomatik tanınacaq.
+        - generic [ref=f6e30]:
+          - generic [ref=f6e31]:
+            - text: E-poçt
+            - textbox "E-poçt" [ref=f6e33]:
+              - /placeholder: email@campus.global
+          - generic [ref=f6e34]:
+            - text: Şifrə
+            - generic [ref=f6e35]:
+              - textbox "Şifrə Şifrəni göstər" [ref=f6e36]:
+                - /placeholder: Şifrənizi daxil edin
+              - button "Şifrəni göstər" [ref=f6e37] [cursor=pointer]
+        - generic [ref=f6e41]:
+          - generic [ref=f6e42]:
+            - checkbox "Məni yadda saxla" [checked] [ref=f6e43] [cursor=pointer]
+            - checkbox [checked]
+            - text: Məni yadda saxla
+          - link "Şifrəni unutdunuz?" [ref=f6e44] [cursor=pointer]:
+            - /url: "#reset-password"
+        - button "Daxil ol" [ref=f6e45] [cursor=pointer]
+        - generic [ref=f6e47]: Məlumatlarınız şifrələnir və təhlükəsiz qorunur.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f6e59] [cursor=pointer]
+  - alert [ref=f6e63]

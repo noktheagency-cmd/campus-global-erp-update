@@ -1,0 +1,10 @@
+
+> campus-global-erp@0.1.0 dev
+> next dev --port 3002
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://192.168.0.101:3002
+- Environments: .env
+✓ Ready in 588ms
+[?25h

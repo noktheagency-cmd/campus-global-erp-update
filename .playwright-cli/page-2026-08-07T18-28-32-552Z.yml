@@ -1,0 +1,285 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]: C
+      - navigation [ref=e7]:
+        - link "İdarə paneli" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Universitetlər" [ref=e9] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=e10] [cursor=pointer]:
+          - /url: /applications
+        - link "Tələbələr" [ref=e11] [cursor=pointer]:
+          - /url: /students
+        - link "Agentlər" [ref=e12] [cursor=pointer]:
+          - /url: /agents
+        - link "Xidmətlər" [ref=e13] [cursor=pointer]:
+          - /url: /services
+        - link "Maliyyə" [ref=e14] [cursor=pointer]:
+          - /url: /finance
+        - link "CRM" [ref=e15] [cursor=pointer]:
+          - /url: /crm
+        - link "Dəstək" [ref=e16] [cursor=pointer]:
+          - /url: /support
+        - button [disabled]
+        - button [disabled]
+        - link "HR" [ref=e17] [cursor=pointer]:
+          - /url: /hr
+        - button [disabled]
+    - main [ref=e18]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - heading "İnsan resursları" [level=1] [ref=e23]
+            - paragraph [ref=e24]: Əməkdaşları, davamiyyəti və komanda inkişafını vahid mərkəzdən idarə edin.
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - generic [ref=e29]: avqust 2026
+              - textbox "Hesabat ayı" [ref=e30] [cursor=pointer]: 2026-08
+            - link "Hesabatı endir" [ref=e31] [cursor=pointer]:
+              - /url: /api/hr/employees/export
+            - button "Yeni əməkdaş" [ref=e32] [cursor=pointer]
+        - generic [ref=e34]: Demo məlumatları göstərilir. Migration tətbiq olunandan sonra real HR reyestri avtomatik açılacaq.
+        - generic [ref=e36]:
+          - tablist [ref=e38]:
+            - tab "İcmal" [selected] [ref=e39] [cursor=pointer]
+            - tab "Əməkdaşlar" [ref=e40] [cursor=pointer]
+            - tab "Davamiyyət" [ref=e41] [cursor=pointer]
+            - tab "Məzuniyyət" [ref=e42] [cursor=pointer]
+            - tab "İşə qəbul" [ref=e43] [cursor=pointer]
+            - tab "Performans" [ref=e44] [cursor=pointer]
+            - tab "Əmək haqqı" [ref=e45] [cursor=pointer]
+          - tabpanel "İcmal" [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e55]:
+                  - generic [ref=e56]: Ümumi əməkdaş
+                  - strong [ref=e57]: "24"
+                - generic [ref=e64]:
+                  - generic [ref=e65]: Aktiv
+                  - strong [ref=e66]: "22"
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Bu gün işdə
+                  - strong [ref=e74]: "19"
+                - generic [ref=e82]:
+                  - generic [ref=e83]: Məzuniyyətdə
+                  - strong [ref=e84]: "2"
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Açıq vakansiya
+                  - strong [ref=e93]: "3"
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - heading "Əməkdaş sayı və dəyişiklik trendi" [level=2] [ref=e97]
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: Əməkdaş sayı
+                    - generic [ref=e101]: Qoşulanlar
+                    - generic [ref=e103]: Ayrılanlar
+                  - img "Əməkdaş sayı, qoşulan və ayrılan əməkdaşların aylıq trendi" [ref=e106]:
+                    - generic [ref=e107]: "24"
+                    - generic [ref=e109]: "18"
+                    - generic [ref=e111]: "12"
+                    - generic [ref=e113]: "6"
+                    - generic [ref=e115]: "0"
+                    - generic [ref=e117]: Sen 25
+                    - generic [ref=e118]: Okt 25
+                    - generic [ref=e119]: Noy 25
+                    - generic [ref=e120]: Dek 25
+                    - generic [ref=e121]: Yan 26
+                    - generic [ref=e122]: Fev 26
+                    - generic [ref=e123]: Mar 26
+                    - generic [ref=e124]: Apr 26
+                    - generic [ref=e125]: May 26
+                    - generic [ref=e126]: İyn 26
+                    - generic [ref=e127]: İyl 26
+                    - generic [ref=e128]: Avq 26
+                    - generic [ref=e129]:
+                      - 'generic "Sen 25 — Əməkdaş sayı: 18" [ref=e131]'
+                      - 'generic "Okt 25 — Əməkdaş sayı: 18" [ref=e132]'
+                      - 'generic "Noy 25 — Əməkdaş sayı: 19" [ref=e133]'
+                      - 'generic "Dek 25 — Əməkdaş sayı: 19" [ref=e134]'
+                      - 'generic "Yan 26 — Əməkdaş sayı: 20" [ref=e135]'
+                      - 'generic "Fev 26 — Əməkdaş sayı: 20" [ref=e136]'
+                      - 'generic "Mar 26 — Əməkdaş sayı: 21" [ref=e137]'
+                      - 'generic "Apr 26 — Əməkdaş sayı: 21" [ref=e138]'
+                      - 'generic "May 26 — Əməkdaş sayı: 22" [ref=e139]'
+                      - 'generic "İyn 26 — Əməkdaş sayı: 23" [ref=e140]'
+                      - 'generic "İyl 26 — Əməkdaş sayı: 23" [ref=e141]'
+                      - 'generic "Avq 26 — Əməkdaş sayı: 24" [ref=e142]'
+                    - generic [ref=e143]:
+                      - 'generic "Sen 25 — Qoşulanlar: 2" [ref=e145]'
+                      - 'generic "Okt 25 — Qoşulanlar: 1" [ref=e146]'
+                      - 'generic "Noy 25 — Qoşulanlar: 2" [ref=e147]'
+                      - 'generic "Dek 25 — Qoşulanlar: 1" [ref=e148]'
+                      - 'generic "Yan 26 — Qoşulanlar: 2" [ref=e149]'
+                      - 'generic "Fev 26 — Qoşulanlar: 1" [ref=e150]'
+                      - 'generic "Mar 26 — Qoşulanlar: 2" [ref=e151]'
+                      - 'generic "Apr 26 — Qoşulanlar: 1" [ref=e152]'
+                      - 'generic "May 26 — Qoşulanlar: 2" [ref=e153]'
+                      - 'generic "İyn 26 — Qoşulanlar: 3" [ref=e154]'
+                      - 'generic "İyl 26 — Qoşulanlar: 1" [ref=e155]'
+                      - 'generic "Avq 26 — Qoşulanlar: 2" [ref=e156]'
+                    - generic [ref=e157]:
+                      - 'generic "Sen 25 — Ayrılanlar: 1" [ref=e159]'
+                      - 'generic "Okt 25 — Ayrılanlar: 1" [ref=e160]'
+                      - 'generic "Noy 25 — Ayrılanlar: 0" [ref=e161]'
+                      - 'generic "Dek 25 — Ayrılanlar: 1" [ref=e162]'
+                      - 'generic "Yan 26 — Ayrılanlar: 1" [ref=e163]'
+                      - 'generic "Fev 26 — Ayrılanlar: 2" [ref=e164]'
+                      - 'generic "Mar 26 — Ayrılanlar: 1" [ref=e165]'
+                      - 'generic "Apr 26 — Ayrılanlar: 1" [ref=e166]'
+                      - 'generic "May 26 — Ayrılanlar: 0" [ref=e167]'
+                      - 'generic "İyn 26 — Ayrılanlar: 1" [ref=e168]'
+                      - 'generic "İyl 26 — Ayrılanlar: 1" [ref=e169]'
+                      - 'generic "Avq 26 — Ayrılanlar: 1" [ref=e170]'
+                - generic [ref=e171]:
+                  - heading "Departamentlər üzrə bölgü" [level=2] [ref=e173]
+                  - generic [ref=e174]:
+                    - generic [ref=e175]:
+                      - img "Departamentlər üzrə 19 əməkdaşın bölgüsü" [ref=e176]:
+                        - generic [ref=e178]: "Qəbul: 4 əməkdaş; İT: 3 əməkdaş; Marketinq: 3 əməkdaş; Maliyyə: 3 əməkdaş; Əməliyyat: 3 əməkdaş; Satış: 3 əməkdaş"
+                      - generic:
+                        - strong: "24"
+                        - generic: Ümumi
+                    - generic [ref=e179]:
+                      - generic [ref=e180]:
+                        - generic [ref=e181]: Qəbul
+                        - strong [ref=e184]: "4"
+                        - generic [ref=e185]: 17%
+                      - generic [ref=e186]:
+                        - generic [ref=e187]: İT
+                        - strong [ref=e190]: "3"
+                        - generic [ref=e191]: 13%
+                      - generic [ref=e192]:
+                        - generic [ref=e193]: Marketinq
+                        - strong [ref=e196]: "3"
+                        - generic [ref=e197]: 13%
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: Maliyyə
+                        - strong [ref=e202]: "3"
+                        - generic [ref=e203]: 13%
+                      - generic [ref=e204]:
+                        - generic [ref=e205]: Əməliyyat
+                        - strong [ref=e208]: "3"
+                        - generic [ref=e209]: 13%
+                      - generic [ref=e210]:
+                        - generic [ref=e211]: Satış
+                        - strong [ref=e214]: "3"
+                        - generic [ref=e215]: 13%
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - heading "Bu gün davamiyyət" [level=2] [ref=e219]
+                    - generic [ref=e220]: Hamısına bax
+                  - generic [ref=e221]:
+                    - button "RM Rəşad Məmmədov 09:00 Vaxtında" [ref=e222] [cursor=pointer]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]: RM
+                        - generic [ref=e225]: Rəşad Məmmədov
+                      - generic [ref=e226]: 09:00
+                      - generic [ref=e227]: Vaxtında
+                    - button "AH Aysel Həsənova 09:11 Gecikib" [ref=e228] [cursor=pointer]:
+                      - generic [ref=e229]:
+                        - generic [ref=e230]: AH
+                        - generic [ref=e231]: Aysel Həsənova
+                      - generic [ref=e232]: 09:11
+                      - generic [ref=e233]: Gecikib
+                    - button "TƏ Tural Əlizadə 09:00 Uzaqdan" [ref=e234] [cursor=pointer]:
+                      - generic [ref=e235]:
+                        - generic [ref=e236]: TƏ
+                        - generic [ref=e237]: Tural Əlizadə
+                      - generic [ref=e238]: 09:00
+                      - generic [ref=e239]: Uzaqdan
+                    - button "NM Nigar Məlikova 09:00 Vaxtında" [ref=e240] [cursor=pointer]:
+                      - generic [ref=e241]:
+                        - generic [ref=e242]: NM
+                        - generic [ref=e243]: Nigar Məlikova
+                      - generic [ref=e244]: 09:00
+                      - generic [ref=e245]: Vaxtında
+                    - button "AR Anar Rzayev 09:00 Vaxtında" [ref=e246] [cursor=pointer]:
+                      - generic [ref=e247]:
+                        - generic [ref=e248]: AR
+                        - generic [ref=e249]: Anar Rzayev
+                      - generic [ref=e250]: 09:00
+                      - generic [ref=e251]: Vaxtında
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - heading "Təsdiq gözləyənlər" [level=2] [ref=e254]
+                    - generic [ref=e255]: Hamısına bax
+                  - generic [ref=e256]:
+                    - generic [ref=e257]:
+                      - generic [ref=e258]:
+                        - generic [ref=e259]:
+                          - generic [ref=e260]: SM
+                          - strong [ref=e261]: Sabina Məmmədli
+                        - generic [ref=e262]:
+                          - generic [ref=e263]: 10 Avq – 14 Avq
+                          - generic [ref=e264]: İllik məzuniyyət
+                      - generic [ref=e265]:
+                        - button "Təsdiqlə" [ref=e266] [cursor=pointer]
+                        - button "Rədd et" [ref=e267] [cursor=pointer]
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - generic [ref=e270]:
+                          - generic [ref=e271]: İH
+                          - strong [ref=e272]: İlkin Hüseynli
+                        - generic [ref=e273]:
+                          - generic [ref=e274]: 07 Avq – 08 Avq
+                          - generic [ref=e275]: Xəstəlik
+                      - generic [ref=e276]:
+                        - button "Təsdiqlə" [ref=e277] [cursor=pointer]
+                        - button "Rədd et" [ref=e278] [cursor=pointer]
+                    - generic [ref=e279]:
+                      - generic [ref=e280]:
+                        - generic [ref=e281]:
+                          - generic [ref=e282]: NM
+                          - strong [ref=e283]: Nicat Mənsimov
+                        - generic [ref=e284]:
+                          - generic [ref=e285]: 17 Avq – 21 Avq
+                          - generic [ref=e286]: İllik məzuniyyət
+                      - generic [ref=e287]:
+                        - button "Təsdiqlə" [ref=e288] [cursor=pointer]
+                        - button "Rədd et" [ref=e289] [cursor=pointer]
+                    - generic [ref=e290]:
+                      - generic [ref=e291]:
+                        - generic [ref=e292]:
+                          - generic [ref=e293]: KA
+                          - strong [ref=e294]: Könül Abbasova
+                        - generic [ref=e295]:
+                          - generic [ref=e296]: 24 Avq – 26 Avq
+                          - generic [ref=e297]: Təhsil
+                      - generic [ref=e298]:
+                        - button "Təsdiqlə" [ref=e299] [cursor=pointer]
+                        - button "Rədd et" [ref=e300] [cursor=pointer]
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - heading "Yaxın tarixlər" [level=2] [ref=e303]
+                    - generic [ref=e304]: Hamısına bax
+                  - generic [ref=e305]:
+                    - button "İlhamə Quliyeva Doğum günü 08 Avq" [ref=e306] [cursor=pointer]:
+                      - generic [ref=e312]:
+                        - strong [ref=e313]: İlhamə Quliyeva
+                        - generic [ref=e314]: Doğum günü
+                      - generic [ref=e315]: 08 Avq
+                    - button "Arif Rüstəmov 3 il tamam olur 12 Avq" [ref=e316] [cursor=pointer]:
+                      - generic [ref=e323]:
+                        - strong [ref=e324]: Arif Rüstəmov
+                        - generic [ref=e325]: 3 il tamam olur
+                      - generic [ref=e326]: 12 Avq
+                    - button "Sevinc Muradova 2 il tamam olur 17 Avq" [ref=e327] [cursor=pointer]:
+                      - generic [ref=e334]:
+                        - strong [ref=e335]: Sevinc Muradova
+                        - generic [ref=e336]: 2 il tamam olur
+                      - generic [ref=e337]: 17 Avq
+                    - button "İlkin Hüseynli Müqavilə bitir 20 Avq" [ref=e338] [cursor=pointer]:
+                      - generic [ref=e343]:
+                        - strong [ref=e344]: İlkin Hüseynli
+                        - generic [ref=e345]: Müqavilə bitir
+                      - generic [ref=e346]: 20 Avq
+                    - button "Nərgiz Abbasova Müqavilə bitir 30 Avq" [ref=e347] [cursor=pointer]:
+                      - generic [ref=e352]:
+                        - strong [ref=e353]: Nərgiz Abbasova
+                        - generic [ref=e354]: Müqavilə bitir
+                      - generic [ref=e355]: 30 Avq
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e361] [cursor=pointer]
+  - alert [ref=e365]

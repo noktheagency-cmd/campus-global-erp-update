@@ -1,0 +1,101 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e3]:
+    - complementary [ref=f17e4]:
+      - generic [ref=f17e5]:
+        - generic [ref=f17e6]: C
+        - generic [ref=f17e7]:
+          - generic [ref=f17e8]: Campus
+          - generic [ref=f17e9]: Global
+      - button "Sidebar küçült" [ref=f17e10] [cursor=pointer]
+      - navigation [ref=f17e11]:
+        - button "İdarə paneli" [disabled]
+        - link "Universitetlər" [ref=f17e12] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=f17e14] [cursor=pointer]:
+          - /url: /applications
+        - link "Tələbələr" [ref=f17e16] [cursor=pointer]:
+          - /url: /students
+        - link "Agentlər" [ref=f17e18] [cursor=pointer]:
+          - /url: /agents
+        - link "Xidmətlər" [ref=f17e20] [cursor=pointer]:
+          - /url: /services
+        - button "Maliyyə" [disabled]
+        - button "CRM" [disabled]
+        - button "Hesabatlar" [disabled]
+        - button "Arxiv" [disabled]
+        - button "HR" [disabled]
+        - button "Ayarlar" [disabled]
+      - generic [ref=f17e22]:
+        - button "elnur.jamalov@campusglobal.az hesabı" [ref=f17e23] [cursor=pointer]:
+          - generic [ref=f17e24]: EJ
+          - generic [ref=f17e26]:
+            - generic [ref=f17e27]: elnur.jamalov@campusglobal.az
+            - generic [ref=f17e28]: Təsisçi və CEO
+        - button "Dəstəyə yazın" [ref=f17e31] [cursor=pointer]:
+          - generic [ref=f17e40]:
+            - generic [ref=f17e41]: Kömək lazımdır?
+            - generic [ref=f17e42]: Dəstəyə yazın
+    - main [ref=f17e45]:
+      - generic [ref=f17e47]:
+        - generic [ref=f17e49]:
+          - generic [ref=f17e50]:
+            - link "Müraciətlərə qayıt" [ref=f17e51] [cursor=pointer]:
+              - /url: /applications
+            - generic [ref=f17e52]: QS
+            - generic [ref=f17e53]:
+              - generic [ref=f17e54]:
+                - heading "QA Student" [level=1] [ref=f17e55]
+                - generic [ref=f17e56]: 0 müraciət
+                - generic [ref=f17e57]: Aktiv
+              - generic [ref=f17e58]:
+                - generic [ref=f17e59]: Profil
+                - generic [ref=f17e60]: Vətəndaşlıq qeyd olunmayıb
+                - generic [ref=f17e61]: QA Education
+              - generic [ref=f17e62]:
+                - generic [ref=f17e63]: qa-student-0d36768965@local.test
+                - generic [ref=f17e68]: Telefon yoxdur
+                - generic [ref=f17e72]: Ünvan yoxdur
+              - button "Bütün tələbə məlumatlarını göstər" [ref=f17e77] [cursor=pointer]
+          - generic [ref=f17e78]:
+            - generic [ref=f17e79]:
+              - generic [ref=f17e80]: Cəmi müraciət
+              - generic [ref=f17e81]: "0"
+            - generic [ref=f17e82]:
+              - generic [ref=f17e83]: Aktiv müraciət
+              - generic [ref=f17e84]: "0"
+            - generic [ref=f17e85]:
+              - generic [ref=f17e86]: Sənəd
+              - generic [ref=f17e87]: 0/0
+            - generic [ref=f17e88]:
+              - generic [ref=f17e89]: Çatışmayan
+              - generic [ref=f17e90]: "0"
+        - generic [ref=f17e91]:
+          - generic [ref=f17e92]:
+            - generic [ref=f17e93]: Ümumi sənədlər
+            - paragraph [ref=f17e97]: Tələbənin profilinə birbaşa əlavə edilmiş, bütün müraciətlər üçün əlçatan sənədlər.
+          - generic [ref=f17e98]: Tələbənin ümumi sənədi yoxdur.
+        - generic [ref=f17e100]:
+          - generic [ref=f17e101]:
+            - generic [ref=f17e102]: Müraciətlər
+            - paragraph [ref=f17e106]: Başlıqlar yığcam saxlanılıb. Aşağı oxu ilə hər müraciətin bütün detallarını açın.
+          - generic [ref=f17e107]: Tələbənin hələ müraciəti yoxdur.
+        - generic [ref=f17e109]:
+          - button "Loglar 0 qeyd Profil, müraciət və sənəd hadisələri burada görünəcək. Aç" [ref=f17e110] [cursor=pointer]:
+            - generic [ref=f17e117]:
+              - generic [ref=f17e118]:
+                - heading "Loglar" [level=2] [ref=f17e119]
+                - generic [ref=f17e120]: 0 qeyd
+              - paragraph [ref=f17e121]: Profil, müraciət və sənəd hadisələri burada görünəcək.
+            - generic [ref=f17e122]: Aç
+          - generic: Log yoxdur.
+        - button "Mesajlaşma" [ref=f17e130] [cursor=pointer]:
+          - generic [ref=f17e133]: "0"
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f17e139] [cursor=pointer]:
+    - generic [ref=f17e142]:
+      - text: Compiling
+      - generic [ref=f17e143]:
+        - generic [ref=f17e144]: .
+        - generic [ref=f17e145]: .
+        - generic [ref=f17e146]: .
+  - alert [ref=f17e147]

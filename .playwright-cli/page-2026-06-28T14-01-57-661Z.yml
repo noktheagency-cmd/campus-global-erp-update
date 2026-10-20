@@ -1,0 +1,309 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: C
+        - generic [ref=e7]:
+          - generic [ref=e8]: Campus
+          - generic [ref=e9]: Global
+      - button "Sidebar küçült" [ref=e10] [cursor=pointer]:
+        - img
+      - navigation [ref=e11]:
+        - link "İdarə paneli" [ref=e12] [cursor=pointer]:
+          - /url: /dashboard
+          - img
+          - generic [ref=e13]: İdarə paneli
+        - link "Tələbələr" [ref=e14] [cursor=pointer]:
+          - /url: /students
+          - img
+          - generic [ref=e15]: Tələbələr
+        - link "Universitetlər" [ref=e16] [cursor=pointer]:
+          - /url: /universities
+          - img
+          - generic [ref=e17]: Universitetlər
+        - link "Müraciətlər" [ref=e18] [cursor=pointer]:
+          - /url: /applications
+          - img
+          - generic [ref=e19]: Müraciətlər
+      - generic [ref=e20]:
+        - button "nokthe@gmail.com hesabı" [ref=e21] [cursor=pointer]:
+          - generic [ref=e23]: "NO"
+          - generic [ref=e24]:
+            - generic [ref=e25]: nokthe@gmail.com
+            - generic [ref=e26]: Agent portalı
+          - img [ref=e27]
+        - button "Dəstəyə yazın" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Kömək lazımdır?
+            - generic [ref=e40]: Dəstəyə yazın
+          - img [ref=e41]
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Campus Global
+              - generic [ref=e51]: Universitet reyesteri
+              - generic [ref=e52]: Canlı baza
+            - heading "Universitetlər" [level=1] [ref=e53]
+          - generic [ref=e55]: Yalnız oxunan agent görünüşü
+        - generic [ref=e56]:
+          - generic [ref=e58]:
+            - img [ref=e61]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Cəmi universitet
+              - generic [ref=e66]: "8"
+              - generic [ref=e67]: Aktiv universitet profilleri
+          - generic [ref=e69]:
+            - img [ref=e72]
+            - generic [ref=e75]:
+              - generic [ref=e76]: Aktiv tərəfdaş
+              - generic [ref=e78]: "6"
+              - generic [ref=e79]: Tərəfdaşlıq statusu aktivdir
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e87]:
+              - generic [ref=e88]: Aktiv proqram
+              - generic [ref=e90]: "7"
+              - generic [ref=e91]: Seçim üçün hazır proqramlar
+          - generic [ref=e93]:
+            - img [ref=e96]
+            - generic [ref=e99]:
+              - generic [ref=e100]: Aktiv müraciət
+              - generic [ref=e102]: "0"
+              - generic [ref=e103]: İcrada olan müraciətlər
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - heading "Filtr paneli" [level=2] [ref=e108]
+              - paragraph [ref=e109]: Universitetləri ölkə, proqram və dil üzrə daraldın.
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - link "Universitetlər" [ref=e112] [cursor=pointer]:
+                  - /url: /universities
+                  - img
+                  - text: Universitetlər
+                - link "Proqramlar" [ref=e113] [cursor=pointer]:
+                  - /url: /universities?view=programs
+                  - img
+                  - text: Proqramlar
+              - generic [ref=e114]:
+                - generic [ref=e115]: 8 nəticə
+                - generic [ref=e116]: 0 aktiv filtr
+                - button "Ətraflı filtr" [ref=e117] [cursor=pointer]:
+                  - img
+                  - text: Ətraflı filtr
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - img
+              - textbox [ref=e120]:
+                - /placeholder: Universitet, şəhər, ölkə...
+            - generic [ref=e121]:
+              - generic: Ölkə
+              - combobox "Ölkə" [ref=e122] [cursor=pointer]:
+                - img
+              - combobox [ref=e123]
+            - generic [ref=e124]:
+              - generic: Proqram
+              - combobox "Proqram" [ref=e125] [cursor=pointer]:
+                - img
+              - combobox [ref=e126]
+            - generic [ref=e127]:
+              - generic: Təhsil dili
+              - combobox "Təhsil dili" [ref=e128] [cursor=pointer]:
+                - img
+              - combobox [ref=e129]
+            - generic [ref=e130]:
+              - button "Tetbiq et" [ref=e131] [cursor=pointer]:
+                - img
+                - text: Tetbiq et
+              - link "Sifirla" [ref=e132] [cursor=pointer]:
+                - /url: /universities
+                - img
+                - text: Sifirla
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Reyestr is sahesi
+              - paragraph [ref=e138]: Universitet, proqram sayi, status ve esas kontakt məlumatlarını bir cədvəldə izləyin.
+            - generic [ref=e139]:
+              - generic [ref=e140]: Gosterilir 8 / 8
+              - generic [ref=e141]: 1 seçilib
+              - generic [ref=e142]: 0 filtr
+          - generic [ref=e143]:
+            - table [ref=e146]:
+              - rowgroup [ref=e147]:
+                - row "Bütün universitetləri seç Universitet adi Ölkə / Şəhər Mekteb tipi Proqramlar Esas kontakt Yenilenme tarixi Əməliyyatlar" [ref=e148]:
+                  - columnheader "Bütün universitetləri seç" [ref=e149]:
+                    - checkbox "Bütün universitetləri seç" [ref=e150] [cursor=pointer]
+                    - checkbox
+                  - columnheader "Universitet adi" [ref=e151]
+                  - columnheader "Ölkə / Şəhər" [ref=e152]
+                  - columnheader "Mekteb tipi" [ref=e153]
+                  - columnheader "Proqramlar" [ref=e154]
+                  - columnheader "Esas kontakt" [ref=e155]
+                  - columnheader "Yenilenme tarixi" [ref=e156]
+                  - columnheader "Əməliyyatlar" [ref=e157]
+              - rowgroup [ref=e158]:
+                - row "Aliakbar Huseynov sec Aliakbar Huseynov Dövlət Azerbaijan, Baku Dövlət 1 Təyin edilməyib 28 iyn 2026 Əməliyyatlar" [ref=e159]:
+                  - cell "Aliakbar Huseynov sec" [ref=e160]:
+                    - checkbox "Aliakbar Huseynov sec" [checked] [ref=e161] [cursor=pointer]:
+                      - generic:
+                        - img
+                    - checkbox [checked]
+                  - cell "Aliakbar Huseynov Dövlət" [ref=e162]:
+                    - generic [ref=e163]:
+                      - img [ref=e165]
+                      - generic [ref=e167]:
+                        - link "Aliakbar Huseynov" [ref=e168] [cursor=pointer]:
+                          - /url: /universities/cmqwr08y20000qgeqaxs560db
+                        - generic [ref=e169]: Dövlət
+                  - cell "Azerbaijan, Baku" [ref=e170]
+                  - cell "Dövlət" [ref=e171]
+                  - cell "1" [ref=e172]
+                  - cell "Təyin edilməyib" [ref=e173]
+                  - cell "28 iyn 2026" [ref=e174]
+                  - cell "Əməliyyatlar" [ref=e175]:
+                    - button "Əməliyyatlar" [ref=e176] [cursor=pointer]:
+                      - img
+                - row "Asoiu sec Asoiu Dövlət Azerbaijan, Baku Dövlət 0 Təyin edilməyib 9 iyn 2026 Əməliyyatlar" [ref=e177]:
+                  - cell "Asoiu sec" [ref=e178]:
+                    - checkbox "Asoiu sec" [ref=e179] [cursor=pointer]
+                    - checkbox
+                  - cell "Asoiu Dövlət" [ref=e180]:
+                    - generic [ref=e181]:
+                      - img [ref=e183]
+                      - generic [ref=e185]:
+                        - link "Asoiu" [ref=e186] [cursor=pointer]:
+                          - /url: /universities/cmq5p7ho80000qkeqkrvn7g7b
+                        - generic [ref=e187]: Dövlət
+                  - cell "Azerbaijan, Baku" [ref=e188]
+                  - cell "Dövlət" [ref=e189]
+                  - cell "0" [ref=e190]
+                  - cell "Təyin edilməyib" [ref=e191]
+                  - cell "9 iyn 2026" [ref=e192]
+                  - cell "Əməliyyatlar" [ref=e193]:
+                    - button "Əməliyyatlar" [ref=e194] [cursor=pointer]:
+                      - img
+                - row "Bahcesehir University sec Bahcesehir University Foundation Turkiye, Istanbul Foundation 1 Admissions Team 7 iyn 2026 Əməliyyatlar" [ref=e195]:
+                  - cell "Bahcesehir University sec" [ref=e196]:
+                    - checkbox "Bahcesehir University sec" [ref=e197] [cursor=pointer]
+                    - checkbox
+                  - cell "Bahcesehir University Foundation" [ref=e198]:
+                    - generic [ref=e199]:
+                      - img [ref=e201]
+                      - generic [ref=e203]:
+                        - link "Bahcesehir University" [ref=e204] [cursor=pointer]:
+                          - /url: /universities/univ_bahcesehir
+                        - generic [ref=e205]: Foundation
+                  - cell "Turkiye, Istanbul" [ref=e206]
+                  - cell "Foundation" [ref=e207]
+                  - cell "1" [ref=e208]
+                  - cell "Admissions Team" [ref=e209]
+                  - cell "7 iyn 2026" [ref=e210]
+                  - cell "Əməliyyatlar" [ref=e211]:
+                    - button "Əməliyyatlar" [ref=e212] [cursor=pointer]:
+                      - img
+                - row "Istanbul Aydin University sec Istanbul Aydin University Foundation Turkiye, Istanbul Foundation 2 International Office 7 iyn 2026 Əməliyyatlar" [ref=e213]:
+                  - cell "Istanbul Aydin University sec" [ref=e214]:
+                    - checkbox "Istanbul Aydin University sec" [ref=e215] [cursor=pointer]
+                    - checkbox
+                  - cell "Istanbul Aydin University Foundation" [ref=e216]:
+                    - generic [ref=e217]:
+                      - img [ref=e219]
+                      - generic [ref=e221]:
+                        - link "Istanbul Aydin University" [ref=e222] [cursor=pointer]:
+                          - /url: /universities/univ_istanbul_aydin
+                        - generic [ref=e223]: Foundation
+                  - cell "Turkiye, Istanbul" [ref=e224]
+                  - cell "Foundation" [ref=e225]
+                  - cell "2" [ref=e226]
+                  - cell "International Office" [ref=e227]
+                  - cell "7 iyn 2026" [ref=e228]
+                  - cell "Əməliyyatlar" [ref=e229]:
+                    - button "Əməliyyatlar" [ref=e230] [cursor=pointer]:
+                      - img
+                - row "Monash University sec Monash University Dövlət Australia, Melbourne Dövlət 1 David Williams 7 iyn 2026 Əməliyyatlar" [ref=e231]:
+                  - cell "Monash University sec" [ref=e232]:
+                    - checkbox "Monash University sec" [ref=e233] [cursor=pointer]
+                    - checkbox
+                  - cell "Monash University Dövlət" [ref=e234]:
+                    - generic [ref=e235]:
+                      - img [ref=e237]
+                      - generic [ref=e239]:
+                        - link "Monash University" [ref=e240] [cursor=pointer]:
+                          - /url: /universities/univ_monash
+                        - generic [ref=e241]: Dövlət
+                  - cell "Australia, Melbourne" [ref=e242]
+                  - cell "Dövlət" [ref=e243]
+                  - cell "1" [ref=e244]
+                  - cell "David Williams" [ref=e245]
+                  - cell "7 iyn 2026" [ref=e246]
+                  - cell "Əməliyyatlar" [ref=e247]:
+                    - button "Əməliyyatlar" [ref=e248] [cursor=pointer]:
+                      - img
+                - row "University College London sec University College London Dövlət United Kingdom, London Dövlət 1 Emma Johnson 7 iyn 2026 Əməliyyatlar" [ref=e249]:
+                  - cell "University College London sec" [ref=e250]:
+                    - checkbox "University College London sec" [ref=e251] [cursor=pointer]
+                    - checkbox
+                  - cell "University College London Dövlət" [ref=e252]:
+                    - generic [ref=e253]:
+                      - img [ref=e255]
+                      - generic [ref=e257]:
+                        - link "University College London" [ref=e258] [cursor=pointer]:
+                          - /url: /universities/univ_ucl
+                        - generic [ref=e259]: Dövlət
+                  - cell "United Kingdom, London" [ref=e260]
+                  - cell "Dövlət" [ref=e261]
+                  - cell "1" [ref=e262]
+                  - cell "Emma Johnson" [ref=e263]
+                  - cell "7 iyn 2026" [ref=e264]
+                  - cell "Əməliyyatlar" [ref=e265]:
+                    - button "Əməliyyatlar" [ref=e266] [cursor=pointer]:
+                      - img
+                - row "University of Europe for Applied Sciences sec University of Europe for Applied Sciences Özəl Germany, Berlin Özəl 1 Regional Recruitment 7 iyn 2026 Əməliyyatlar" [ref=e267]:
+                  - cell "University of Europe for Applied Sciences sec" [ref=e268]:
+                    - checkbox "University of Europe for Applied Sciences sec" [ref=e269] [cursor=pointer]
+                    - checkbox
+                  - cell "University of Europe for Applied Sciences Özəl" [ref=e270]:
+                    - generic [ref=e271]:
+                      - img [ref=e273]
+                      - generic [ref=e275]:
+                        - link "University of Europe for Applied Sciences" [ref=e276] [cursor=pointer]:
+                          - /url: /universities/univ_europe_applied_sciences
+                        - generic [ref=e277]: Özəl
+                  - cell "Germany, Berlin" [ref=e278]
+                  - cell "Özəl" [ref=e279]
+                  - cell "1" [ref=e280]
+                  - cell "Regional Recruitment" [ref=e281]
+                  - cell "7 iyn 2026" [ref=e282]
+                  - cell "Əməliyyatlar" [ref=e283]:
+                    - button "Əməliyyatlar" [ref=e284] [cursor=pointer]:
+                      - img
+                - row "University of Toronto sec University of Toronto Dövlət Canada, Toronto Dövlət 1 Michael Chen 7 iyn 2026 Əməliyyatlar" [ref=e285]:
+                  - cell "University of Toronto sec" [ref=e286]:
+                    - checkbox "University of Toronto sec" [ref=e287] [cursor=pointer]
+                    - checkbox
+                  - cell "University of Toronto Dövlət" [ref=e288]:
+                    - generic [ref=e289]:
+                      - img [ref=e291]
+                      - generic [ref=e293]:
+                        - link "University of Toronto" [ref=e294] [cursor=pointer]:
+                          - /url: /universities/univ_toronto
+                        - generic [ref=e295]: Dövlət
+                  - cell "Canada, Toronto" [ref=e296]
+                  - cell "Dövlət" [ref=e297]
+                  - cell "1" [ref=e298]
+                  - cell "Michael Chen" [ref=e299]
+                  - cell "7 iyn 2026" [ref=e300]
+                  - cell "Əməliyyatlar" [ref=e301]:
+                    - button "Əməliyyatlar" [ref=e302] [cursor=pointer]:
+                      - img
+            - generic [ref=e303]:
+              - generic [ref=e304]: 1-8 / 8 nəticə
+              - link "1" [ref=e306] [cursor=pointer]:
+                - /url: /universities
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e312] [cursor=pointer]:
+    - img [ref=e313]

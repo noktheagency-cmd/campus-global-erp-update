@@ -1,0 +1,38 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e3]:
+    - complementary [ref=f15e4]:
+      - generic [ref=f15e5]:
+        - generic [ref=f15e6]: C
+        - generic [ref=f15e7]:
+          - generic [ref=f15e8]: Campus
+          - generic [ref=f15e9]: Global
+      - button "Sidebar küçült" [ref=f15e10] [cursor=pointer]
+      - navigation [ref=f15e11]:
+        - link "İdarə paneli" [ref=f15e12] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Müraciətlər" [ref=f15e14] [cursor=pointer]:
+          - /url: /applications
+        - link "Bildirişlər" [ref=f15e16] [cursor=pointer]:
+          - /url: /updates
+        - link "Profil" [ref=f15e18] [cursor=pointer]:
+          - /url: /profile
+        - link "Universitetlər" [ref=f15e20] [cursor=pointer]:
+          - /url: /universities
+        - link "Sənədlər" [ref=f15e22] [cursor=pointer]:
+          - /url: /documents
+        - link "Xidmətlər" [ref=f15e24] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f15e26]:
+        - button "ali@gmail.com hesabı" [ref=f15e27] [cursor=pointer]:
+          - generic [ref=f15e28]: AL
+          - generic [ref=f15e30]:
+            - generic [ref=f15e31]: ali@gmail.com
+            - generic [ref=f15e32]: Tələbə portalı
+        - button "Dəstəyə yazın" [ref=f15e35] [cursor=pointer]:
+          - generic [ref=f15e44]:
+            - generic [ref=f15e45]: Kömək lazımdır?
+            - generic [ref=f15e46]: Dəstəyə yazın
+    - main [ref=f15e49]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f15e144] [cursor=pointer]
+  - alert [ref=f15e148]

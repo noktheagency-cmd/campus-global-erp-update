@@ -1,0 +1,240 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - complementary [ref=f13e4]:
+      - generic [ref=f13e5]:
+        - generic [ref=f13e6]: C
+        - generic [ref=f13e7]:
+          - generic [ref=f13e8]: Campus
+          - generic [ref=f13e9]: Global
+      - button "Sidebar küçült" [ref=f13e10] [cursor=pointer]
+      - navigation [ref=f13e11]:
+        - button "İdarə paneli" [disabled]
+        - link "Universitetlər" [ref=f13e12] [cursor=pointer]:
+          - /url: /universities
+        - link "Müraciətlər" [ref=f13e14] [cursor=pointer]:
+          - /url: /applications
+        - link "Tələbələr" [ref=f13e16] [cursor=pointer]:
+          - /url: /students
+        - link "Agentlər" [ref=f13e18] [cursor=pointer]:
+          - /url: /agents
+        - link "Xidmətlər" [ref=f13e20] [cursor=pointer]:
+          - /url: /services
+        - button "Maliyyə" [disabled]
+        - button "CRM" [disabled]
+        - button "Hesabatlar" [disabled]
+        - button "Arxiv" [disabled]
+        - button "HR" [disabled]
+        - button "Ayarlar" [disabled]
+      - generic [ref=f13e22]:
+        - button "elnur.jamalov@campusglobal.az hesabı" [ref=f13e23] [cursor=pointer]:
+          - generic [ref=f13e24]: EJ
+          - generic [ref=f13e26]:
+            - generic [ref=f13e27]: elnur.jamalov@campusglobal.az
+            - generic [ref=f13e28]: Təsisçi və CEO
+        - button "Dəstəyə yazın" [ref=f13e31] [cursor=pointer]:
+          - generic [ref=f13e40]:
+            - generic [ref=f13e41]: Kömək lazımdır?
+            - generic [ref=f13e42]: Dəstəyə yazın
+    - main [ref=f13e45]:
+      - generic [ref=f13e47]:
+        - generic [ref=f13e48]:
+          - generic [ref=f13e49]:
+            - heading "Tələbələr" [level=1] [ref=f13e50]
+            - paragraph [ref=f13e51]: Profil, portal və sənəd vəziyyətini yığcam reyestrdən idarə edin.
+          - generic [ref=f13e52]:
+            - button "İxrac" [ref=f13e53] [cursor=pointer]
+            - link "Tələbə əlavə et" [ref=f13e54] [cursor=pointer]:
+              - /url: /students/new
+        - generic [ref=f13e55]:
+          - generic [ref=f13e61]:
+            - generic [ref=f13e62]: Cəmi tələbə
+            - generic [ref=f13e63]: "7"
+          - generic [ref=f13e70]:
+            - generic [ref=f13e71]: Aktiv müraciət
+            - generic [ref=f13e72]: "7"
+          - generic [ref=f13e78]:
+            - generic [ref=f13e79]: Portal növbəsi
+            - generic [ref=f13e80]: "0"
+          - generic [ref=f13e85]:
+            - generic [ref=f13e86]: Çatışmayan sənəd
+            - generic [ref=f13e87]: "4"
+        - generic [ref=f13e88]:
+          - generic [ref=f13e90]:
+            - generic [ref=f13e91]:
+              - generic [ref=f13e92]: Tələbə axtarışı
+              - textbox "Tələbə axtarışı" [ref=f13e93]:
+                - /placeholder: Ad, ID, e-poçt, pasport...
+            - combobox "Vətəndaşlıq" [ref=f13e94] [cursor=pointer]
+            - combobox [ref=f13e95]
+            - combobox "Agent" [ref=f13e96] [cursor=pointer]
+            - combobox [ref=f13e97]
+            - combobox "Portal" [ref=f13e98] [cursor=pointer]
+            - combobox [ref=f13e99]
+            - combobox "Sıralama" [ref=f13e100] [cursor=pointer]
+            - combobox [ref=f13e101]
+            - generic [ref=f13e102]:
+              - button "Tətbiq et" [ref=f13e103] [cursor=pointer]
+              - link "Filtrləri təmizlə" [ref=f13e104] [cursor=pointer]:
+                - /url: /students
+          - generic [ref=f13e105]:
+            - generic [ref=f13e106]: Tələbə reyestri
+            - generic [ref=f13e107]: 7 nəticə · 1–7
+          - generic [ref=f13e109]:
+            - generic [ref=f13e110]:
+              - generic [ref=f13e111]: "No"
+              - generic [ref=f13e112]: Tələbə
+              - generic [ref=f13e113]: Əlaqə
+              - generic [ref=f13e114]: Agent
+              - generic [ref=f13e115]: Mərhələ
+              - generic [ref=f13e116]: Portal / sənəd
+              - generic [ref=f13e117]: Yenilənib
+              - generic [ref=f13e118]: Detal
+            - generic [ref=f13e119]:
+              - generic [ref=f13e120]: "1"
+              - generic [ref=f13e122]:
+                - generic [ref=f13e123]: QS
+                - generic [ref=f13e124]:
+                  - link "QA Student" [ref=f13e125] [cursor=pointer]:
+                    - /url: /applications/students/qa_student_0d36768965
+                  - generic [ref=f13e126]: Təyin edilməyib · qa_student_0d36768965
+              - generic [ref=f13e127]:
+                - paragraph [ref=f13e128]:
+                  - generic [ref=f13e132]: qa-student-0d36768965@local.test
+                - paragraph [ref=f13e133]:
+                  - generic [ref=f13e136]: Təyin edilməyib
+              - paragraph [ref=f13e138]: QA Education
+              - generic [ref=f13e139]: Profil
+              - generic [ref=f13e142]:
+                - generic [ref=f13e143]: Aktiv
+                - generic [ref=f13e144]: "0"
+              - paragraph [ref=f13e149]: Jul 27, 2026
+              - link "QA Student tələbə detalını aç" [ref=f13e151] [cursor=pointer]:
+                - /url: /applications/students/qa_student_0d36768965
+            - generic [ref=f13e155]:
+              - generic [ref=f13e156]: "2"
+              - generic [ref=f13e158]:
+                - generic [ref=f13e159]: RC
+                - generic [ref=f13e160]:
+                  - link "Resad Camalov" [ref=f13e161] [cursor=pointer]:
+                    - /url: /applications/students/cmrfgzhkd000104kws18ip1ld
+                  - generic [ref=f13e162]: Azerbaijan · cmrfgzhkd000104kws18ip1ld
+              - generic [ref=f13e163]:
+                - paragraph [ref=f13e164]:
+                  - generic [ref=f13e168]: qefqeffeq@vsvf.com
+                - paragraph [ref=f13e169]:
+                  - generic [ref=f13e172]: Təyin edilməyib
+              - paragraph [ref=f13e174]: Fərdi qeydiyyat
+              - generic [ref=f13e175]: Profil
+              - generic [ref=f13e178]:
+                - generic [ref=f13e179]: Aktiv
+                - generic [ref=f13e180]: "0"
+              - paragraph [ref=f13e185]: Jul 11, 2026
+              - link "Resad Camalov tələbə detalını aç" [ref=f13e187] [cursor=pointer]:
+                - /url: /applications/students/cmrfgzhkd000104kws18ip1ld
+            - generic [ref=f13e191]:
+              - generic [ref=f13e192]: "3"
+              - generic [ref=f13e194]:
+                - generic [ref=f13e195]: EM
+                - generic [ref=f13e196]:
+                  - link "Elon Musk" [ref=f13e197] [cursor=pointer]:
+                    - /url: /applications/students/cmraumex40001tceqgnuudgoy
+                  - generic [ref=f13e198]: Azerbaijan · cmraumex40001tceqgnuudgoy
+              - generic [ref=f13e199]:
+                - paragraph [ref=f13e200]:
+                  - generic [ref=f13e204]: elonmusk@gmail.com
+                - paragraph [ref=f13e205]:
+                  - generic [ref=f13e208]: "+99421321"
+              - paragraph [ref=f13e210]: Fərdi qeydiyyat
+              - generic [ref=f13e211]: Müraciət
+              - generic [ref=f13e214]:
+                - generic [ref=f13e215]: Aktiv
+                - generic [ref=f13e216]: "0"
+              - paragraph [ref=f13e221]: Jul 8, 2026
+              - link "Elon Musk tələbə detalını aç" [ref=f13e223] [cursor=pointer]:
+                - /url: /applications/students/cmraumex40001tceqgnuudgoy
+            - generic [ref=f13e227]:
+              - generic [ref=f13e228]: "4"
+              - generic [ref=f13e230]:
+                - generic [ref=f13e231]: AH
+                - generic [ref=f13e232]:
+                  - link "Aliakbar Huseynov" [ref=f13e233] [cursor=pointer]:
+                    - /url: /applications/students/cmqpo63mh0004yseqo6anwkfc
+                  - generic [ref=f13e234]: Azerbaijan · cmqpo63mh0004yseqo6anwkfc
+              - generic [ref=f13e235]:
+                - paragraph [ref=f13e236]:
+                  - generic [ref=f13e240]: admin@motoacademy.az
+                - paragraph [ref=f13e241]:
+                  - generic [ref=f13e244]: "+994998999144"
+              - paragraph [ref=f13e246]: Fərdi qeydiyyat
+              - generic [ref=f13e247]: Müraciət
+              - generic [ref=f13e250]:
+                - generic [ref=f13e251]: Aktiv
+                - generic [ref=f13e252]: "0"
+              - paragraph [ref=f13e257]: Jul 7, 2026
+              - link "Aliakbar Huseynov tələbə detalını aç" [ref=f13e259] [cursor=pointer]:
+                - /url: /applications/students/cmqpo63mh0004yseqo6anwkfc
+            - generic [ref=f13e263]:
+              - generic [ref=f13e264]: "5"
+              - generic [ref=f13e266]:
+                - generic [ref=f13e267]: NH
+                - generic [ref=f13e268]:
+                  - link "Namiq Hesenov" [ref=f13e269] [cursor=pointer]:
+                    - /url: /applications/students/cmqzbez5f000104jvyrn823rl
+                  - generic [ref=f13e270]: Azerbaijan · cmqzbez5f000104jvyrn823rl
+              - generic [ref=f13e271]:
+                - paragraph [ref=f13e272]:
+                  - generic [ref=f13e276]: elnur.jamalov@campusglobal.az
+                - paragraph [ref=f13e277]:
+                  - generic [ref=f13e280]: "+994552982708"
+              - paragraph [ref=f13e282]: Fərdi qeydiyyat
+              - generic [ref=f13e283]: Müraciət
+              - generic [ref=f13e286]:
+                - generic [ref=f13e287]: Aktiv
+                - generic [ref=f13e288]: "0"
+              - paragraph [ref=f13e293]: Jun 29, 2026
+              - link "Namiq Hesenov tələbə detalını aç" [ref=f13e295] [cursor=pointer]:
+                - /url: /applications/students/cmqzbez5f000104jvyrn823rl
+            - generic [ref=f13e299]:
+              - generic [ref=f13e300]: "6"
+              - generic [ref=f13e302]:
+                - generic [ref=f13e303]: SO
+                - generic [ref=f13e304]:
+                  - link "Samir Orucov" [ref=f13e305] [cursor=pointer]:
+                    - /url: /applications/students/cmqxtcgmr0001wseqpog0qeks
+                  - generic [ref=f13e306]: Azerbaijan · cmqxtcgmr0001wseqpog0qeks
+              - generic [ref=f13e307]:
+                - paragraph [ref=f13e308]:
+                  - generic [ref=f13e312]: samiri@gmail.com
+                - paragraph [ref=f13e313]:
+                  - generic [ref=f13e316]: "123123"
+              - paragraph [ref=f13e318]: NoktheAgency
+              - generic [ref=f13e319]: Müraciət
+              - generic [ref=f13e322]:
+                - generic [ref=f13e323]: Aktiv
+                - generic [ref=f13e324]: "0"
+              - paragraph [ref=f13e329]: Jun 29, 2026
+              - link "Samir Orucov tələbə detalını aç" [ref=f13e331] [cursor=pointer]:
+                - /url: /applications/students/cmqxtcgmr0001wseqpog0qeks
+            - generic [ref=f13e335]:
+              - generic [ref=f13e336]: "7"
+              - generic [ref=f13e338]:
+                - generic [ref=f13e339]: CI
+                - generic [ref=f13e340]:
+                  - link "Cavid Ibrahimov" [ref=f13e341] [cursor=pointer]:
+                    - /url: /applications/students/cmqr41h5s0003mgeqqs4havgq
+                  - generic [ref=f13e342]: Azerbaijan · cmqr41h5s0003mgeqqs4havgq
+              - generic [ref=f13e343]:
+                - paragraph [ref=f13e344]:
+                  - generic [ref=f13e348]: ali@gmail.com
+                - paragraph [ref=f13e349]:
+                  - generic [ref=f13e352]: "12321"
+              - paragraph [ref=f13e354]: NoktheAgency
+              - generic [ref=f13e355]: Profil
+              - generic [ref=f13e358]:
+                - generic [ref=f13e359]: Aktiv
+                - generic [ref=f13e360]: "0"
+                - generic [ref=f13e364]: −4
+              - paragraph [ref=f13e366]: Jun 28, 2026
+              - link "Cavid Ibrahimov tələbə detalını aç" [ref=f13e368] [cursor=pointer]:
+                - /url: /applications/students/cmqr41h5s0003mgeqqs4havgq
+  - region "Notifications alt+T"

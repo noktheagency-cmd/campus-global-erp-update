@@ -1,0 +1,140 @@
+- generic:
+  - generic:
+    - generic:
+      - complementary:
+        - generic:
+          - generic: C
+          - generic:
+            - generic: Campus
+            - generic: Global
+        - button
+        - navigation:
+          - button [disabled]:
+            - generic: İdarə paneli
+          - link:
+            - /url: /universities
+            - generic: Universitetlər
+          - link:
+            - /url: /applications
+            - generic: Müraciətlər
+          - link:
+            - /url: /students
+            - generic: Tələbələr
+          - link:
+            - /url: /agents
+            - generic: Agentlər
+          - link:
+            - /url: /services
+            - generic: Xidmətlər
+          - button [disabled]:
+            - generic: Maliyyə
+          - button [disabled]:
+            - generic: CRM
+          - button [disabled]:
+            - generic: Hesabatlar
+          - button [disabled]:
+            - generic: Arxiv
+          - button [disabled]:
+            - generic: HR
+          - button [disabled]:
+            - generic: Ayarlar
+        - generic:
+          - button:
+            - generic: QS
+            - generic:
+              - generic: qa-services-1785158332656@local.test
+              - generic: Təsisçi və CEO
+          - button:
+            - generic:
+              - generic: Kömək lazımdır?
+              - generic: Dəstəyə yazın
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=1]: Xidmətlər
+                - paragraph: Xidmət kataloqunu, tələbə qiymətlərini, agentə özəl tarifləri və portallardan daxil olan sifarişləri bir mərkəzdən idarə edin.
+              - button: Yeni xidmət
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv xidmət
+                    - generic: "1"
+                    - generic: Portallarda satışa açıq xidmətlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Xüsusi qiymət
+                    - generic: "2"
+                    - generic: Agentlər üçün fərdiləşdirilmiş tariflər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Aktiv sifariş
+                    - generic: "1"
+                    - generic: Təsdiq və icra gözləyən sifarişlər
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Tamamlanan sifariş
+                    - generic: "0"
+                    - generic: Komanda tərəfindən tamamlanan sifarişlər
+            - generic:
+              - button: Xidmət kataloqu
+              - button:
+                - text: Sifarişlər
+                - generic: "1"
+            - generic:
+              - generic:
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row:
+                        - columnheader: Sifariş
+                        - columnheader: Alıcı
+                        - columnheader: Xidmət
+                        - columnheader: Məbləğ
+                        - columnheader: Status
+                        - columnheader: Tarix
+                        - columnheader: Əməl
+                    - rowgroup:
+                      - row:
+                        - cell:
+                          - generic: SRV-202607-22BBB3
+                          - generic: 2 ədəd
+                        - cell:
+                          - generic: QA Education
+                          - generic: Agent
+                        - cell:
+                          - generic: "[QA] Viza dəstəyi"
+                          - generic: QA order price snapshot
+                        - cell: AZN 290
+                        - cell:
+                          - generic: Gözləyir
+                        - cell: 27 iyl 2026
+                        - cell:
+                          - button [expanded]: Yenilə
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=f10e145] [cursor=pointer]
+  - alert
+  - dialog [ref=f10e282]:
+    - generic [ref=f10e283]:
+      - heading "SRV-202607-22BBB3" [level=2] [ref=f10e284]
+      - paragraph [ref=f10e285]: QA Education · [QA] Viza dəstəyi
+    - generic [ref=f10e286]:
+      - generic [ref=f10e287]:
+        - generic [ref=f10e288]: Status
+        - combobox "Status" [active] [ref=f10e289]:
+          - option "Gözləyir" [selected]
+          - option "Təsdiqlənib"
+          - option "İcradadır"
+          - option "Tamamlanıb"
+          - option "Ləğv edilib"
+      - generic [ref=f10e290]:
+        - generic [ref=f10e291]: Daxili qeyd
+        - textbox "Daxili qeyd" [ref=f10e292]:
+          - /placeholder: Bu qeyd yalnız əməkdaşlara görünür
+      - button "Sifarişi yenilə" [ref=f10e293] [cursor=pointer]
+    - button "Bağla" [ref=f10e294] [cursor=pointer]
