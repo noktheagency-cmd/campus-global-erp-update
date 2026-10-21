@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-
+import { getAgentPayoutPreview } from "@/features/commissions/agent-payout-preview";
+import { getSessionAgentId } from "@/lib/auth/session";
 import { ApplicationDetail } from "@/features/applications/components/application-detail";
 import { getApplicationDetailData } from "@/features/applications/data/detail-data";
 import { can } from "@/lib/auth/permissions";
@@ -28,8 +29,14 @@ export default async function ApplicationDetailPage({
     notFound();
   }
 
+  const agentId = getSessionAgentId(session);
+  const payoutPreview = agentId
+    ? await getAgentPayoutPreview(applicationId, agentId)
+    : null;
+
   return (
     <ApplicationDetail
+      payoutPreview={payoutPreview}
       canManageDocuments={isStaff}
       canManageDocumentRequests={
         !isStudent && can(session.role, "applications:update")

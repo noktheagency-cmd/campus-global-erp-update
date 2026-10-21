@@ -164,6 +164,51 @@ function normalizeLevelName(value: string) {
     .trim();
 }
 
+export type PayoutTaxRates = {
+  azvRate: number;
+  educationTaxRate: number;
+  vatRate: number;
+};
+
+export type PayoutColumn = {
+  azv: number;
+  educationTax: number;
+  gross: number;
+  net: number;
+  totalTax: number;
+  vat: number;
+};
+
+export function calculateAgentPayoutBreakdown({
+  deductTaxesOnAccount = true,
+  gross,
+  rates,
+}: {
+  deductTaxesOnAccount?: boolean;
+  gross: number;
+  rates: PayoutTaxRates;
+}): { account: PayoutColumn; cash: PayoutColumn } {
+  const base = roundMoney(gross);
+  const educationTax = roundMoney((base * rates.educationTaxRate) / 100);
+  const vat = roundMoney((base * rates.vatRate) / 100);
+  const azv = roundMoney((base * rates.azvRate) / 100);
+  const totalTax = deductTaxesOnAccount
+    ? roundMoney(educationTax + vat + azv)
+    : 0;
+
+  return {
+    cash: { azv: 0, educationTax: 0, gross: base, net: base, totalTax: 0, vat: 0 },
+    account: {
+      azv: deductTaxesOnAccount ? azv : 0,
+      educationTax: deductTaxesOnAccount ? educationTax : 0,
+      gross: base,
+      net: roundMoney(base - totalTax),
+      totalTax,
+      vat: deductTaxesOnAccount ? vat : 0,
+    },
+  };
+}
+
 function roundMoney(value: number) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }

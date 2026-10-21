@@ -62,6 +62,11 @@ export type CommissionCalculationRecord = {
   studentOrdinal: number | null;
   studentName: string;
   universityName: string;
+  cashPayoutAmount: number | null;
+  accountPayoutAmount: number | null;
+  educationTaxAmount: number;
+  vatAmount: number;
+  azvAmount: number;
 };
 
 export type CommissionPaymentRecord = {

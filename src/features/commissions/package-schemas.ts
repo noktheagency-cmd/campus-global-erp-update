@@ -12,6 +12,11 @@ const positiveOptionalNumber = z.preprocess(
   z.coerce.number().finite().positive().optional(),
 );
 
+const percentWithDefault = z.preprocess(
+  (value) => (value === "" || value === null || value === undefined ? 0 : value),
+  z.coerce.number().finite().min(0).max(100),
+);
+
 const optionalAcademicYear = z.preprocess(
   (value) => (typeof value === "string" && value.trim() ? value.trim() : null),
   z
@@ -29,20 +34,35 @@ const packageEducationLevelSchema = z.enum([
   "LANGUAGE",
 ]);
 
+const scholarshipAwardProgramSchema = z.object({
+  programId: z.string().trim().min(1),
+  quantity: z.coerce.number().int().min(1).max(100),
+});
+
 const scholarshipAwardSchema = z
   .object({
     allPrograms: z.boolean(),
     educationLevel: packageEducationLevelSchema,
-    programIds: z.array(z.string().trim().min(1)).max(2_000),
+    programs: z.array(scholarshipAwardProgramSchema).max(2_000),
     quantity: z.coerce.number().int().min(1).max(100),
   })
   .superRefine((value, context) => {
-    if (!value.allPrograms && value.programIds.length === 0) {
+    if (!value.allPrograms && value.programs.length === 0) {
       context.addIssue({
         code: "custom",
         message: "Ən azı bir ixtisas seçilməlidir.",
-        path: ["programIds"],
+        path: ["programs"],
       });
+    }
+    if (!value.allPrograms) {
+      const ids = value.programs.map((item) => item.programId);
+      if (new Set(ids).size !== ids.length) {
+        context.addIssue({
+          code: "custom",
+          message: "Eyni ixtisas bir dəfədən çox seçilə bilməz.",
+          path: ["programs"],
+        });
+      }
     }
   });
 
@@ -59,6 +79,9 @@ export const commissionPackageRuleSchema = z
     rateTier1: positiveOptionalNumber,
     rateTier2: positiveOptionalNumber,
     tierThreshold: z.coerce.number().int().min(1).max(100_000),
+    azvRate: percentWithDefault,
+    educationTaxRate: percentWithDefault,
+    vatRate: percentWithDefault,
   })
   .superRefine((value, context) => {
     if (value.commissionType === "FIXED" && !value.fixedAmount) {

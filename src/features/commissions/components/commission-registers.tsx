@@ -242,6 +242,9 @@ export function CalculationsRegister({
               <TableHead>Ödənilən məbləğ</TableHead>
               {showCampusShare ? <TableHead>Şirkət payı</TableHead> : null}
               <TableHead>Agent payı</TableHead>
+              <TableHead>Nağd</TableHead>
+              <TableHead>Hesab</TableHead>
+              <TableHead>Vergilər</TableHead>
               <TableHead>Vəziyyət</TableHead>
               <TableHead className="w-16" />
             </tr>
@@ -275,6 +278,45 @@ export function CalculationsRegister({
                 ) : null}
                 <TableCell className="font-semibold tabular-nums text-[#0b61e8]">
                   {formatMoney(calculation.agentAmount, calculation.currency)}
+                </TableCell>
+                <TableCell className="tabular-nums">
+                  {calculation.cashPayoutAmount !== null
+                    ? formatMoney(calculation.cashPayoutAmount, calculation.currency)
+                    : "-"}
+                </TableCell>
+                <TableCell className="tabular-nums">
+                  {calculation.accountPayoutAmount !== null
+                    ? formatMoney(calculation.accountPayoutAmount, calculation.currency)
+                    : "-"}
+                </TableCell>
+                <TableCell className="text-[10px] tabular-nums text-[#68799b]">
+                  {calculation.educationTaxAmount > 0 ||
+                  calculation.vatAmount > 0 ||
+                  calculation.azvAmount > 0 ? (
+                    <div className="space-y-0.5">
+                      {calculation.educationTaxAmount > 0 && (
+                        <div>
+                          Təhsil vergisi:{" "}
+                          {formatMoney(
+                            calculation.educationTaxAmount,
+                            calculation.currency,
+                          )}
+                        </div>
+                      )}
+                      {calculation.vatAmount > 0 && (
+                        <div>
+                          KDV: {formatMoney(calculation.vatAmount, calculation.currency)}
+                        </div>
+                      )}
+                      {calculation.azvAmount > 0 && (
+                        <div>
+                          AZV: {formatMoney(calculation.azvAmount, calculation.currency)}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    "-"
+                  )}
                 </TableCell>
                 <TableCell>
                   <StatusBadge
@@ -370,6 +412,24 @@ export function CalculationsRegister({
                   calculation.currency,
                 )}
               />
+              {calculation.cashPayoutAmount !== null ? (
+                <MobileValue
+                  label="Nağd"
+                  value={formatMoney(
+                    calculation.cashPayoutAmount,
+                    calculation.currency,
+                  )}
+                />
+              ) : null}
+              {calculation.accountPayoutAmount !== null ? (
+                <MobileValue
+                  label="Hesab"
+                  value={formatMoney(
+                    calculation.accountPayoutAmount,
+                    calculation.currency,
+                  )}
+                />
+              ) : null}
               {showCampusShare ? (
                 <MobileValue
                   label="Şirkət payı"

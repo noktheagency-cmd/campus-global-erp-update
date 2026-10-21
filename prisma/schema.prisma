@@ -414,6 +414,11 @@ enum CommissionPackageScholarshipTriggerType {
   FIRST_THEN_EVERY
 }
 
+enum AgentScholarshipRedemptionStatus {
+  CONFIRMED
+  CANCELLED
+}
+
 enum CommissionPackageRuleType {
   FIXED
   PERCENTAGE_CASH
@@ -641,6 +646,7 @@ model User {
   createdCommissionPackages            CommissionPackage[]          @relation("CommissionPackageCreatedBy")
   createdCommissionTermVersions        CommissionTermVersion[]      @relation("CommissionTermVersionCreatedBy")
   reviewedCommissionPackageAgreements  CommissionPackageAgreement[] @relation("CommissionPackageAgreementReviewedBy")
+  createdScholarshipRedemptions        AgentScholarshipRedemption[] @relation("AgentScholarshipRedemptionCreatedBy")
   ownedCrmProfiles                     CrmProfile[]                 @relation("CrmProfileOwner")
   createdCrmProfiles                   CrmProfile[]                 @relation("CrmProfileCreatedBy")
   assignedCrmTasks                     CrmTask[]                    @relation("CrmTaskAssignedTo")
@@ -688,6 +694,11 @@ model Agent {
   activeApplicationsCount Int               @default(0) @map("active_applications_count")
   conversionRate          Int               @default(0) @map("conversion_rate")
   commissionBalance       Decimal           @default(0) @map("commission_balance") @db.Decimal(12, 2)
+  cashPayoutActive        Boolean           @default(true) @map("cash_payout_active")
+  accountPayoutActive     Boolean           @default(true) @map("account_payout_active")
+  holdInAccount           Boolean           @default(false) @map("hold_in_account")
+  manualPayoutManagement  Boolean           @default(false) @map("manual_payout_management")
+  payoutPercentage        Decimal           @default(100) @map("payout_percentage") @db.Decimal(5, 2)
   userId                  String?           @unique @map("user_id")
   createdById             String?           @map("created_by")
   createdAt               DateTime          @default(now()) @map("created_at")
@@ -708,6 +719,7 @@ model Agent {
   commissionAgreements        CommissionAgreement[]
   commissionCalculations      CommissionCalculation[]
   commissionPackageAgreements CommissionPackageAgreement[]
+  scholarshipRedemptions      AgentScholarshipRedemption[]
 
   @@index([country])
   @@index([portalStatus])
@@ -807,6 +819,7 @@ model Student {
   documentOrders         DocumentOrder[]
   crmProfile             CrmProfile?
   commissionCalculations CommissionCalculation[]
+  scholarshipRedemptions AgentScholarshipRedemption[]
 
   @@index([agentId])
   @@index([citizenship])
@@ -975,7 +988,8 @@ model Program {
   applicationChoices    ApplicationChoice[]
   commissionAgreements  CommissionAgreement[]
   universityCommissionAgreements UniversityCommissionAgreement[]
-  scholarshipAwardLinks CommissionPackageScholarshipAwardProgram[]
+  scholarshipAwardLinks  CommissionPackageScholarshipAwardProgram[]
+  scholarshipRedemptions AgentScholarshipRedemption[]
 
   @@index([universityId])
   @@index([campusId])
@@ -1867,6 +1881,9 @@ model CommissionPackageRule {
   rateTier1      Decimal?                        @map("rate_tier_1") @db.Decimal(7, 3)
   rateTier2      Decimal?                        @map("rate_tier_2") @db.Decimal(7, 3)
   tierThreshold  Int                             @default(20) @map("tier_threshold")
+  educationTaxRate Decimal @default(0) @map("education_tax_rate") @db.Decimal(5, 2)
+  vatRate          Decimal @default(0) @map("vat_rate") @db.Decimal(5, 2)
+  azvRate          Decimal @default(0) @map("azv_rate") @db.Decimal(5, 2)
   isActive       Boolean                         @default(true) @map("is_active")
   createdAt      DateTime                        @default(now()) @map("created_at")
   updatedAt      DateTime                        @updatedAt @map("updated_at")
@@ -1918,6 +1935,7 @@ model CommissionPackageScholarshipAwardProgram {
   id        String   @id @default(cuid())
   awardId   String   @map("award_id")
   programId String   @map("program_id")
+  quantity  Int      @default(1)
   createdAt DateTime @default(now()) @map("created_at")
 
   award   CommissionPackageScholarshipAward @relation(fields: [awardId], references: [id], onDelete: Cascade)
@@ -1929,13 +1947,16 @@ model CommissionPackageScholarshipAwardProgram {
 }
 
 model CommissionPackageMixedScholarship {
-  id                 String   @id @default(cuid())
-  packageId          String   @unique @map("package_id")
-  firstThreshold     Int      @map("first_threshold")
-  additionalInterval Int      @map("additional_interval")
-  description        String?
-  createdAt          DateTime @default(now()) @map("created_at")
-  updatedAt          DateTime @updatedAt @map("updated_at")
+  id                      String   @id @default(cuid())
+  packageId               String   @unique @map("package_id")
+  firstThreshold          Int      @map("first_threshold")
+  additionalInterval      Int      @map("additional_interval")
+  tierComposition         String?  @default("BOTH") @map("tier_composition") @db.VarChar(20)
+  accountingValueOverride Decimal? @map("accounting_value_override") @db.Decimal(5, 2)
+  allowMultipleSelections Boolean  @default(false) @map("allow_multiple_selections")
+  description             String?
+  createdAt               DateTime @default(now()) @map("created_at")
+  updatedAt               DateTime @updatedAt @map("updated_at")
 
   package CommissionPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
 
@@ -1979,8 +2000,9 @@ model CommissionPackageAgreement {
   agent        Agent                                  @relation(fields: [agentId], references: [id], onDelete: Restrict)
   termVersion  CommissionTermVersion?                 @relation(fields: [termVersionId], references: [id], onDelete: SetNull)
   reviewedBy   User?                                  @relation("CommissionPackageAgreementReviewedBy", fields: [reviewedById], references: [id], onDelete: SetNull)
-  universities CommissionPackageAgreementUniversity[]
-  calculations CommissionCalculation[]
+  universities           CommissionPackageAgreementUniversity[]
+  calculations           CommissionCalculation[]
+  scholarshipRedemptions AgentScholarshipRedemption[]
 
   @@unique([packageId, agentId, academicYear])
   @@index([status, submittedAt])
@@ -1989,6 +2011,35 @@ model CommissionPackageAgreement {
   @@index([termVersionId])
   @@index([reviewedById])
   @@map("commission_package_agreements")
+}
+
+model AgentScholarshipRedemption {
+  id                 String                           @id @default(cuid())
+  agentId            String                           @map("agent_id")
+  packageAgreementId String                           @map("package_agreement_id")
+  studentId          String                           @map("student_id")
+  educationLevel     CommissionPackageEducationLevel  @map("education_level")
+  programId          String?                          @map("program_id")
+  pointsCost         Decimal                          @map("points_cost") @db.Decimal(8, 2)
+  status             AgentScholarshipRedemptionStatus @default(CONFIRMED)
+  notes              String?
+  createdById        String?                          @map("created_by")
+  createdAt          DateTime                         @default(now()) @map("created_at")
+  updatedAt          DateTime                         @updatedAt @map("updated_at")
+
+  agent            Agent                      @relation(fields: [agentId], references: [id], onDelete: Restrict)
+  packageAgreement CommissionPackageAgreement @relation(fields: [packageAgreementId], references: [id], onDelete: Restrict)
+  student          Student                    @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  program          Program?                   @relation(fields: [programId], references: [id], onDelete: SetNull)
+  createdBy        User?                      @relation("AgentScholarshipRedemptionCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+
+  @@index([agentId, createdAt])
+  @@index([packageAgreementId, createdAt])
+  @@index([studentId])
+  @@index([programId])
+  @@index([status, createdAt])
+  @@index([createdById])
+  @@map("agent_scholarship_redemptions")
 }
 
 model CommissionPackageAgreementUniversity {
@@ -2065,6 +2116,11 @@ model CommissionCalculation {
   agentMethod              CommissionCalculationMethod      @map("agent_method")
   agentValue               Decimal                          @map("agent_value") @db.Decimal(14, 4)
   agentAmount              Decimal                          @map("agent_amount") @db.Decimal(14, 2)
+  cashPayoutAmount         Decimal?                         @map("cash_payout_amount") @db.Decimal(14, 2)
+  accountPayoutAmount      Decimal?                         @map("account_payout_amount") @db.Decimal(14, 2)
+  educationTaxAmount      Decimal?                         @default(0) @map("education_tax_amount") @db.Decimal(14, 2)
+  vatAmount                Decimal?                         @default(0) @map("vat_amount") @db.Decimal(14, 2)
+  azvAmount                Decimal?                         @default(0) @map("azv_amount") @db.Decimal(14, 2)
   educationLevel           CommissionPackageEducationLevel? @map("education_level")
   packageRuleType          CommissionPackageRuleType?       @map("package_rule_type")
   studentOrdinal           Int?                             @map("student_ordinal")

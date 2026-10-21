@@ -28,6 +28,9 @@ export type CommissionPackageRuleRecord = {
   rateTier1: number | null;
   rateTier2: number | null;
   tierThreshold: number;
+  azvRate: number;
+  educationTaxRate: number;
+  vatRate: number;
 };
 
 export type CommissionPackageScholarshipRecord = {
@@ -45,7 +48,7 @@ export type CommissionPackageScholarshipAwardRecord = {
   allPrograms: boolean;
   educationLevel: CommissionPackageEducationLevel;
   id: string;
-  programs: CommissionPackageProgramOption[];
+  programs: CommissionPackageAwardProgramOption[];
   quantity: number;
 };
 
@@ -56,6 +59,11 @@ export type CommissionPackageProgramOption = {
   universityId: string;
   universityLabel: string;
 };
+
+export type CommissionPackageAwardProgramOption =
+  CommissionPackageProgramOption & {
+    quantity: number;
+  };
 
 export type CommissionPackageMixedScholarshipRecord = {
   additionalInterval: number;

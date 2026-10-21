@@ -164,6 +164,9 @@ export async function getCommissionPackageWorkspaceData(
         rateTier1: rule.rateTier1 === null ? null : Number(rule.rateTier1),
         rateTier2: rule.rateTier2 === null ? null : Number(rule.rateTier2),
         tierThreshold: rule.tierThreshold,
+        azvRate: Number(rule.azvRate),
+        educationTaxRate: Number(rule.educationTaxRate),
+        vatRate: Number(rule.vatRate),
       })),
       scholarships: item.scholarships.map((scholarship) => ({
         additionalInterval: scholarship.additionalInterval,
@@ -171,7 +174,7 @@ export async function getCommissionPackageWorkspaceData(
           allPrograms: award.allPrograms,
           educationLevel: award.educationLevel,
           id: award.id,
-          programs: award.programs.flatMap(({ program }) => {
+          programs: award.programs.flatMap(({ program, quantity }) => {
             const educationLevel = resolvePackageEducationLevel(
               program.educationLevel.name,
             );
@@ -181,6 +184,7 @@ export async function getCommissionPackageWorkspaceData(
                     educationLevel,
                     id: program.id,
                     label: program.name,
+                    quantity,
                     universityId: program.university.id,
                     universityLabel: program.university.name,
                   },
@@ -348,6 +352,7 @@ function createDemoPackageData(
                   educationLevel: "MASTER",
                   id: "program-data-analytics",
                   label: "Data analitikası",
+                  quantity: 2,
                   universityId: "university-beykent",
                   universityLabel: "İstanbul Beykent",
                 },
@@ -557,15 +562,18 @@ function demoRule(
   tierThreshold = 20,
 ): CommissionPackageRecord["rules"][number] {
   return {
+    azvRate: 0,
     commissionType,
     currency: "USD",
     educationLevel,
+    educationTaxRate: 0,
     fixedAmount,
     id,
     isActive: true,
     rateTier1,
     rateTier2,
     tierThreshold,
+    vatRate: 0,
   };
 }
 

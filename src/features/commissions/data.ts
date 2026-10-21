@@ -259,6 +259,15 @@ export async function getCommissionWorkspaceData(
         studentOrdinal: calculation.studentOrdinal,
         studentName: `${calculation.student.firstName} ${calculation.student.lastName}`,
         universityName: calculation.university.name,
+        cashPayoutAmount: calculation.cashPayoutAmount
+          ? Number(calculation.cashPayoutAmount)
+          : null,
+        accountPayoutAmount: calculation.accountPayoutAmount
+          ? Number(calculation.accountPayoutAmount)
+          : null,
+        educationTaxAmount: Number(calculation.educationTaxAmount ?? 0),
+        vatAmount: Number(calculation.vatAmount ?? 0),
+        azvAmount: Number(calculation.azvAmount ?? 0),
       };
     });
 
@@ -522,15 +531,19 @@ function createDemoCommissionData(
   ];
   const allCalculations: CommissionWorkspaceData["calculations"] = [
     {
+      accountPayoutAmount: 225,
       agentAmount: 450,
       agentName: "Baku Study Partners",
       applicationCode: "APP-2026-3456",
+      azvAmount: 0,
       basisAmount: 9_000,
       campusAmount: 1_080,
+      cashPayoutAmount: 225,
       code: "COM-260810-A12F",
       createdAt: "2026-08-10T09:20:00.000Z",
       currency: "AZN",
       educationLevel: null,
+      educationTaxAmount: 0,
       grossCommissionAmount: 1_530,
       id: "calculation-1",
       packageAgreementCode: null,
@@ -543,17 +556,22 @@ function createDemoCommissionData(
       studentOrdinal: null,
       studentName: "Rəşad Əliyev",
       universityName: "İstanbul Medipol Universiteti",
+      vatAmount: 0,
     },
     {
+      accountPayoutAmount: 400,
       agentAmount: 480,
       agentName: "Global Bridge",
       applicationCode: "APP-2026-3345",
+      azvAmount: 10,
       basisAmount: 12_000,
       campusAmount: 1_200,
+      cashPayoutAmount: 0,
       code: "COM-260809-9B44",
       createdAt: "2026-08-09T14:05:00.000Z",
       currency: "USD",
       educationLevel: "MASTER",
+      educationTaxAmount: 40,
       grossCommissionAmount: 1_680,
       id: "calculation-2",
       packageAgreementCode: "CG-PKG-260820-C82D",
@@ -569,17 +587,22 @@ function createDemoCommissionData(
       studentOrdinal: 8,
       studentName: "Leyla Məmmədova",
       universityName: "Bahçeşehir Universiteti",
+      vatAmount: 30,
     },
     {
+      accountPayoutAmount: 150,
       agentAmount: 300,
       agentName: "Caspian Education",
       applicationCode: "APP-2026-3211",
+      azvAmount: 0,
       basisAmount: 8_000,
       campusAmount: 750,
+      cashPayoutAmount: 150,
       code: "COM-260808-C872",
       createdAt: "2026-08-08T11:40:00.000Z",
       currency: "USD",
       educationLevel: null,
+      educationTaxAmount: 0,
       grossCommissionAmount: 1_050,
       id: "calculation-3",
       packageAgreementCode: null,
@@ -592,6 +615,7 @@ function createDemoCommissionData(
       studentOrdinal: null,
       studentName: "Tural Hüseynov",
       universityName: "Üsküdar Universiteti",
+      vatAmount: 0,
     },
   ];
   const isAgent = permissions.portalType === "agent";
@@ -735,8 +759,16 @@ function mapScholarshipAwardSummary(value: unknown) {
       ? award.programs.flatMap((program) => {
           if (!program || typeof program !== "object" || Array.isArray(program))
             return [];
-          const name = (program as Record<string, unknown>).name;
-          return typeof name === "string" ? [name] : [];
+          const row = program as Record<string, unknown>;
+          const name = row.name;
+          if (typeof name !== "string") return [];
+          const programQuantity =
+            typeof row.quantity === "number" && row.quantity > 0
+              ? row.quantity
+              : null;
+          return [
+            programQuantity ? `${name}×${programQuantity}` : name,
+          ];
         })
       : [];
     const scope =

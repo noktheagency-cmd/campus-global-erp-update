@@ -17,10 +17,15 @@ import type {
 } from "@/features/commissions/package-types";
 import { cn } from "@/lib/utils";
 
+export type ScholarshipAwardProgramDraft = {
+  programId: string;
+  quantity: string;
+};
+
 export type ScholarshipAwardDraft = {
   allPrograms: boolean;
   educationLevel: CommissionPackageEducationLevel;
-  programIds: string[];
+  programs: ScholarshipAwardProgramDraft[];
   quantity: string;
 };
 
@@ -102,22 +107,11 @@ export function CommissionScholarshipEditor({
 
   function toggleEnabled(scholarship: ScholarshipDraft) {
     const enabled = !scholarship.enabled;
-    updateScholarship(scholarship.educationLevel, { enabled });
-    if (enabled) setExpandedLevel(scholarship.educationLevel);
-  }
-
-  function toggleMixed(scholarship: ScholarshipDraft) {
-    const mixedEnabled = !scholarship.mixedEnabled;
     updateScholarship(scholarship.educationLevel, {
-      awards: mixedEnabled
-        ? scholarship.awards
-        : [
-            scholarship.awards.find(
-              (award) => award.educationLevel === scholarship.educationLevel,
-            ) ?? createAward(scholarship.educationLevel),
-          ],
-      mixedEnabled,
+      enabled,
+      triggerType: "FIRST_THEN_EVERY",
     });
+    if (enabled) setExpandedLevel(scholarship.educationLevel);
   }
 
   function addAward(scholarship: ScholarshipDraft) {
@@ -130,6 +124,8 @@ export function CommissionScholarshipEditor({
     if (!nextLevel) return;
     updateScholarship(scholarship.educationLevel, {
       awards: [...scholarship.awards, createAward(nextLevel.id)],
+      mixedEnabled: true,
+      triggerType: "FIRST_THEN_EVERY",
     });
   }
 
@@ -215,52 +211,23 @@ export function CommissionScholarshipEditor({
                   ) : (
                     <div className="space-y-4">
                       <div className="space-y-3 rounded-xl border border-[#e0e8f2] bg-[#f8fafc] p-3">
-                        <div className="grid grid-cols-2 rounded-xl border border-[#d7e1ee] bg-white p-1">
-                          <TriggerModeButton
-                            active={
-                              scholarship.triggerType === "FIXED_INTERVAL"
-                            }
-                            label="Sabit interval"
-                            onClick={() =>
-                              updateScholarship(scholarship.educationLevel, {
-                                triggerType: "FIXED_INTERVAL",
-                              })
-                            }
-                          />
-                          <TriggerModeButton
-                            active={
-                              scholarship.triggerType === "FIRST_THEN_EVERY"
-                            }
-                            label="İlk hədd + davamı"
-                            onClick={() =>
-                              updateScholarship(scholarship.educationLevel, {
-                                triggerType: "FIRST_THEN_EVERY",
-                              })
-                            }
-                          />
-                        </div>
-
+                        <p className="text-[10px] font-semibold text-[#607598]">
+                          İlk hədd və davamı — birbaşa qayda
+                        </p>
                         <div className="grid gap-2 text-xs text-[#425a80] sm:flex sm:flex-wrap sm:items-center">
                           <span className="inline-flex items-center gap-2">
-                            <span className="font-semibold">
-                              {scholarship.triggerType === "FIRST_THEN_EVERY"
-                                ? "İlk"
-                                : "Hər"}
-                            </span>
+                            <span className="font-semibold">İlk</span>
                             <CompactNumberInput
                               ariaLabel={`${label} tələbə həddi`}
                               onChange={(studentThreshold) =>
                                 updateScholarship(scholarship.educationLevel, {
                                   studentThreshold,
+                                  triggerType: "FIRST_THEN_EVERY",
                                 })
                               }
                               value={scholarship.studentThreshold}
                             />
-                            <span>
-                              {scholarship.triggerType === "FIRST_THEN_EVERY"
-                                ? "tələbədə"
-                                : "tələbədən"}
-                            </span>
+                            <span>tələbədə</span>
                           </span>
                           <span className="inline-flex items-center gap-2">
                             <CompactNumberInput
@@ -268,6 +235,7 @@ export function CommissionScholarshipEditor({
                               onChange={(scholarshipCount) =>
                                 updateScholarship(scholarship.educationLevel, {
                                   scholarshipCount,
+                                  triggerType: "FIRST_THEN_EVERY",
                                 })
                               }
                               value={scholarship.scholarshipCount}
@@ -275,64 +243,34 @@ export function CommissionScholarshipEditor({
                             <span>burs paketi</span>
                           </span>
                         </div>
-
-                        {scholarship.triggerType === "FIRST_THEN_EVERY" ? (
-                          <div className="grid gap-2 border-t border-[#e1e9f2] pt-3 text-xs text-[#425a80] sm:flex sm:flex-wrap sm:items-center">
-                            <span className="inline-flex items-center gap-2">
-                              <span className="font-semibold">Sonra hər</span>
-                              <CompactNumberInput
-                                ariaLabel={`${label} sonrakı tələbə intervalı`}
-                                onChange={(additionalInterval) =>
-                                  updateScholarship(
-                                    scholarship.educationLevel,
-                                    { additionalInterval },
-                                  )
-                                }
-                                value={scholarship.additionalInterval}
-                              />
-                            </span>
-                            <span>əlavə tələbəyə eyni paket</span>
-                          </div>
-                        ) : null}
-                      </div>
-
-                      <div className="flex items-center justify-between gap-4 border-y border-[#e7edf5] py-3">
-                        <span>
-                          <strong className="block text-xs text-[#17345f]">
-                            Qarışıq pillə tərkibi
-                          </strong>
-                          <span className="mt-0.5 block text-[10px] leading-4 text-[#7183a0]">
-                            Bir paketdə bir neçə pillə üzrə burs verin
+                        <div className="grid gap-2 border-t border-[#e1e9f2] pt-3 text-xs text-[#425a80] sm:flex sm:flex-wrap sm:items-center">
+                          <span className="inline-flex items-center gap-2">
+                            <span className="font-semibold">Sonra hər</span>
+                            <CompactNumberInput
+                              ariaLabel={`${label} sonrakı tələbə intervalı`}
+                              onChange={(additionalInterval) =>
+                                updateScholarship(scholarship.educationLevel, {
+                                  additionalInterval,
+                                  triggerType: "FIRST_THEN_EVERY",
+                                })
+                              }
+                              value={scholarship.additionalInterval}
+                            />
                           </span>
-                        </span>
-                        <button
-                          aria-label="Qarışıq pillə tərkibini dəyiş"
-                          aria-pressed={scholarship.mixedEnabled}
-                          className={cn(
-                            "relative h-6 w-11 shrink-0 rounded-full transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-[#0b66ff]/15",
-                            scholarship.mixedEnabled
-                              ? "bg-[#0b66ff]"
-                              : "bg-[#c7d2e0]",
-                          )}
-                          onClick={() => toggleMixed(scholarship)}
-                          type="button"
-                        >
-                          <span
-                            className={cn(
-                              "absolute top-0.5 size-5 rounded-full bg-white shadow-sm transition-transform",
-                              scholarship.mixedEnabled
-                                ? "translate-x-5"
-                                : "translate-x-0.5",
-                            )}
-                          />
-                        </button>
+                          <span>əlavə tələbəyə eyni paket</span>
+                        </div>
                       </div>
 
                       <div>
                         <div className="mb-2 flex items-center justify-between gap-3">
-                          <h4 className="text-[11px] font-bold text-[#29466f]">
-                            1 burs paketinin tərkibi
-                          </h4>
+                          <div>
+                            <h4 className="text-[11px] font-bold text-[#29466f]">
+                              1 burs paketinin tərkibi
+                            </h4>
+                            <p className="mt-0.5 text-[10px] text-[#7183a0]">
+                              Pillə əlavə edərək qarışıq tərkib qurun
+                            </p>
+                          </div>
                           <span className="text-[10px] text-[#7183a0]">
                             {scholarship.awards.length} pillə
                           </span>
@@ -350,7 +288,7 @@ export function CommissionScholarshipEditor({
                                 awardIndex={awardIndex}
                                 eligiblePrograms={eligiblePrograms}
                                 key={pickerKey}
-                                mixedEnabled={scholarship.mixedEnabled}
+                                mixedEnabled={scholarship.awards.length > 1}
                                 onChange={(patch) =>
                                   updateAward(scholarship, awardIndex, patch)
                                 }
@@ -380,8 +318,7 @@ export function CommissionScholarshipEditor({
                             );
                           })}
                         </div>
-                        {scholarship.mixedEnabled &&
-                        scholarship.awards.length < educationLevels.length ? (
+                        {scholarship.awards.length < educationLevels.length ? (
                           <button
                             className="mt-2.5 flex h-10 w-full items-center justify-center gap-2 rounded-xl border border-dashed border-[#b9d2f2] text-[11px] font-bold text-[#0b61e8] transition-colors hover:bg-[#f2f8ff]"
                             onClick={() => addAward(scholarship)}
@@ -443,13 +380,32 @@ function AwardEditor({
         ),
       )
     : eligiblePrograms;
-  const selectedPrograms = new Set(award.programIds);
+  const selectedById = new Map(
+    award.programs.map((program) => [program.programId, program]),
+  );
 
   function toggleProgram(programId: string) {
+    if (selectedById.has(programId)) {
+      onChange({
+        programs: award.programs.filter(
+          (program) => program.programId !== programId,
+        ),
+      });
+      return;
+    }
     onChange({
-      programIds: selectedPrograms.has(programId)
-        ? award.programIds.filter((id) => id !== programId)
-        : [...award.programIds, programId],
+      programs: [
+        ...award.programs,
+        { programId, quantity: award.quantity || "1" },
+      ],
+    });
+  }
+
+  function updateProgramQuantity(programId: string, quantity: string) {
+    onChange({
+      programs: award.programs.map((program) =>
+        program.programId === programId ? { ...program, quantity } : program,
+      ),
     });
   }
 
@@ -469,7 +425,7 @@ function AwardEditor({
                 allPrograms: true,
                 educationLevel: event.target
                   .value as CommissionPackageEducationLevel,
-                programIds: [],
+                programs: [],
               })
             }
             value={award.educationLevel}
@@ -489,7 +445,7 @@ function AwardEditor({
         </label>
         <label className="space-y-1.5">
           <span className="block text-[10px] font-semibold text-[#607598]">
-            Miqdar
+            {award.allPrograms ? "Miqdar" : "Standart"}
           </span>
           <Input
             aria-label={`${getLevelLabel(award.educationLevel)} burs miqdarı`}
@@ -516,7 +472,7 @@ function AwardEditor({
                   : "text-[#617594] hover:bg-[#f5f8fc]",
               )}
               onClick={() => {
-                onChange({ allPrograms: true, programIds: [] });
+                onChange({ allPrograms: true, programs: [] });
                 onPickerChange(false);
               }}
               type="button"
@@ -543,7 +499,7 @@ function AwardEditor({
           {award.allPrograms ? (
             <p className="px-1 text-[10px] text-[#7183a0]">
               {eligiblePrograms.length
-                ? `${eligiblePrograms.length} aktiv ixtisasın hamısı`
+                ? `${eligiblePrograms.length} aktiv ixtisasın hamısı · hər birində ${award.quantity || "—"} burs`
                 : "Bu pillədə yaradılacaq bütün ixtisaslar"}
             </p>
           ) : (
@@ -551,13 +507,13 @@ function AwardEditor({
               <button
                 className={cn(
                   "w-full px-1 text-left text-[10px] font-semibold",
-                  award.programIds.length ? "text-[#0b61e8]" : "text-[#c23b3b]",
+                  award.programs.length ? "text-[#0b61e8]" : "text-[#c23b3b]",
                 )}
                 onClick={() => onPickerChange(!open)}
                 type="button"
               >
-                {award.programIds.length
-                  ? `${award.programIds.length} ixtisas seçilib`
+                {award.programs.length
+                  ? `${award.programs.length} ixtisas · ayrı miqdar`
                   : "Ən azı bir ixtisas seçin"}
               </button>
             </>
@@ -589,7 +545,13 @@ function AwardEditor({
               className="shrink-0 text-[10px] font-bold text-[#0b61e8]"
               onClick={() =>
                 onChange({
-                  programIds: eligiblePrograms.map((program) => program.id),
+                  programs: eligiblePrograms.map((program) => ({
+                    programId: program.id,
+                    quantity:
+                      selectedById.get(program.id)?.quantity ||
+                      award.quantity ||
+                      "1",
+                  })),
                 })
               }
               type="button"
@@ -597,36 +559,61 @@ function AwardEditor({
               Hamısını seç
             </button>
           </div>
-          <div className="max-h-44 overflow-y-auto p-1.5">
+          <div className="max-h-52 overflow-y-auto p-1.5">
             {visiblePrograms.length ? (
               visiblePrograms.map((program) => {
-                const checked = selectedPrograms.has(program.id);
+                const selected = selectedById.get(program.id);
                 return (
-                  <button
-                    className="flex w-full items-start gap-2.5 rounded-lg px-2 py-2 text-left transition-colors hover:bg-[#f5f8fc]"
+                  <div
+                    className="flex w-full items-start gap-2 rounded-lg px-2 py-2 transition-colors hover:bg-[#f5f8fc]"
                     key={program.id}
-                    onClick={() => toggleProgram(program.id)}
-                    type="button"
                   >
-                    <span
-                      className={cn(
-                        "mt-0.5 flex size-4 shrink-0 items-center justify-center rounded border",
-                        checked
-                          ? "border-[#0b66ff] bg-[#0b66ff] text-white"
-                          : "border-[#bdcadb] bg-white",
-                      )}
+                    <button
+                      className="flex min-w-0 flex-1 items-start gap-2.5 text-left"
+                      onClick={() => toggleProgram(program.id)}
+                      type="button"
                     >
-                      {checked ? <CheckIcon className="size-3" /> : null}
-                    </span>
-                    <span className="min-w-0">
-                      <strong className="block truncate text-[11px] font-semibold text-[#29466f]">
-                        {program.label}
-                      </strong>
-                      <span className="mt-0.5 block truncate text-[9px] text-[#8191aa]">
-                        {program.universityLabel}
+                      <span
+                        className={cn(
+                          "mt-0.5 flex size-4 shrink-0 items-center justify-center rounded border",
+                          selected
+                            ? "border-[#0b66ff] bg-[#0b66ff] text-white"
+                            : "border-[#bdcadb] bg-white",
+                        )}
+                      >
+                        {selected ? <CheckIcon className="size-3" /> : null}
                       </span>
-                    </span>
-                  </button>
+                      <span className="min-w-0">
+                        <strong className="block truncate text-[11px] font-semibold text-[#29466f]">
+                          {program.label}
+                        </strong>
+                        <span className="mt-0.5 block truncate text-[9px] text-[#8191aa]">
+                          {program.universityLabel}
+                        </span>
+                      </span>
+                    </button>
+                    {selected ? (
+                      <label className="mt-0.5 flex shrink-0 items-center gap-1">
+                        <span className="text-[9px] font-semibold text-[#7183a0]">
+                          miqdar
+                        </span>
+                        <Input
+                          aria-label={`${program.label} burs miqdarı`}
+                          className="h-7 w-14 rounded-lg border-[#d7e1ee] px-1.5 text-center text-[11px]"
+                          max="100"
+                          min="1"
+                          onChange={(event) =>
+                            updateProgramQuantity(
+                              program.id,
+                              event.target.value,
+                            )
+                          }
+                          type="number"
+                          value={selected.quantity}
+                        />
+                      </label>
+                    ) : null}
+                  </div>
                 );
               })
             ) : (
@@ -637,7 +624,7 @@ function AwardEditor({
           </div>
           <div className="flex items-center justify-between border-t border-[#e5ebf3] bg-[#fbfcfe] px-3 py-2 text-[10px] text-[#7183a0]">
             <strong className="text-[#29466f]">
-              {award.programIds.length} ixtisas seçilib
+              {award.programs.length} ixtisas seçilib
             </strong>
             <span>{eligiblePrograms.length} mövcuddur</span>
           </div>
@@ -670,46 +657,23 @@ function CompactNumberInput({
   );
 }
 
-function TriggerModeButton({
-  active,
-  label,
-  onClick,
-}: {
-  active: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      aria-pressed={active}
-      className={cn(
-        "h-9 rounded-lg px-3 text-[11px] font-bold transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-[#0b66ff]/15",
-        active
-          ? "bg-[#eaf3ff] text-[#0b61e8] shadow-[inset_0_0_0_1px_rgba(11,102,255,0.12)]"
-          : "text-[#667a99] hover:bg-[#f6f9fc]",
-      )}
-      onClick={onClick}
-      type="button"
-    >
-      {label}
-    </button>
-  );
-}
-
 function createTriggerSummary(scholarship: ScholarshipDraft) {
-  if (scholarship.triggerType === "FIRST_THEN_EVERY") {
-    return `İlk ${scholarship.studentThreshold || "—"}, sonra hər ${scholarship.additionalInterval || "—"} tələbəyə ${scholarship.scholarshipCount || "—"} paket`;
-  }
-  return `Hər ${scholarship.studentThreshold || "—"} tələbədən ${scholarship.scholarshipCount || "—"} burs paketi`;
+  return `İlk ${scholarship.studentThreshold || "—"}, sonra hər ${scholarship.additionalInterval || "—"} tələbəyə ${scholarship.scholarshipCount || "—"} paket`;
 }
 
 function createCompositionSummary(scholarship: ScholarshipDraft) {
   const source = getLevelSummaryLabel(scholarship.educationLevel);
   const composition = scholarship.awards
-    .map(
-      (award) =>
-        `${Number(award.quantity) || "—"} ${getLevelSummaryLabel(award.educationLevel)}`,
-    )
+    .map((award) => {
+      const level = getLevelSummaryLabel(award.educationLevel);
+      if (award.allPrograms || award.programs.length === 0) {
+        return `${Number(award.quantity) || "—"} ${level}`;
+      }
+      const programSummary = award.programs
+        .map((program) => `${Number(program.quantity) || "—"}`)
+        .join("/");
+      return `${programSummary} ${level} (${award.programs.length} ixtisas)`;
+    })
     .join(" + ");
   const packageComposition = `${Number(scholarship.scholarshipCount) || "—"} × (${composition}) bursu`;
   return scholarship.triggerType === "FIRST_THEN_EVERY"
@@ -723,7 +687,7 @@ function createAward(
   return {
     allPrograms: true,
     educationLevel,
-    programIds: [],
+    programs: [],
     quantity: "1",
   };
 }

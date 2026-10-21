@@ -5,12 +5,15 @@ import { AGENT_SOCIAL_PLATFORM_LABELS } from "@/features/agents/constants";
 import { getAgentsDashboardData } from "@/features/agents/data/dashboard-data";
 import type {
   AgentApplicationSummary,
+  AgentCommissionSummary,
   AgentNotification,
   AgentPortalData,
   AgentPortalProfil,
   AgentProfileServiceRecord,
   AgentStudentSummary,
 } from "@/features/agents/types";
+import type { AgentBursWallet } from "@/features/commissions/burs-types";
+import { getAgentBursWallet } from "@/features/commissions/burs-wallet";
 import type { ServiceQuoteRequestRecord } from "@/features/services/types";
 import type {
   Application,
@@ -18,11 +21,24 @@ import type {
   PrismaClient,
   Student,
 } from "@/generated/prisma/client";
+import { can } from "@/lib/auth/permissions";
+import { getCurrentSession } from "@/lib/auth/session";
 import { createDocumentAccessUrl } from "@/lib/supabase/storage";
+
+const emptyBursWallet: AgentBursWallet = {
+  availablePoints: 0,
+  earnedPoints: 0,
+  packageAgreementId: null,
+  packageName: null,
+  recentRedemptions: [],
+  spentPoints: 0,
+  targets: [],
+};
 
 const agentProfileSelect = {
   address: true,
   canRegisterStudents: true,
+  cashPayoutActive: true,
   commissionBalance: true,
   companyName: true,
   contacts: {
@@ -61,6 +77,10 @@ const agentProfileSelect = {
   },
   tier: true,
   updatedAt: true,
+  accountPayoutActive: true,
+  holdInAccount: true,
+  manualPayoutManagement: true,
+  payoutPercentage: true,
 } satisfies Prisma.AgentSelect;
 
 type AgentProfileRecord = Prisma.AgentGetPayload<{
@@ -124,6 +144,9 @@ export const getAgentPortalData = cache(
         notifications,
         unreadNotifications,
         services,
+        commissionRows,
+        commissionEarnedAgg,
+        bursWallet,
       ] = await Promise.all([
         prisma.agent.findUnique({
           select: agentProfileSelect,
@@ -222,6 +245,23 @@ export const getAgentPortalData = cache(
           orderBy: [{ sortOrder: "asc" }, { name: "asc" }],
           where: { availableToAgents: true, status: "ACTIVE" },
         }),
+        prisma.commissionCalculation.findMany({
+          include: {
+            student: { select: { firstName: true, lastName: true } },
+            university: { select: { name: true } },
+          },
+          orderBy: { createdAt: "desc" },
+          take: 12,
+          where: { agentId },
+        }),
+        prisma.commissionCalculation.aggregate({
+          _sum: { agentAmount: true },
+          where: {
+            agentId,
+            status: { in: ["PAYABLE", "PARTIALLY_PAID", "PAID"] },
+          },
+        }),
+        getAgentBursWallet(agentId),
       ]);
 
       if (!agent) {
@@ -240,6 +280,20 @@ export const getAgentPortalData = cache(
         ? ((await createDocumentAccessUrl(agent.logoUrl)) ?? "")
         : "";
 
+      const session = await getCurrentSession();
+      const commissions: AgentCommissionSummary[] = commissionRows.map(
+        (item) => ({
+          agentAmount: Number(item.agentAmount),
+          code: item.code,
+          currency: item.currency,
+          id: item.id,
+          scholarshipCreditsEarned: item.scholarshipCreditsEarned,
+          status: item.status,
+          studentName: `${item.student.firstName} ${item.student.lastName}`,
+          universityName: item.university.name,
+        }),
+      );
+
       return {
         agent: mapAgentProfil(agent, {
           activeApplications,
@@ -253,6 +307,11 @@ export const getAgentPortalData = cache(
             latestStatusReasons.get(application.id) ?? "",
           ),
         ),
+        bursWallet,
+        canEditPayoutSettings: session
+          ? can(session.role, "agents:update")
+          : false,
+        commissions,
         dataSource: "database",
         metrics: {
           activeApplications,
@@ -260,6 +319,9 @@ export const getAgentPortalData = cache(
           conversionRate,
           missingDocuments,
           submittedApplications,
+          totalCommissionEarned: Number(
+            commissionEarnedAgg._sum?.agentAmount ?? 0,
+          ),
           totalStudents,
         },
         notifications: notifications.map(mapNotification),
@@ -319,6 +381,11 @@ async function getFallbackAgentPortalData(
           },
         ]
       : [],
+    cashPayoutActive: true,
+    accountPayoutActive: true,
+    holdInAccount: false,
+    manualPayoutManagement: false,
+    payoutPercentage: 100,
   };
   const notifications: AgentNotification[] = [
     {
@@ -341,6 +408,8 @@ async function getFallbackAgentPortalData(
     },
   ];
 
+  const session = await getCurrentSession();
+
   return {
     agent: profile,
     applications: [
@@ -357,6 +426,11 @@ async function getFallbackAgentPortalData(
         updatedAt: agent.lastActivity,
       },
     ],
+    bursWallet: emptyBursWallet,
+    canEditPayoutSettings: session
+      ? can(session.role, "agents:update")
+      : false,
+    commissions: [],
     dataSource: "fallback",
     metrics: {
       activeApplications: agent.activeApplications,
@@ -367,6 +441,7 @@ async function getFallbackAgentPortalData(
         0,
         Math.round(agent.activeApplications / 2),
       ),
+      totalCommissionEarned: agent.commissionBalance,
       totalStudents: agent.studentsCount,
     },
     notifications,
@@ -555,6 +630,11 @@ function mapAgentProfil(
     })),
     studentsCount: counts.studentsCount,
     tier: formatTier(agent.tier),
+    cashPayoutActive: agent.cashPayoutActive ?? true,
+    accountPayoutActive: agent.accountPayoutActive ?? true,
+    holdInAccount: agent.holdInAccount ?? false,
+    manualPayoutManagement: agent.manualPayoutManagement ?? false,
+    payoutPercentage: Number(agent.payoutPercentage ?? 100),
   };
 }
 

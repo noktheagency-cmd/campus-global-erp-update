@@ -2,8 +2,12 @@ begin;
 
 insert into public.users (id, email, name, role, status, created_at, updated_at)
 values
-  ('usr_admin', 'admin@campusglobal.az', 'Tural Huseynov', 'ADMIN', 'ACTIVE', now(), now())
-on conflict (id) do nothing;
+  ('usr_super_admin', 'admin@campusglobal.az', 'Tural Huseynov', 'ADMIN', 'ACTIVE', now(), now())
+on conflict (email) do update set
+  name = excluded.name,
+  role = excluded.role,
+  status = excluded.status,
+  updated_at = now();
 
 insert into public.users (
   id, email, name, password_hash, role, status, created_at, updated_at
@@ -58,12 +62,12 @@ insert into public.universities (
   internal_notes, status, created_by, created_at, updated_at
 )
 values
-  ('univ_istanbul_aydin', 'Istanbul Aydin University', null, 'Turkiye', 'Istanbul', 'https://www.aydin.edu.tr', 'FOUNDATION', 'ACTIVE_PARTNER', 'ACTIVE', 'international@aydin.edu.tr', '+90 212 444 1 428', 'High demand for health and business programs.', 'ACTIVE', 'usr_admin', now(), now()),
-  ('univ_bahcesehir', 'Bahcesehir University', null, 'Turkiye', 'Istanbul', 'https://bau.edu.tr', 'FOUNDATION', 'ACTIVE_PARTNER', 'ACTIVE', 'international@bau.edu.tr', '+90 212 381 0000', 'Strategic partner for Istanbul programs.', 'ACTIVE', 'usr_admin', now(), now()),
-  ('univ_europe_applied_sciences', 'University of Europe for Applied Sciences', null, 'Germany', 'Berlin', 'https://www.ue-germany.com', 'PRIVATE', 'PROSPECT', 'PENDING', 'admissions@ue-germany.com', '+49 30 338 539 710', 'Prospect partner for Germany pathway.', 'ACTIVE', 'usr_admin', now(), now()),
-  ('univ_toronto', 'University of Toronto', null, 'Canada', 'Toronto', 'https://www.utoronto.ca', 'PUBLIC', 'ACTIVE_PARTNER', 'ACTIVE', 'international@utoronto.ca', '+1 416 978 2011', 'Strong brand signal for Canada pipeline.', 'ACTIVE', 'usr_admin', now(), now()),
-  ('univ_ucl', 'University College London', null, 'United Kingdom', 'London', 'https://www.ucl.ac.uk', 'PUBLIC', 'ACTIVE_PARTNER', 'EXPIRED', 'international@ucl.ac.uk', '+44 20 7679 2000', 'Agreement renewal should be tracked.', 'ACTIVE', 'usr_admin', now(), now()),
-  ('univ_monash', 'Monash University', null, 'Australia', 'Melbourne', 'https://www.monash.edu', 'PUBLIC', 'ACTIVE_PARTNER', 'ACTIVE', 'international@monash.edu', '+61 3 9905 4000', 'Priority partner for STEM programs.', 'ACTIVE', 'usr_admin', now(), now())
+  ('univ_istanbul_aydin', 'Istanbul Aydin University', null, 'Turkiye', 'Istanbul', 'https://www.aydin.edu.tr', 'FOUNDATION', 'ACTIVE_PARTNER', 'ACTIVE', 'international@aydin.edu.tr', '+90 212 444 1 428', 'High demand for health and business programs.', 'ACTIVE', 'usr_super_admin', now(), now()),
+  ('univ_bahcesehir', 'Bahcesehir University', null, 'Turkiye', 'Istanbul', 'https://bau.edu.tr', 'FOUNDATION', 'ACTIVE_PARTNER', 'ACTIVE', 'international@bau.edu.tr', '+90 212 381 0000', 'Strategic partner for Istanbul programs.', 'ACTIVE', 'usr_super_admin', now(), now()),
+  ('univ_europe_applied_sciences', 'University of Europe for Applied Sciences', null, 'Germany', 'Berlin', 'https://www.ue-germany.com', 'PRIVATE', 'PROSPECT', 'PENDING', 'admissions@ue-germany.com', '+49 30 338 539 710', 'Prospect partner for Germany pathway.', 'ACTIVE', 'usr_super_admin', now(), now()),
+  ('univ_toronto', 'University of Toronto', null, 'Canada', 'Toronto', 'https://www.utoronto.ca', 'PUBLIC', 'ACTIVE_PARTNER', 'ACTIVE', 'international@utoronto.ca', '+1 416 978 2011', 'Strong brand signal for Canada pipeline.', 'ACTIVE', 'usr_super_admin', now(), now()),
+  ('univ_ucl', 'University College London', null, 'United Kingdom', 'London', 'https://www.ucl.ac.uk', 'PUBLIC', 'ACTIVE_PARTNER', 'EXPIRED', 'international@ucl.ac.uk', '+44 20 7679 2000', 'Agreement renewal should be tracked.', 'ACTIVE', 'usr_super_admin', now(), now()),
+  ('univ_monash', 'Monash University', null, 'Australia', 'Melbourne', 'https://www.monash.edu', 'PUBLIC', 'ACTIVE_PARTNER', 'ACTIVE', 'international@monash.edu', '+61 3 9905 4000', 'Priority partner for STEM programs.', 'ACTIVE', 'usr_super_admin', now(), now())
 on conflict (id) do nothing;
 
 insert into public.campuses (
@@ -128,9 +132,9 @@ insert into public.university_documents (
   uploaded_by, uploaded_at, expiry_date, status, notes, created_at, updated_at
 )
 values
-  ('doc_iau_agreement_2026', 'univ_istanbul_aydin', 'UNIVERSITY', 'univ_istanbul_aydin', 'Partner Agreement 2026', 'Agreement', '/documents/iau-partner-agreement-2026.pdf', 'iau-partner-agreement-2026.pdf', 245000, 'application/pdf', 'usr_admin', now(), '2027-05-31', 'ACTIVE', null, now(), now()),
-  ('doc_bau_price_list_2026', 'univ_bahcesehir', 'UNIVERSITY', 'univ_bahcesehir', 'Price List 2026', 'Price List', '/documents/bau-price-list-2026.xlsx', 'bau-price-list-2026.xlsx', 168000, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'usr_admin', now(), '2026-12-31', 'ACTIVE', null, now(), now()),
-  ('doc_ucl_authorization', 'univ_ucl', 'UNIVERSITY', 'univ_ucl', 'Agent Authorization Letter', 'Authorization', '/documents/ucl-agent-authorization.docx', 'ucl-agent-authorization.docx', 98000, 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'usr_admin', now(), '2026-09-30', 'ACTIVE', 'Renewal required before next cycle.', now(), now())
+  ('doc_iau_agreement_2026', 'univ_istanbul_aydin', 'UNIVERSITY', 'univ_istanbul_aydin', 'Partner Agreement 2026', 'Agreement', '/documents/iau-partner-agreement-2026.pdf', 'iau-partner-agreement-2026.pdf', 245000, 'application/pdf', 'usr_super_admin', now(), '2027-05-31', 'ACTIVE', null, now(), now()),
+  ('doc_bau_price_list_2026', 'univ_bahcesehir', 'UNIVERSITY', 'univ_bahcesehir', 'Price List 2026', 'Price List', '/documents/bau-price-list-2026.xlsx', 'bau-price-list-2026.xlsx', 168000, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'usr_super_admin', now(), '2026-12-31', 'ACTIVE', null, now(), now()),
+  ('doc_ucl_authorization', 'univ_ucl', 'UNIVERSITY', 'univ_ucl', 'Agent Authorization Letter', 'Authorization', '/documents/ucl-agent-authorization.docx', 'ucl-agent-authorization.docx', 98000, 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'usr_super_admin', now(), '2026-09-30', 'ACTIVE', 'Renewal required before next cycle.', now(), now())
 on conflict (id) do nothing;
 
 insert into public.university_notes (
@@ -138,18 +142,18 @@ insert into public.university_notes (
   author_id, created_at, updated_at
 )
 values
-  ('note_iau_health_focus', 'univ_istanbul_aydin', 'UNIVERSITY', 'univ_istanbul_aydin', 'Strong demand for medicine and dentistry programs.', 'usr_admin', now(), now()),
-  ('note_ue_prospect', 'univ_europe_applied_sciences', 'UNIVERSITY', 'univ_europe_applied_sciences', 'Follow up for agreement terms and scholarship table.', 'usr_admin', now(), now()),
-  ('note_ucl_renewal', 'univ_ucl', 'UNIVERSITY', 'univ_ucl', 'Agreement renewal should be prioritized before Fall intake.', 'usr_admin', now(), now())
+  ('note_iau_health_focus', 'univ_istanbul_aydin', 'UNIVERSITY', 'univ_istanbul_aydin', 'Strong demand for medicine and dentistry programs.', 'usr_super_admin', now(), now()),
+  ('note_ue_prospect', 'univ_europe_applied_sciences', 'UNIVERSITY', 'univ_europe_applied_sciences', 'Follow up for agreement terms and scholarship table.', 'usr_super_admin', now(), now()),
+  ('note_ucl_renewal', 'univ_ucl', 'UNIVERSITY', 'univ_ucl', 'Agreement renewal should be prioritized before Fall intake.', 'usr_super_admin', now(), now())
 on conflict (id) do nothing;
 
 insert into public.activity_logs (
   id, entity_type, entity_id, action, old_value, new_value, user_id, created_at
 )
 values
-  ('activity_seed_universities', 'UNIVERSITY', 'univ_istanbul_aydin', 'CREATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_admin', now()),
-  ('activity_seed_programs', 'PROGRAM', 'program_iau_business_bachelor', 'CREATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_admin', now()),
-  ('activity_seed_prices', 'TUITION', 'tuition_iau_business_2026_fall', 'PRICE_UPDATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_admin', now())
+  ('activity_seed_universities', 'UNIVERSITY', 'univ_istanbul_aydin', 'CREATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_super_admin', now()),
+  ('activity_seed_programs', 'PROGRAM', 'program_iau_business_bachelor', 'CREATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_super_admin', now()),
+  ('activity_seed_prices', 'TUITION', 'tuition_iau_business_2026_fall', 'PRICE_UPDATED', null, '{\"source\":\"seed\"}'::jsonb, 'usr_super_admin', now())
 on conflict (id) do nothing;
 
 commit;

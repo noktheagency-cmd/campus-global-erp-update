@@ -1109,6 +1109,10 @@ function PackageDetailSheet({
                         {ruleTypeLabel(rule.commissionType)} ·{" "}
                         {formatRule(rule)}
                       </span>
+                      <span className="col-span-2 mt-1 text-[11px] text-[#7688a6]">
+                        Təhsil vergisi {formatNumber(rule.educationTaxRate)}% · KDV{" "}
+                        {formatNumber(rule.vatRate)}% · AZV {formatNumber(rule.azvRate)}%
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -1137,8 +1141,13 @@ function PackageDetailSheet({
                           {item.awards
                             .map((award) =>
                               award.allPrograms
-                                ? `${educationLevelLabel(award.educationLevel)}: bütün ixtisaslar`
-                                : `${educationLevelLabel(award.educationLevel)}: ${award.programs.length} ixtisas`,
+                                ? `${educationLevelLabel(award.educationLevel)}: bütün ixtisaslar ×${award.quantity}`
+                                : `${educationLevelLabel(award.educationLevel)}: ${award.programs
+                                    .map(
+                                      (program) =>
+                                        `${program.label}×${program.quantity}`,
+                                    )
+                                    .join(", ")}`,
                             )
                             .join(" · ")}
                         </span>
@@ -1170,10 +1179,17 @@ function formatScholarshipComposition(
   scholarship: CommissionPackageRecord["scholarships"][number],
 ) {
   return scholarship.awards
-    .map(
-      (award) =>
-        `${award.quantity} ${educationLevelLabel(award.educationLevel).toLocaleLowerCase("az-AZ")}`,
-    )
+    .map((award) => {
+      const level = educationLevelLabel(
+        award.educationLevel,
+      ).toLocaleLowerCase("az-AZ");
+      if (award.allPrograms || award.programs.length === 0) {
+        return `${award.quantity} ${level}`;
+      }
+      return award.programs
+        .map((program) => `${program.quantity} ${level} (${program.label})`)
+        .join(" + ");
+    })
     .join(" + ");
 }
 

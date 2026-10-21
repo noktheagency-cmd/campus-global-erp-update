@@ -46,6 +46,8 @@ import {
 } from "@/features/applications/data/detail-data";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
+import type { AgentPayoutPreview } from "@/features/commissions/agent-payout-preview";
+import { AgentPayoutPreviewCard } from "@/features/commissions/components/agent-payout-preview-card";
 
 export function ApplicationDetail({
   canManageDocuments = false,
@@ -57,6 +59,7 @@ export function ApplicationDetail({
   data,
   error,
   isStudentPortal = false,
+  payoutPreview = null,
   success,
 }: {
   canManageDocuments?: boolean;
@@ -68,6 +71,7 @@ export function ApplicationDetail({
   data: ApplicationDetailData;
   error?: string;
   isStudentPortal?: boolean;
+  payoutPreview?: AgentPayoutPreview | null;
   success?: string;
 }) {
   const { activities, application, documentRequests, documents, summary } = data;
@@ -207,7 +211,7 @@ export function ApplicationDetail({
         >
           <ApplicationChoicesReviewList />
         </StaticPanel>
-
+        {payoutPreview ? <AgentPayoutPreviewCard preview={payoutPreview} /> : null}
         <DetailDisclosure
           description="Namizədin son təhsil və imtahan məlumatları."
           icon={FileTextIcon}

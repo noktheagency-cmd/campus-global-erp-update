@@ -15,11 +15,14 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { AgentPasswordForm } from "@/features/agents/components/agent-password-form";
+import { AgentPayoutSettingsForm } from "@/features/agents/components/agent-payout-settings-form";
 import {
   AgentPriceProposalAudit,
   AgentServicesDialog,
 } from "@/features/agents/components/agent-service-pricing-section";
 import type { AgentPortalData } from "@/features/agents/types";
+import { AgentBursWalletCard } from "@/features/commissions/components/agent-burs-wallet-card";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
@@ -93,19 +96,23 @@ export function AgentPortalWorkspace({
               selfService={selfService}
               services={data.services}
             />
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
               <HeaderMetric label="Tələbə" value={data.metrics.totalStudents} />
               <HeaderMetric
                 label="Aktiv müraciət"
                 value={data.metrics.activeApplications}
               />
               <HeaderMetric
-                label="Konversiya"
-                value={`${data.metrics.conversionRate}%`}
+                label="Qazanc"
+                value={formatMoney(data.metrics.totalCommissionEarned)}
               />
               <HeaderMetric
-                label="Sənəd gözləyir"
-                value={data.metrics.missingDocuments}
+                label="Burs xalı"
+                value={data.bursWallet.availablePoints}
+              />
+              <HeaderMetric
+                label="Balans"
+                value={formatMoney(data.metrics.commissionBalance)}
               />
             </div>
           </div>
@@ -185,6 +192,56 @@ export function AgentPortalWorkspace({
         />
 
         <div className="grid gap-4 xl:grid-cols-2">
+          <AgentBursWalletCard
+            agentId={agent.id}
+            error={error}
+            returnTo={selfService ? "/profile" : `/agents/${agent.id}`}
+            students={data.students}
+            success={success}
+            wallet={data.bursWallet}
+          />
+
+          <section className="rounded-2xl border border-[#dbe5f1] bg-white">
+            <SectionTitle
+              description="Agentə bağlı son komissiya hesablamaları"
+              title="Komissiyalar və qazanclar"
+            />
+            <div className="divide-y divide-[#edf2f7]">
+              {data.commissions.length > 0 ? (
+                data.commissions.map((item) => (
+                  <div
+                    className="flex items-center justify-between gap-3 px-5 py-3"
+                    key={item.id}
+                  >
+                    <span className="min-w-0">
+                      <span className="block truncate text-sm font-bold text-[#102442]">
+                        {item.studentName}
+                      </span>
+                      <span className="mt-0.5 block truncate text-xs text-[#71809a]">
+                        {item.code} · {item.universityName}
+                        {item.scholarshipCreditsEarned
+                          ? ` · +${item.scholarshipCreditsEarned} burs`
+                          : ""}
+                      </span>
+                    </span>
+                    <span className="shrink-0 text-right">
+                      <span className="block text-sm font-black tabular-nums text-[#0b66ff]">
+                        {formatMoney(item.agentAmount, item.currency)}
+                      </span>
+                      <span className="mt-0.5 block text-[10px] font-semibold text-[#8190a8]">
+                        {item.status}
+                      </span>
+                    </span>
+                  </div>
+                ))
+              ) : (
+                <Empty label="Komissiya hesablaması yoxdur." />
+              )}
+            </div>
+          </section>
+        </div>
+
+        <div className="grid gap-4 xl:grid-cols-2">
           <section className="rounded-2xl border border-[#dbe5f1] bg-white">
             <SectionTitle
               description="Agentin ictimai profilləri"
@@ -232,6 +289,63 @@ export function AgentPortalWorkspace({
               />
             </div>
           </section>
+
+          <section className="rounded-2xl border border-[#dbe5f1] bg-white">
+            <SectionTitle
+              description="Komissiya ödənişlərinin yönləndirilmə qaydaları"
+              title="Ödəniş ayarları"
+            />
+            <div className="divide-y divide-[#edf2f7] px-5">
+              {data.canEditPayoutSettings && !selfService ? (
+                <AgentPayoutSettingsForm
+                  agent={agent}
+                  error={error}
+                  success={success}
+                />
+              ) : (
+                <>
+                  <Permission
+                    active={agent.cashPayoutActive ?? true}
+                    label="Nağd ödəniş"
+                  />
+                  <Permission
+                    active={agent.accountPayoutActive ?? true}
+                    label="Hesaba köçürmə"
+                  />
+                  <Permission
+                    active={agent.holdInAccount ?? false}
+                    label="Hesabda saxla"
+                  />
+                  <Permission
+                    active={agent.manualPayoutManagement ?? false}
+                    label="Əll idarəetmə"
+                  />
+                  <div className="flex items-center justify-between py-3">
+                    <span className="text-sm font-semibold text-[#31486b]">
+                      Ödəniş faizi
+                    </span>
+                    <span className="text-xs font-bold text-[#526482]">
+                      {agent.payoutPercentage ?? 100}%
+                    </span>
+                  </div>
+                </>
+              )}
+            </div>
+          </section>
+
+          {!selfService && data.canEditPayoutSettings ? (
+            <section className="rounded-2xl border border-[#dbe5f1] bg-white xl:col-span-2">
+              <SectionTitle
+                description="Agent portal giriş şifrəsini yeniləyin"
+                title="Şifrə dəyişmə"
+              />
+              <AgentPasswordForm
+                agentId={agent.id}
+                error={error}
+                success={success}
+              />
+            </section>
+          ) : null}
         </div>
 
         <div className="grid gap-4 xl:grid-cols-2">
@@ -307,6 +421,12 @@ function HeaderMetric({
       </p>
     </div>
   );
+}
+
+function formatMoney(value: number, currency = "AZN") {
+  return `${new Intl.NumberFormat("az-AZ", {
+    maximumFractionDigits: 0,
+  }).format(value)} ${currency}`;
 }
 
 function SectionTitle({

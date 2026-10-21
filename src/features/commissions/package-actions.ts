@@ -50,7 +50,9 @@ export async function saveCommissionPackageAction(formData: FormData) {
         new Set(
           parsed.data.scholarships.flatMap((scholarship) =>
             scholarship.awards.flatMap((award) =>
-              award.allPrograms ? [] : award.programIds,
+              award.allPrograms
+                ? []
+                : award.programs.map((program) => program.programId),
             ),
           ),
         ),
@@ -82,9 +84,9 @@ export async function saveCommissionPackageAction(formData: FormData) {
           scholarship.awards.some(
             (award) =>
               !award.allPrograms &&
-              award.programIds.some(
-                (programId) =>
-                  programLevels.get(programId) !== award.educationLevel,
+              award.programs.some(
+                (program) =>
+                  programLevels.get(program.programId) !== award.educationLevel,
               ),
           ),
         )
@@ -100,6 +102,9 @@ export async function saveCommissionPackageAction(formData: FormData) {
         rateTier1: rule.commissionType === "FIXED" ? null : rule.rateTier1,
         rateTier2: rule.commissionType === "FIXED" ? null : rule.rateTier2,
         tierThreshold: rule.tierThreshold,
+        azvRate: rule.azvRate,
+        educationTaxRate: rule.educationTaxRate,
+        vatRate: rule.vatRate,
       }));
       const scholarships = parsed.data.scholarships.map((item) => ({
         additionalInterval:
@@ -113,9 +118,17 @@ export async function saveCommissionPackageAction(formData: FormData) {
             programs: award.allPrograms
               ? undefined
               : {
-                  create: award.programIds.map((programId) => ({ programId })),
+                  create: award.programs.map((program) => ({
+                    programId: program.programId,
+                    quantity: program.quantity,
+                  })),
                 },
-            quantity: award.quantity,
+            quantity: award.allPrograms
+              ? award.quantity
+              : Math.max(
+                  1,
+                  ...award.programs.map((program) => program.quantity),
+                ),
           })),
         },
         description: item.description,

@@ -1,3 +1,9 @@
+import type { AgentBursWallet } from "@/features/commissions/burs-types";
+import type {
+  MoneyValue,
+  ServiceQuoteRequestRecord,
+} from "@/features/services/types";
+
 export type AgentPortalStatus = "Ready" | "Pending" | "Suspended";
 export type AgentTier = "Starter" | "Growth" | "Premier";
 
@@ -64,6 +70,11 @@ export type AgentPortalProfil = AgentRecord & {
   internalNotes: string;
   socialLinks: AgentSocialLink[];
   contacts: AgentContact[];
+  cashPayoutActive: boolean;
+  accountPayoutActive: boolean;
+  holdInAccount: boolean;
+  manualPayoutManagement: boolean;
+  payoutPercentage: number;
 };
 
 export type AgentStudentSummary = {
@@ -90,8 +101,22 @@ export type AgentApplicationSummary = {
   updatedAt: string;
 };
 
+export type AgentCommissionSummary = {
+  agentAmount: number;
+  code: string;
+  currency: string;
+  id: string;
+  scholarshipCreditsEarned: number;
+  status: string;
+  studentName: string;
+  universityName: string;
+};
+
 export type AgentPortalData = {
   agent: AgentPortalProfil;
+  bursWallet: AgentBursWallet;
+  canEditPayoutSettings: boolean;
+  commissions: AgentCommissionSummary[];
   metrics: {
     totalStudents: number;
     activeApplications: number;
@@ -99,6 +124,7 @@ export type AgentPortalData = {
     missingDocuments: number;
     conversionRate: number;
     commissionBalance: number;
+    totalCommissionEarned: number;
   };
   students: AgentStudentSummary[];
   applications: AgentApplicationSummary[];
@@ -158,7 +184,3 @@ export type AgentsDashboardData = {
 };
 
 export type AgentsSearchParams = Record<string, string | string[] | undefined>;
-import type {
-  MoneyValue,
-  ServiceQuoteRequestRecord,
-} from "@/features/services/types";

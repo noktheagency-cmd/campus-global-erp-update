@@ -37,6 +37,9 @@ type RuleDraft = {
   rateTier1: string;
   rateTier2: string;
   tierThreshold: string;
+  azvRate: string;
+  educationTaxRate: string;
+  vatRate: string;
 };
 
 const educationLevels: Array<{
@@ -106,13 +109,13 @@ export function CommissionPackageDrawer({
         awards: awards.map((award) => ({
           allPrograms: award.allPrograms,
           educationLevel: award.educationLevel,
-          programIds: award.allPrograms ? [] : award.programIds,
+          programs: award.allPrograms ? [] : award.programs,
           quantity: award.quantity,
         })),
         educationLevel,
         scholarshipCount,
         studentThreshold,
-        triggerType,
+        triggerType: "FIRST_THEN_EVERY",
       }),
     );
 
@@ -132,8 +135,8 @@ export function CommissionPackageDrawer({
           ...scholarship,
           awards: scholarship.awards.map((award) => ({
             ...award,
-            programIds: award.programIds.filter((programId) =>
-              allowedPrograms.has(programId),
+            programs: award.programs.filter((program) =>
+              allowedPrograms.has(program.programId),
             ),
           })),
         })),
@@ -379,70 +382,92 @@ function RuleRow({
   )?.label;
   const fixed = rule.commissionType === "FIXED";
   return (
-    <div className="grid grid-cols-[.9fr_1.25fr_.82fr_.92fr_.82fr] gap-2 border-b border-[#e8eef5] px-3 py-2.5 text-xs last:border-b-0">
-      <span className="self-center font-bold text-[#1c365f]">{label}</span>
-      <select
-        aria-label={`${label} komissiya növü`}
-        className={compactSelectClass}
-        onChange={(event) => onChange("commissionType", event.target.value)}
-        value={rule.commissionType}
-      >
-        <option value="FIXED">Sabit məbləğ</option>
-        <option value="PERCENTAGE_CASH">Nağd faiz</option>
-        <option value="PERCENTAGE_DELAYED">Gecikmiş faiz</option>
-      </select>
-      <div className="relative">
-        <input
-          aria-label={`${label} birinci dəyər`}
-          className={compactInputClass}
-          min="0"
-          onChange={(event) =>
-            onChange(fixed ? "fixedAmount" : "rateTier1", event.target.value)
-          }
-          step={fixed ? "1" : "0.1"}
-          type="number"
-          value={fixed ? rule.fixedAmount : rule.rateTier1}
-        />
-        <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-[#7688a6]">
-          {fixed ? rule.currency : "%"}
-        </span>
-      </div>
-      {fixed ? (
-        <span className="self-center text-center text-[#9aabc0]">—</span>
-      ) : (
+    <div className="border-b border-[#e8eef5] px-3 py-2.5 text-xs last:border-b-0">
+      <div className="grid grid-cols-[.9fr_1.25fr_.82fr_.92fr_.82fr] gap-2">
+        <span className="self-center font-bold text-[#1c365f]">{label}</span>
+        <select
+          aria-label={`${label} komissiya növü`}
+          className={compactSelectClass}
+          onChange={(event) => onChange("commissionType", event.target.value)}
+          value={rule.commissionType}
+        >
+          <option value="FIXED">Sabit məbləğ</option>
+          <option value="PERCENTAGE_CASH">Nağd faiz</option>
+          <option value="PERCENTAGE_DELAYED">Gecikmiş faiz</option>
+        </select>
         <div className="relative">
           <input
-            aria-label={`${label} tələbə həddi`}
+            aria-label={`${label} birinci dəyər`}
             className={compactInputClass}
-            min="1"
-            onChange={(event) => onChange("tierThreshold", event.target.value)}
-            type="number"
-            value={rule.tierThreshold}
-          />
-          <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[9px] text-[#7688a6]">
-            tələbə
-          </span>
-        </div>
-      )}
-      {fixed ? (
-        <span className="self-center text-center text-[#9aabc0]">—</span>
-      ) : (
-        <div className="relative">
-          <input
-            aria-label={`${label} ikinci faiz`}
-            className={compactInputClass}
-            max="100"
             min="0"
-            onChange={(event) => onChange("rateTier2", event.target.value)}
-            step="0.1"
+            onChange={(event) =>
+              onChange(fixed ? "fixedAmount" : "rateTier1", event.target.value)
+            }
+            step={fixed ? "1" : "0.1"}
             type="number"
-            value={rule.rateTier2}
+            value={fixed ? rule.fixedAmount : rule.rateTier1}
           />
           <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-[#7688a6]">
-            %
+            {fixed ? rule.currency : "%"}
           </span>
         </div>
-      )}
+        {fixed ? (
+          <span className="self-center text-center text-[#9aabc0]">—</span>
+        ) : (
+          <div className="relative">
+            <input
+              aria-label={`${label} tələbə həddi`}
+              className={compactInputClass}
+              min="1"
+              onChange={(event) => onChange("tierThreshold", event.target.value)}
+              type="number"
+              value={rule.tierThreshold}
+            />
+            <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[9px] text-[#7688a6]">
+              tələbə
+            </span>
+          </div>
+        )}
+        {fixed ? (
+          <span className="self-center text-center text-[#9aabc0]">—</span>
+        ) : (
+          <div className="relative">
+            <input
+              aria-label={`${label} ikinci faiz`}
+              className={compactInputClass}
+              max="100"
+              min="0"
+              onChange={(event) => onChange("rateTier2", event.target.value)}
+              step="0.1"
+              type="number"
+              value={rule.rateTier2}
+            />
+            <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-[#7688a6]">
+              %
+            </span>
+          </div>
+        )}
+      </div>
+      <div className="mt-2 grid grid-cols-3 gap-2">
+        <TaxField
+          label={`${label} təhsil vergisi`}
+          onChange={(value) => onChange("educationTaxRate", value)}
+          placeholder="Təhsil vergisi"
+          value={rule.educationTaxRate}
+        />
+        <TaxField
+          label={`${label} KDV`}
+          onChange={(value) => onChange("vatRate", value)}
+          placeholder="KDV"
+          value={rule.vatRate}
+        />
+        <TaxField
+          label={`${label} AZV`}
+          onChange={(value) => onChange("azvRate", value)}
+          placeholder="AZV"
+          value={rule.azvRate}
+        />
+      </div>
     </div>
   );
 }
@@ -539,6 +564,9 @@ function createRuleDrafts(
           rateTier1: String(rule.rateTier1 ?? ""),
           rateTier2: String(rule.rateTier2 ?? ""),
           tierThreshold: String(rule.tierThreshold),
+          azvRate: String(rule.azvRate ?? 0),
+          educationTaxRate: String(rule.educationTaxRate ?? 0),
+          vatRate: String(rule.vatRate ?? 0),
         }
       : createDefaultRule(id);
   });
@@ -556,14 +584,17 @@ function createScholarshipDrafts(
       ? scholarship.awards.map((award) => ({
           allPrograms: award.allPrograms,
           educationLevel: award.educationLevel,
-          programIds: award.programs.map((program) => program.id),
+          programs: award.programs.map((program) => ({
+            programId: program.id,
+            quantity: String(program.quantity),
+          })),
           quantity: String(award.quantity),
         }))
       : [
           {
             allPrograms: true,
             educationLevel: id,
-            programIds: [],
+            programs: [],
             quantity: "1",
           },
         ];
@@ -579,7 +610,7 @@ function createScholarshipDrafts(
       studentThreshold: String(
         scholarship?.studentThreshold ?? defaults.studentThreshold,
       ),
-      triggerType: scholarship?.triggerType ?? "FIXED_INTERVAL",
+      triggerType: "FIRST_THEN_EVERY",
     };
   });
 }
@@ -601,6 +632,9 @@ function createDefaultRule(
     rateTier1: educationLevel === "PHD" ? "15" : "20",
     rateTier2: educationLevel === "PHD" ? "20" : "25",
     tierThreshold: educationLevel === "PHD" ? "10" : "20",
+    azvRate: "0",
+    educationTaxRate: "0",
+    vatRate: "0",
   };
 }
 
@@ -627,3 +661,34 @@ const scholarshipDefaults: Record<
   FOUNDATION: { scholarshipCount: 1, studentThreshold: 10 },
   LANGUAGE: { scholarshipCount: 1, studentThreshold: 10 },
 };
+
+function TaxField({
+  label,
+  onChange,
+  placeholder,
+  value,
+}: {
+  label: string;
+  onChange: (value: string) => void;
+  placeholder: string;
+  value: string;
+}) {
+  return (
+    <div className="relative">
+      <input
+        aria-label={label}
+        className={compactInputClass}
+        max="100"
+        min="0"
+        onChange={(event) => onChange(event.target.value)}
+        placeholder={placeholder}
+        step="0.01"
+        type="number"
+        value={value}
+      />
+      <span className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-[10px] text-[#7688a6]">
+        %
+      </span>
+    </div>
+  );
+}

@@ -648,12 +648,18 @@ export async function createCommissionPaymentAction(formData: FormData) {
               ).map((award) => ({
                 allPrograms: award.allPrograms,
                 kind: "LEVEL_COMPOSITION" as const,
-                programs: award.programs.map(({ program }) => ({
+                programs: award.programs.map(({ program, quantity }) => ({
                   id: program.id,
                   name: program.name,
+                  quantity: quantity * earnedPackageCount,
                   universityId: program.universityId,
                 })),
-                quantity: award.quantity * earnedPackageCount,
+                quantity: award.allPrograms
+                  ? award.quantity * earnedPackageCount
+                  : award.programs.reduce(
+                      (total, item) => total + item.quantity,
+                      0,
+                    ) * earnedPackageCount,
                 sourceEducationLevel: educationLevel,
                 targetEducationLevel: award.educationLevel,
               }))
@@ -805,6 +811,92 @@ export async function createCommissionPaymentAction(formData: FormData) {
                 terms.agentMethod,
                 terms.agentValue,
               );
+
+        // Get agent payout settings and tax rates
+        const agent = await tx.agent.findUnique({
+          select: {
+            cashPayoutActive: true,
+            accountPayoutActive: true,
+            holdInAccount: true,
+            manualPayoutManagement: true,
+            payoutPercentage: true,
+          },
+          where: { id: agentId },
+        });
+
+        // Get tax rates from package rule (if package agreement)
+        let educationTaxRate = 0;
+        let vatRate = 0;
+        let azvRate = 0;
+
+        if (terms.source === "PACKAGE_AGREEMENT" && terms.packageAgreementId) {
+          const packageWithRule = await tx.commissionPackage.findFirst({
+            select: {
+              rules: {
+                select: {
+                  educationTaxRate: true,
+                  vatRate: true,
+                  azvRate: true,
+                },
+                where: {
+                  educationLevel: terms.educationLevel || undefined,
+                  isActive: true,
+                },
+              },
+            },
+            where: { id: packageAgreement.packageId },
+          });
+          const applicableRule = packageWithRule?.rules[0];
+          if (applicableRule) {
+            educationTaxRate = Number(applicableRule.educationTaxRate);
+            vatRate = Number(applicableRule.vatRate);
+            azvRate = Number(applicableRule.azvRate);
+          }
+        }
+
+        // Calculate tax amounts
+        const educationTaxAmount = roundMoney((agentAmount * educationTaxRate) / 100);
+        const vatAmount = roundMoney((agentAmount * vatRate) / 100);
+        const azvAmount = roundMoney((agentAmount * azvRate) / 100);
+        const totalTaxAmount = educationTaxAmount + vatAmount + azvAmount;
+        const netAgentAmount = roundMoney(agentAmount - totalTaxAmount);
+
+        // Calculate cash vs account payout based on agent settings
+        let cashPayoutAmount: number | null = null;
+        let accountPayoutAmount: number | null = null;
+
+        if (agent?.manualPayoutManagement) {
+          // Manual management - set both to null for manual entry
+          cashPayoutAmount = null;
+          accountPayoutAmount = null;
+        } else if (agent?.holdInAccount) {
+          // Hold all in account
+          cashPayoutAmount = 0;
+          accountPayoutAmount = netAgentAmount;
+        } else {
+          // Apply payout percentage
+          const payoutPercentage = Number(agent?.payoutPercentage ?? 100);
+          const payoutAmount = roundMoney((netAgentAmount * payoutPercentage) / 100);
+          const holdAmount = roundMoney(netAgentAmount - payoutAmount);
+
+          if (agent?.cashPayoutActive && agent?.accountPayoutActive) {
+            // Both active - split based on percentage (default 50/50 if not specified)
+            cashPayoutAmount = roundMoney(payoutAmount / 2);
+            accountPayoutAmount = roundMoney(payoutAmount / 2);
+          } else if (agent?.cashPayoutActive) {
+            // Only cash
+            cashPayoutAmount = payoutAmount;
+            accountPayoutAmount = holdAmount;
+          } else if (agent?.accountPayoutActive) {
+            // Only account
+            cashPayoutAmount = 0;
+            accountPayoutAmount = payoutAmount + holdAmount;
+          } else {
+            // Neither active - hold all
+            cashPayoutAmount = 0;
+            accountPayoutAmount = netAgentAmount;
+          }
+        }
         const grossCommissionAmount =
           terms.source === "PACKAGE_AGREEMENT"
             ? calculateShare(
@@ -886,6 +978,11 @@ export async function createCommissionPaymentAction(formData: FormData) {
             studentOrdinal: terms.studentOrdinal,
             studentId: choice.application.student.id,
             universityId: choice.universityId,
+            cashPayoutAmount,
+            accountPayoutAmount,
+            educationTaxAmount,
+            vatAmount,
+            azvAmount,
           },
         });
 

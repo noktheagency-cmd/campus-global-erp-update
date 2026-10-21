@@ -62,4 +62,31 @@ export const agentCreateSchema = z.object({
   portalReporting: z.boolean().default(true),
 });
 
+export const agentPayoutSettingsSchema = z.object({
+  agentId: z.string().trim().min(1),
+  cashPayoutActive: z.boolean(),
+  accountPayoutActive: z.boolean(),
+  holdInAccount: z.boolean(),
+  manualPayoutManagement: z.boolean(),
+  payoutPercentage: z.coerce.number().finite().min(0).max(100),
+});
+
+export const agentPasswordChangeSchema = z
+  .object({
+    agentId: z.string().trim().min(1),
+    password: z.string().min(8, "Parol ən azı 8 simvol olmalıdır."),
+    confirmPassword: z.string().min(8, "Parol təsdiqi tələb olunur."),
+  })
+  .superRefine((value, context) => {
+    if (value.password !== value.confirmPassword) {
+      context.addIssue({
+        code: "custom",
+        message: "Parollar eyni deyil.",
+        path: ["confirmPassword"],
+      });
+    }
+  });
+
 export type AgentCreateInput = z.infer<typeof agentCreateSchema>;
+export type AgentPayoutSettingsInput = z.infer<typeof agentPayoutSettingsSchema>;
+export type AgentPasswordChangeInput = z.infer<typeof agentPasswordChangeSchema>;

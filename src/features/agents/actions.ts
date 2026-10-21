@@ -1,12 +1,15 @@
 "use server";
 
-import { randomBytes, scryptSync } from "node:crypto";
-
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
-import { agentCreateSchema } from "@/features/agents/schemas";
+import {
+  agentCreateSchema,
+  agentPasswordChangeSchema,
+  agentPayoutSettingsSchema,
+} from "@/features/agents/schemas";
 import type { RelatedEntityType } from "@/generated/prisma/client";
+import { hashPassword } from "@/lib/auth/password";
 import {
   getSessionAgentId,
   requirePermission,
@@ -199,6 +202,105 @@ export async function createAgentAction(
   redirect("/agents?success=agent-created");
 }
 
+export async function updateAgentPayoutSettingsAction(formData: FormData) {
+  await requirePermission("agents:update");
+  const agentId = getString(formData, "agentId");
+  const returnTo = getSafeAgentReturnPath(
+    getString(formData, "returnTo"),
+    agentId,
+  );
+  const parsed = agentPayoutSettingsSchema.safeParse({
+    accountPayoutActive: getBoolean(formData, "accountPayoutActive"),
+    agentId,
+    cashPayoutActive: getBoolean(formData, "cashPayoutActive"),
+    holdInAccount: getBoolean(formData, "holdInAccount"),
+    manualPayoutManagement: getBoolean(formData, "manualPayoutManagement"),
+    payoutPercentage: getString(formData, "payoutPercentage"),
+  });
+
+  if (!parsed.success) {
+    redirect(`${returnTo}${returnTo.includes("?") ? "&" : "?"}error=payout-settings-validation`);
+  }
+
+  try {
+    await prisma.agent.update({
+      data: {
+        accountPayoutActive: parsed.data.accountPayoutActive,
+        cashPayoutActive: parsed.data.cashPayoutActive,
+        holdInAccount: parsed.data.holdInAccount,
+        manualPayoutManagement: parsed.data.manualPayoutManagement,
+        payoutPercentage: parsed.data.payoutPercentage,
+      },
+      where: { id: parsed.data.agentId },
+    });
+  } catch (error) {
+    console.error("Agent payout settings update failed", error);
+    redirect(`${returnTo}${returnTo.includes("?") ? "&" : "?"}error=payout-settings-failed`);
+  }
+
+  revalidateAgents();
+  revalidatePath(`/agents/${parsed.data.agentId}`);
+  revalidatePath(`/az/agents/${parsed.data.agentId}`);
+  redirect(`${returnTo}${returnTo.includes("?") ? "&" : "?"}success=payout-settings-saved`);
+}
+
+export async function updateAgentPasswordAction(formData: FormData) {
+  await requirePermission("agents:update");
+  const agentId = getString(formData, "agentId");
+  const returnTo = getSafeAgentReturnPath(
+    getString(formData, "returnTo"),
+    agentId,
+  );
+  const parsed = agentPasswordChangeSchema.safeParse({
+    agentId,
+    confirmPassword: getString(formData, "confirmPassword"),
+    password: getString(formData, "password"),
+  });
+
+  if (!parsed.success) {
+    redirect(
+      `${returnTo}${returnTo.includes("?") ? "&" : "?"}error=password-validation`,
+    );
+  }
+
+  try {
+    const agent = await prisma.agent.findUnique({
+      select: { id: true, userId: true },
+      where: { id: parsed.data.agentId },
+    });
+    if (!agent) {
+      redirect(
+        `${returnTo}${returnTo.includes("?") ? "&" : "?"}error=password-failed`,
+      );
+    }
+
+    const passwordHash = hashPassword(parsed.data.password);
+    await prisma.$transaction(async (tx) => {
+      await tx.agent.update({
+        data: { passwordHash },
+        where: { id: agent.id },
+      });
+      if (agent.userId) {
+        await tx.user.update({
+          data: { passwordHash },
+          where: { id: agent.userId },
+        });
+      }
+    });
+  } catch (error) {
+    console.error("Agent password update failed", error);
+    redirect(
+      `${returnTo}${returnTo.includes("?") ? "&" : "?"}error=password-failed`,
+    );
+  }
+
+  revalidateAgents();
+  revalidatePath(`/agents/${parsed.data.agentId}`);
+  redirect(
+    `${returnTo}${returnTo.includes("?") ? "&" : "?"}success=password-updated`,
+  );
+}
+
 export async function markAgentNotificationReadAction(formData: FormData) {
   const notificationId = getString(formData, "notificationId");
   const session = await requireSession();
@@ -234,13 +336,6 @@ export async function markAllAgentNotificationsReadAction() {
   });
 
   revalidateAgentNotifications();
-}
-
-function hashPassword(password: string) {
-  const salt = randomBytes(16).toString("hex");
-  const hash = scryptSync(password, salt, 64).toString("hex");
-
-  return `scrypt:${salt}:${hash}`;
 }
 
 function getString(formData: FormData, key: string) {
@@ -340,6 +435,13 @@ function databaseError(error: unknown, fallbackMessage: string): ActionState {
 function revalidateAgents() {
   revalidatePath("/agents");
   revalidatePath("/az/agents");
+}
+
+function getSafeAgentReturnPath(value: string, agentId: string) {
+  if (value.startsWith(`/agents/${agentId}`)) {
+    return value.split("#")[0] ?? `/agents/${agentId}`;
+  }
+  return `/agents/${agentId}`;
 }
 
 function revalidateAgentNotifications() {
